@@ -3,7 +3,8 @@
 A personal cybersecurity intelligence dashboard: news, vulnerability tracking, videos, courses
 and a reading library in one static site. **No backend server, no build step, no paid services.**
 
-![Uploading Untitled design.gif…]()
+<img width="1280" height="720" alt="Untitled design" src="https://github.com/user-attachments/assets/80ca2d8a-a9a5-4b07-8cb6-a4d30fcf9756" />
+
 
 ---
 
