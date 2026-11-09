@@ -1,0 +1,14 @@
+name = "cyberfeed-ai-analyst"
+main = "index.js"
+compatibility_date = "2024-11-01"
+
+# Non-secret config. Set this to your GitHub Pages origin so the Worker's CORS
+# headers only allow your deployed site, e.g. "https://yourname.github.io".
+# Left blank here on purpose — nothing is deployed from this scaffold.
+[vars]
+ALLOWED_ORIGIN = ""
+
+# ANTHROPIC_API_KEY is a SECRET, not a var: never put it in this file or commit it.
+# Set it with:
+#   wrangler secret put ANTHROPIC_API_KEY
+# See README.md in this folder for the full deploy flow.

@@ -1,0 +1,1110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; worker-src 'self' blob: https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https: data: blob:; frame-src https://www.youtube-nocookie.com; connect-src *; base-uri 'self'; form-action 'none'">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="alternate icon" href="favicon.svg">
+<title>CyberFeed</title>
+<style>
+:root{
+  /* Light is the default identity, warm paper tones, combined with a designed
+     accent system: amber for action, slate for info, olive for success, brick
+     for critical. Dark mode (opt-in, see [data-theme="dark"]) is true black. */
+  --bg:#F7F3E9; --panel:#FFFFFF; --panel-elevated:#FBF8F0;
+  --text:#23271A; --muted:#5B6049; --muted2:#7C8268;
+  --border:#E4DCC6; --border-hover:#B9712F;
+  --accent:#B9712F; --accent-strong:#9C5F26; --accent-contrast:#FFFFFF;
+  --info:#4F6B80; --success:#4F7A34;
+  --critical:#B23A20; --critical-bg:#FBEAE3; --critical-text:#8A2C16;
+  --tag-bg:#F0EBDA; --bar-fill:var(--accent);
+  --shadow:0 1px 3px rgba(40,38,25,0.08);
+  --shadow-elevated:0 14px 30px rgba(40,38,25,0.1), 0 2px 8px rgba(40,38,25,0.06);
+  --font-display:'Fraunces',Georgia,'Times New Roman',serif;
+  --font-ui:'Inter',-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  --font-mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --radius-sm:6px; --radius-md:10px; --radius-lg:14px;
+}
+:root[data-theme="dark"]{
+  /* True black, not the olive-tinted dark of earlier revisions. */
+  --bg:#000000; --panel:#0A0A08; --panel-elevated:#131310;
+  --text:#E8E2D0; --muted:#9A9E88; --muted2:#6B6F5C;
+  --border:#212120; --border-hover:#C98A4B;
+  --accent:#C98A4B; --accent-strong:#E0A868; --accent-contrast:#0B0804;
+  --info:#7E9AAE; --success:#8CAA6E;
+  --critical:#D9693E; --critical-bg:#140B05; --critical-text:#E29776;
+  --tag-bg:rgba(105,117,101,0.14); --bar-fill:var(--accent);
+  --shadow:0 1px 2px rgba(0,0,0,0.7);
+  --shadow-elevated:0 14px 32px rgba(0,0,0,0.7), 0 0 0 1px rgba(201,138,75,0.08);
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.55 var(--font-ui);-webkit-font-smoothing:antialiased;}
+@media (prefers-reduced-motion: reduce){ *{animation:none!important;transition:none!important;} }
+a{color:var(--accent);}
+button, input, select{font:inherit;color:inherit;}
+button{cursor:pointer;}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+.vhidden{position:absolute;left:-9999px;}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums;}
+
+/* ---------- Logo ---------- */
+.brand{display:flex;align-items:center;gap:9px;font-family:var(--font-display);font-size:17px;font-weight:600;white-space:nowrap;letter-spacing:-0.01em;}
+.brand-mark{width:24px;height:24px;flex-shrink:0;}
+
+/* ---------- Top nav ---------- */
+header{position:sticky;top:0;z-index:30;background:var(--panel);border-bottom:1px solid var(--border);padding:0 18px;display:flex;gap:18px;align-items:center;height:60px;}
+.view-tabs{display:flex;gap:4px;height:100%;align-items:stretch;}
+.tab-btn{display:inline-flex;align-items:center;background:none;border:none;border-bottom:2px solid transparent;padding:0 2px;margin:0 2px;color:var(--muted2);font-size:13.5px;font-weight:500;transition:color 140ms,border-color 140ms;}
+.tab-btn:hover{color:var(--text);}
+.tab-btn.active{color:var(--text);border-bottom-color:var(--accent);font-weight:600;}
+
+/* ---------- Static library glyph (Library tab) ---------- */
+.nav-book-icon{display:inline-block;width:15px;height:12px;margin-right:6px;flex-shrink:0;vertical-align:-1px;}
+#news-header-controls{display:flex;align-items:center;gap:10px;flex:1;min-width:0;}
+.search-wrap{flex:1;min-width:120px;max-width:480px;position:relative;display:flex;align-items:center;}
+.search-wrap svg{position:absolute;left:11px;width:15px;height:15px;color:var(--muted2);pointer-events:none;}
+#search{width:100%;padding:8px 64px 8px 34px;border:1px solid var(--border);border-radius:var(--radius-md);background:var(--bg);color:var(--text);transition:border-color 140ms;}
+#search:focus{border-color:var(--border-hover);}
+.search-kbd{position:absolute;right:8px;color:var(--muted2);font-size:10.5px;font-family:var(--font-mono);border:1px solid var(--border);border-radius:4px;padding:1px 5px;pointer-events:none;}
+.header-actions{display:flex;align-items:center;gap:4px;margin-left:auto;}
+.icon-btn-nav{width:32px;height:32px;display:flex;align-items:center;justify-content:center;border:1px solid transparent;border-radius:var(--radius-sm);background:none;color:var(--muted);transition:border-color 140ms,background 140ms,color 140ms;}
+.icon-btn-nav:hover{border-color:var(--border);color:var(--text);background:var(--panel-elevated);}
+#theme-toggle{position:relative;}
+.theme-icon{position:absolute;width:16px;height:16px;transition:opacity 220ms ease,transform 220ms ease;}
+.theme-icon-sun{opacity:1;transform:rotate(0) scale(1);}
+.theme-icon-moon{opacity:0;transform:rotate(50deg) scale(0.6);}
+html[data-theme="dark"] .theme-icon-sun{opacity:0;transform:rotate(-50deg) scale(0.6);}
+html[data-theme="dark"] .theme-icon-moon{opacity:1;transform:rotate(0) scale(1);}
+.icon-btn-nav.active{background:var(--accent);border-color:var(--accent);color:var(--accent-contrast);}
+#profile-btn{border-radius:999px;background:var(--panel-elevated);border:1px solid var(--border);color:var(--accent);font-weight:700;font-size:12.5px;}
+html:not([data-view="news"]) #news-header-controls{display:none;}
+
+/* ---------- Breaking-news ticker ---------- */
+#critical-banner{display:none;}
+#critical-banner.show{display:flex;}
+#critical-banner{align-items:center;gap:0;background:var(--critical-bg);border-bottom:2px solid var(--critical);padding:0 18px;height:34px;position:relative;overflow:hidden;box-shadow:0 1px 6px rgba(178,58,32,0.12);}
+.cw-icon{color:var(--critical);flex-shrink:0;font-size:12px;margin-right:6px;}
+.cw-label{color:var(--critical-text);font-weight:700;font-size:10.5px;letter-spacing:0.05em;text-transform:uppercase;flex-shrink:0;}
+.cw-live{display:inline-flex;align-items:center;gap:4px;color:var(--critical-text);font-size:9.5px;font-weight:700;letter-spacing:0.05em;background:rgba(217,105,62,0.14);border-radius:4px;padding:2px 6px;margin:0 8px;flex-shrink:0;}
+.cw-live-dot{width:5px;height:5px;border-radius:999px;background:var(--critical);animation:live-pulse 2s ease-in-out infinite;}
+@keyframes live-pulse{0%,100%{opacity:1;}50%{opacity:0.35;}}
+.cw-count{color:var(--critical-text);font-size:11px;flex-shrink:0;margin-right:10px;white-space:nowrap;opacity:0.85;}
+.cw-viewport{flex:1;min-width:0;overflow:hidden;height:100%;position:relative;}
+.cw-track{display:flex;align-items:center;gap:36px;position:absolute;white-space:nowrap;width:max-content;height:100%;
+  animation:cw-scroll 70s linear infinite;}
+#critical-banner.paused .cw-track{animation-play-state:paused;}
+#critical-banner:hover .cw-track, #critical-banner:focus-within .cw-track{animation-play-state:paused;}
+@keyframes cw-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.cw-headline{color:var(--critical-text);font-size:12px;text-decoration:none;}
+.cw-headline:hover{text-decoration:underline;}
+.cw-pause-btn{flex-shrink:0;background:none;border:1px solid rgba(217,105,62,0.3);border-radius:4px;color:var(--critical-text);font-size:10.5px;padding:2px 6px;margin-left:10px;}
+
+/* ---------- View containers ---------- */
+main[data-view-panel]{display:none;}
+html[data-view="news"] #view-news{display:block;}
+html[data-view="intelligence"] #view-intelligence{display:block;}
+html[data-view="library"] #view-library{display:block;}
+html[data-view="reader"] #view-reader{display:block;}
+html[data-view="resources"] #view-resources{display:block;}
+#view-news, #view-intelligence, #view-library, #view-reader, #view-resources{max-width:1360px;margin:0 auto;padding:20px 20px 0;}
+/* The landing splash is a full-bleed cinematic page, not constrained to the app's
+   content column, and header/footer/critical-banner are hidden while it's shown. */
+html[data-view="landing"] header, html[data-view="landing"] #critical-banner, html[data-view="landing"] footer{display:none;}
+
+/* ---------- Hero ---------- */
+#hero{position:relative;border-radius:var(--radius-lg);overflow:hidden;padding:20px 24px 4px;margin-bottom:16px;
+  background:var(--panel-elevated);border:1px solid var(--border);border-top:3px solid var(--accent);
+  display:flex;flex-direction:column;
+  animation:hero-in 420ms ease-out;}
+@keyframes hero-in{from{opacity:0;transform:translateY(-4px);}to{opacity:1;transform:translateY(0);}}
+.hero-top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+.hero-headline{display:flex;align-items:center;gap:14px;}
+
+/* ---------- Hero mark (clean shield/signal icon) ---------- */
+.hero-mark{width:48px;height:48px;flex-shrink:0;}
+#hero-eyebrow{font-size:10.5px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;margin:0 0 8px;color:var(--accent);}
+#hero-greeting{font-family:var(--font-display);font-size:24px;font-weight:600;margin:0 0 5px;color:var(--text);letter-spacing:-0.01em;}
+#hero-sub{margin:0;color:var(--muted);font-size:13px;max-width:52ch;}
+#hero-status{display:flex;flex-direction:column;align-items:flex-end;gap:8px;flex-shrink:0;}
+.live-status{display:flex;align-items:center;gap:7px;font-size:11.5px;color:var(--muted);}
+.live-dot{width:7px;height:7px;border-radius:999px;background:var(--success);flex-shrink:0;animation:live-pulse 2.4s ease-in-out infinite;}
+.live-dot.stale{background:var(--muted2);animation:none;}
+#feed-updated-text{font-family:var(--font-mono);color:var(--text);}
+#refresh-btn{display:flex;align-items:center;gap:6px;padding:6px 11px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--panel);color:var(--text);font-size:12px;font-weight:500;transition:border-color 140ms,color 140ms;}
+#refresh-btn:hover{border-color:var(--border-hover);color:var(--accent);}
+#refresh-btn svg{width:13px;height:13px;transition:transform 500ms ease;}
+#refresh-btn.spinning svg{animation:spin 800ms linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
+#live-clock{font-family:var(--font-mono);font-variant-numeric:tabular-nums;color:var(--text);font-size:11.5px;display:flex;align-items:center;gap:6px;color:var(--muted);}
+#live-clock .clock-time{color:var(--text);font-weight:600;}
+
+/* ---------- Stats strip (nested inside the hero) ---------- */
+#stats-strip{display:flex;margin:18px 0 0;padding-top:14px;border-top:1px solid var(--border);}
+.stat-tile{flex:1;min-width:0;padding:0 18px;border-left:1px solid var(--border);}
+.stat-tile:first-child{padding-left:0;border-left:none;}
+.stat-icon{display:none;}
+.stat-books{display:flex;align-items:flex-end;gap:2.5px;height:17px;margin-bottom:7px;border-bottom:1.5px solid var(--border);padding-bottom:1px;}
+.stat-books .spine{display:block;width:7px;border-radius:2px 2px 0 0;box-shadow:inset 2px 0 0 rgba(255,255,255,0.22), inset -1px 0 0 rgba(0,0,0,0.15);}
+.stat-books .s1{height:11px;background:var(--accent);transform:rotate(-8deg);transform-origin:bottom center;}
+.stat-books .s2{height:16px;background:var(--info);}
+.stat-books .s3{height:13px;background:var(--success);transform:rotate(7deg);transform-origin:bottom center;}
+.stat-value{font-family:var(--font-display);font-size:25px;line-height:1;font-weight:600;letter-spacing:-0.01em;color:var(--text);}
+.stat-label{font-size:10.5px;color:var(--muted2);text-transform:uppercase;letter-spacing:0.04em;margin-top:5px;}
+
+/* ---------- New-articles banner ---------- */
+#new-articles-banner{display:none;margin-bottom:12px;}
+#new-articles-banner.show{display:flex;}
+#new-articles-btn{width:100%;display:flex;align-items:center;justify-content:center;gap:8px;padding:9px;border:1px dashed var(--border-hover);border-radius:var(--radius-md);background:rgba(201,138,75,0.08);color:var(--accent);font-size:12.5px;font-weight:600;animation:banner-in 260ms ease-out;}
+#new-articles-btn:hover{background:rgba(201,138,75,0.14);}
+@keyframes banner-in{from{opacity:0;transform:translateY(-6px);}to{opacity:1;transform:translateY(0);}}
+
+/* ---------- Layout grid ---------- */
+.dash-grid{display:grid;grid-template-columns:minmax(0,1fr) 288px;gap:20px;align-items:flex-start;}
+#feed{min-width:0;}
+
+/* ---------- Filters widget (right panel) ---------- */
+.filter-group{margin-bottom:14px;}
+.filter-group:last-child{margin-bottom:0;}
+.filter-label{font-size:10px;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted2);margin:0 0 5px;font-weight:600;}
+.cat-btn, .tag-btn{display:flex;justify-content:space-between;align-items:center;width:100%;text-align:left;background:none;border:none;color:var(--text);padding:6px 9px;border-radius:var(--radius-sm);font-size:13px;transition:background 120ms,box-shadow 120ms;}
+.cat-btn:hover, .tag-btn:hover{background:var(--tag-bg);}
+.cat-btn.active, .tag-btn.active{background:rgba(201,138,75,0.1);box-shadow:inset 3px 0 0 var(--accent);color:var(--accent);font-weight:600;}
+.src-count, .count-badge{color:var(--muted2);font-size:10.5px;font-family:var(--font-mono);background:var(--tag-bg);border-radius:4px;padding:1px 6px;}
+.src-btn.active .src-count, .cat-btn.active .count-badge{color:var(--accent);background:rgba(201,138,75,0.14);}
+
+/* ---------- Feed header / toolbar ---------- */
+#feed-header{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap;}
+#feed-header h2{display:flex;align-items:center;gap:9px;font-family:var(--font-display);font-size:16px;font-weight:600;margin:0;}
+#feed-header #result-count{color:var(--muted2);font-weight:400;font-family:var(--font-ui);font-size:13px;}
+
+/* ---------- Feed header mark (clean document/signal icon) ---------- */
+.feed-mark{width:28px;height:26px;flex-shrink:0;}
+.toolbar{display:flex;gap:8px;justify-content:space-between;margin-bottom:10px;flex-wrap:wrap;align-items:center;}
+.toolbar .group{display:flex;gap:6px;flex-wrap:wrap;align-items:center;}
+select.sort-select{padding:6px 9px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--panel);color:var(--text);font-size:12.5px;}
+
+/* ---------- Trending ---------- */
+#trending{background:var(--panel);border:1px solid var(--border);border-top:2px solid var(--accent);border-radius:var(--radius-lg);padding:13px 14px;margin-bottom:14px;box-shadow:var(--shadow);}
+#trending h2{font-size:11px;text-transform:uppercase;letter-spacing:0.07em;color:var(--accent-strong);margin:0 0 9px;font-weight:700;}
+#trending .chips{display:flex;gap:6px;flex-wrap:wrap;overflow-x:auto;padding-bottom:2px;}
+.pill{background:var(--tag-bg);border:1px solid var(--border);color:var(--muted);font-size:11.5px;padding:4px 10px;border-radius:999px;transition:border-color 140ms,color 140ms,background 140ms;white-space:nowrap;}
+.pill:hover{border-color:var(--border-hover);color:var(--text);}
+.pill.on{background:var(--accent);border-color:var(--accent);color:var(--accent-contrast);font-weight:600;}
+
+/* ---------- Article cards ---------- */
+.card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius-lg);padding:0;margin-bottom:10px;display:flex;gap:16px;overflow:hidden;box-shadow:var(--shadow);transition:border-color 160ms,box-shadow 160ms;animation:card-in 420ms ease-out backwards;}
+.card:hover{border-color:var(--border-hover);box-shadow:var(--shadow-elevated);}
+@keyframes card-in{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+.card-media{flex-shrink:0;width:144px;align-self:stretch;}
+.card-media .card-img{width:144px;height:100%;min-height:90px;max-height:102px;object-fit:cover;display:block;border-radius:var(--radius-sm);margin:10px 0 10px 10px;}
+.card-body{flex:1;min-width:0;padding:13px 16px 13px 0;display:flex;flex-direction:column;gap:6px;}
+.card-top-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
+.badge{font-size:10px;font-weight:700;letter-spacing:0.03em;text-transform:uppercase;padding:2px 7px;border-radius:var(--radius-sm);border:1px solid transparent;}
+.badge-advisory{color:#8A5A1E;background:#F4E6CF;border-color:#E3C68F;}
+.badge-analysis{color:#3F5A6D;background:#E4EBEF;border-color:#C9D7DE;}
+.badge-news{color:#566049;background:#EDF0E3;border-color:#D4DCC3;}
+.badge-research{color:#8A4A28;background:#F6E3D7;border-color:#E6C2A8;}
+.badge-vendor{color:#565C49;background:#EDEAE0;border-color:#D8D4C2;}
+:root[data-theme="dark"] .badge-advisory{color:#E0A868;background:rgba(224,168,104,0.14);border-color:rgba(224,168,104,0.3);}
+:root[data-theme="dark"] .badge-analysis{color:#9DB4C4;background:rgba(126,154,174,0.14);border-color:rgba(126,154,174,0.3);}
+:root[data-theme="dark"] .badge-news{color:#A9B38D;background:rgba(140,170,110,0.14);border-color:rgba(140,170,110,0.3);}
+:root[data-theme="dark"] .badge-research{color:#D9916E;background:rgba(217,105,62,0.14);border-color:rgba(217,105,62,0.3);}
+:root[data-theme="dark"] .badge-vendor{color:#9CA18A;background:rgba(133,140,114,0.18);border-color:rgba(133,140,114,0.32);}
+.card.unread{box-shadow:var(--shadow), inset 3px 0 0 var(--accent);}
+.card.unread:hover{box-shadow:var(--shadow-elevated), inset 3px 0 0 var(--accent);}
+.card.read{opacity:0.64;}
+.card h3{margin:0;font-size:14.5px;font-weight:600;line-height:1.35;}
+.card h3 a, .card h3 .title-disabled{text-decoration:none;color:var(--text);}
+.card h3 a:hover{color:var(--accent);}
+.title-disabled{color:var(--muted);}
+.card .meta{color:var(--muted2);font-size:11.5px;display:flex;gap:6px;flex-wrap:wrap;}
+.card .snippet{font-size:12.5px;color:var(--muted);margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.card .tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:2px;}
+.tag-chip{background:var(--tag-bg);color:var(--muted);font-size:10.5px;padding:2px 8px;border-radius:999px;border:none;}
+.card.compact{padding:0;}
+.card.compact .card-media{display:none;}
+.card.compact .card-body{padding:9px 12px 9px 13px;}
+.card.compact .snippet{display:none;}
+.card.compact h3{font-size:13px;}
+.card-actions{display:flex;gap:6px;margin-top:2px;}
+.icon-btn{background:none;border:1px solid var(--border);border-radius:var(--radius-sm);padding:3px 9px;font-size:11.5px;color:var(--muted);transition:border-color 140ms,color 140ms;}
+.icon-btn:hover{border-color:var(--border-hover);color:var(--text);}
+.icon-btn.on{background:var(--accent);color:var(--accent-contrast);border-color:var(--accent);}
+
+#empty-state, #loading{text-align:center;color:var(--muted);padding:40px 0;}
+
+/* ---------- Pagination ---------- */
+.pagination{display:none;align-items:center;justify-content:center;gap:4px;margin:18px 0 8px;flex-wrap:wrap;}
+.pagination.show{display:flex;}
+.page-btn{min-width:30px;height:30px;padding:0 8px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--panel);color:var(--text);font-size:12.5px;font-weight:500;transition:border-color 140ms,color 140ms,background 140ms;}
+.page-btn:hover:not(:disabled){border-color:var(--border-hover);color:var(--accent);}
+.page-btn:disabled{opacity:0.4;cursor:default;}
+.page-btn.current{background:var(--accent);border-color:var(--accent);color:var(--accent-contrast);font-weight:700;}
+.page-ellipsis{color:var(--muted2);font-size:12.5px;padding:0 2px;}
+
+/* ---------- Right intelligence panel ---------- */
+#intel-panel{display:flex;flex-direction:column;gap:12px;position:sticky;top:76px;max-height:calc(100vh - 92px);overflow-y:auto;}
+.intel-widget{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius-lg);padding:13px 14px;box-shadow:var(--shadow);}
+.intel-widget h3{font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted2);margin:0 0 11px;font-weight:600;}
+.src-bar-row{margin-bottom:9px;}
+.src-bar-row:last-child{margin-bottom:0;}
+.src-bar-label{display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px;}
+.src-bar-label .n{color:var(--muted2);font-family:var(--font-mono);}
+.src-bar-track{height:4px;border-radius:999px;background:var(--tag-bg);overflow:hidden;}
+.src-bar-fill{height:100%;border-radius:999px;background:var(--bar-fill);}
+#tag-add-form{display:flex;gap:6px;margin-bottom:10px;}
+#tag-add-input{flex:1;min-width:0;padding:6px 9px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--bg);color:var(--text);font-size:12.5px;}
+#tag-add-btn{padding:6px 11px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--panel-elevated);color:var(--accent);font-size:12.5px;font-weight:600;}
+.custom-tag-chip{display:inline-flex;align-items:center;gap:5px;}
+.custom-tag-chip .rm{color:var(--muted2);font-weight:700;}
+#your-tags-empty{color:var(--muted2);font-size:12px;}
+
+footer{background:var(--panel);border-top:1px solid var(--border);margin-top:32px;padding:28px 20px 22px;}
+.footer-inner{max-width:1360px;margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px;}
+.footer-col h4{font-family:var(--font-display);font-size:12.5px;text-transform:none;letter-spacing:0;color:var(--text);margin:0 0 10px;font-weight:600;}
+.footer-col p, .footer-col li{color:var(--muted);font-size:12.5px;line-height:1.6;}
+.footer-col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;}
+.footer-brand{display:flex;align-items:center;gap:8px;font-family:var(--font-display);font-weight:600;font-size:15px;color:var(--text);margin-bottom:8px;}
+.footer-brand svg{width:20px;height:20px;}
+@media (max-width:760px){
+  .footer-inner{grid-template-columns:1fr;gap:22px;}
+}
+
+@media (max-width: 1140px){
+  .dash-grid{grid-template-columns:1fr;}
+  #intel-panel{position:static;max-height:none;}
+}
+@media (max-width: 760px){
+  header{flex-wrap:wrap;height:auto;padding:10px 14px;gap:8px;}
+  #news-header-controls{order:3;flex:1 1 100%;flex-wrap:wrap;}
+  .hero-top{flex-direction:column;}
+  #hero-status{align-items:flex-start;}
+  #stats-strip{flex-wrap:wrap;gap:14px 0;}
+  .stat-tile{flex:1 1 40%;}
+  .card{flex-direction:column;}
+  .card-media, .card-media .card-img{width:100%;height:130px;max-height:none;margin:10px 10px 0 10px;width:calc(100% - 20px);}
+  .card-body{padding:10px 12px;}
+  #trending .chips{flex-wrap:nowrap;}
+  #reader-canvas-wrap{max-width:100%;margin:28px auto 24px;padding:32px 18px;}
+  #reader .toolbar{padding:10px 12px;gap:10px;}
+}
+
+/* ---------- Books ---------- */
+#library .toolbar{margin-bottom:16px;}
+#library h2{font-family:var(--font-display);font-size:19px;font-weight:600;margin:0;}
+.library-header{display:flex;align-items:center;gap:14px;margin-bottom:14px;}
+
+/* ---------- Library mark (clean book-stack icon) ---------- */
+.library-mark{width:44px;height:38px;flex-shrink:0;}
+#book-list{display:flex;flex-direction:column;gap:8px;}
+.book-row{display:flex;justify-content:space-between;align-items:center;gap:12px;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius-lg);padding:12px 14px;box-shadow:var(--shadow);transition:border-color 160ms;}
+.book-row:hover{border-color:var(--border-hover);box-shadow:var(--shadow-elevated);}
+.btn{padding:7px 13px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--panel-elevated);color:var(--text);font-size:12.5px;font-weight:500;transition:border-color 140ms,color 140ms;}
+.btn:hover{border-color:var(--border-hover);color:var(--accent);}
+.btn.active{background:var(--accent);color:var(--accent-contrast);border-color:var(--accent);}
+.book-title{font-weight:600;}
+.book-meta{color:var(--muted2);font-size:11.5px;margin-top:2px;}
+.book-actions{display:flex;gap:6px;flex-shrink:0;}
+
+/* ---------- Empty-shelf illustration ---------- */
+#book-empty-state{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius-lg);padding:0;}
+.book-empty-inner{display:flex;flex-direction:column;align-items:center;text-align:center;padding:48px 20px 42px;}
+.book-illustration{position:relative;width:92px;height:68px;margin:0 0 18px;perspective:280px;}
+.book-illustration::after{content:"";position:absolute;left:50%;top:1px;bottom:1px;width:7px;transform:translateX(-50%);
+  background:linear-gradient(90deg, rgba(0,0,0,0.3), transparent 60%, rgba(0,0,0,0.3));pointer-events:none;z-index:3;}
+.book-illustration-cover{position:absolute;top:0;width:42px;height:68px;background:var(--panel-elevated);border:1px solid var(--border);z-index:1;}
+.book-illustration-cover.left{left:4px;border-radius:4px 1px 1px 4px;}
+.book-illustration-cover.right{right:4px;border-radius:1px 4px 4px 1px;}
+.book-illustration-page{position:absolute;top:1px;right:4px;width:40px;height:66px;border-radius:1px 4px 4px 1px;
+  opacity:0.96;z-index:2;}
+.book-illustration-page.p1{background:var(--accent);border:1px solid var(--accent-strong);}
+.book-illustration-page.p2{background:var(--accent-strong);border:1px solid var(--border);}
+.book-empty-title{font-family:var(--font-display);font-size:17px;font-weight:600;color:var(--text);margin:0 0 5px;}
+.book-empty-sub{color:var(--muted);font-size:12.5px;line-height:1.6;max-width:34ch;margin:0;}
+
+#reader .toolbar{position:sticky;top:76px;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius-lg);padding:10px 16px;gap:14px;box-shadow:var(--shadow);z-index:5;}
+#reader .toolbar .group{gap:8px;}
+#reader .toolbar .group + .group{padding-left:14px;border-left:1px solid var(--border);}
+#reader .toolbar .group:last-child{margin-left:auto;}
+@media (max-width:760px){
+  #reader .toolbar .group + .group{border-left:none;padding-left:0;}
+}
+#reader-canvas-wrap{
+  display:flex;align-items:center;justify-content:center;position:relative;
+  max-width:min(880px, 92vw);margin:48px auto 40px;min-height:260px;
+  padding:56px 48px;
+  background:#f8f5ee;
+  border:1px solid rgba(0,0,0,0.08);
+  border-radius:4px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.12), 0 18px 40px rgba(0,0,0,0.22);
+}
+#reader-canvas-wrap::before{
+  content:"";position:absolute;top:0;bottom:0;left:50%;width:1px;transform:translateX(-50%);
+  background:linear-gradient(180deg, transparent, rgba(0,0,0,0.08) 15%, rgba(0,0,0,0.08) 85%, transparent);
+  pointer-events:none;
+}
+#reader-canvas-wrap.loading::after{content:"Loading PDF…";color:#5c5244;}
+#reader-canvas-wrap.page-turn::before{
+  content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
+  background:linear-gradient(100deg, transparent 32%, rgba(255,255,255,0.5) 48%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0.5) 52%, transparent 68%);
+  animation:page-sweep 420ms ease-out;
+}
+@keyframes page-sweep{from{transform:translateX(-70%);opacity:0;}25%{opacity:1;}to{transform:translateX(70%);opacity:0;}}
+#reader-canvas{position:relative;z-index:1;max-width:100%;box-shadow:0 1px 3px rgba(0,0,0,0.25);background:#fff;border-radius:2px;}
+#reader-page-jump{width:56px;padding:4px 6px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--bg);color:var(--text);}
+#reader-session-timer{font-family:var(--font-mono);font-variant-numeric:tabular-nums;color:var(--accent);font-weight:600;}
+#reader-shortcuts-panel{position:absolute;top:100%;right:0;margin-top:6px;background:var(--panel-elevated);border:1px solid var(--border);border-radius:var(--radius-md);padding:10px 12px;font-size:12px;width:230px;box-shadow:var(--shadow-elevated);z-index:10;}
+#reader-shortcuts-panel h4{margin:0 0 6px;font-size:11px;text-transform:uppercase;letter-spacing:0.03em;color:var(--muted2);}
+#reader-shortcuts-panel dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 8px;}
+#reader-shortcuts-panel dt{color:var(--muted);white-space:nowrap;}
+#reader-shortcuts-panel dd{margin:0;color:var(--text);text-align:right;}
+#reader-shortcuts-panel kbd{background:var(--tag-bg);border:1px solid var(--border);border-radius:4px;padding:0 4px;font-size:10.5px;font-family:var(--font-mono);}
+
+/* ---------- Resources ---------- */
+#resources-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:18px;}
+#resources-header h2{font-family:var(--font-display);font-size:19px;font-weight:600;margin:0 0 6px;}
+.resources-mark{width:44px;height:38px;flex-shrink:0;}
+.res-sub{color:var(--muted);font-size:13px;margin:0;max-width:70ch;}
+.res-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-bottom:28px;}
+.res-category{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 18px;box-shadow:var(--shadow);transition:border-color 160ms,box-shadow 160ms;}
+.res-category:hover{border-color:var(--border-hover);box-shadow:var(--shadow-elevated);}
+.res-category h3{margin:0 0 4px;font-family:var(--font-display);font-size:14.5px;font-weight:600;display:flex;align-items:center;gap:8px;}
+.res-category .res-cat-desc{margin:0 0 12px;color:var(--muted2);font-size:11.5px;}
+.res-category ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px;}
+.res-category li a{display:block;color:var(--text);text-decoration:none;font-size:13px;font-weight:600;padding:7px 9px;border-radius:var(--radius-sm);transition:background 120ms,color 120ms;}
+.res-category li a:hover{background:var(--tag-bg);color:var(--accent);}
+.res-category li a .res-desc{display:block;color:var(--muted2);font-size:11.5px;font-weight:400;margin-top:1px;}
+.res-category li a:hover .res-desc{color:var(--muted);}
+
+/* ---------- Onboarding modal ---------- */
+.modal-overlay{position:fixed;inset:0;background:rgba(24,28,20,0.72);display:flex;align-items:center;justify-content:center;z-index:100;padding:16px;}
+.modal-overlay[hidden]{display:none;}
+.modal-box{background:var(--panel-elevated);border:1px solid var(--border);border-top:3px solid var(--accent);border-radius:var(--radius-lg);padding:26px 26px 20px;max-width:380px;width:100%;box-shadow:0 20px 50px rgba(0,0,0,0.4);animation:modal-in 200ms ease-out;}
+@keyframes modal-in{from{opacity:0;transform:translateY(6px) scale(0.99);}to{opacity:1;transform:translateY(0) scale(1);}}
+.modal-logo{width:32px;height:32px;margin:0 auto 14px;display:block;}
+.modal-box h2{margin:0 0 6px;font-family:var(--font-display);font-size:19px;font-weight:600;text-align:center;}
+.modal-box p{margin:0 0 16px;font-size:13px;color:var(--muted);text-align:center;}
+#onboarding-input{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--bg);color:var(--text);font-size:14px;margin-bottom:12px;}
+#onboarding-input:focus{border-color:var(--accent);}
+#onboarding-continue{width:100%;padding:10px;border:none;border-radius:var(--radius-sm);background:var(--accent);color:var(--accent-contrast);font-weight:600;font-size:13.5px;}
+#onboarding-continue:hover{background:var(--accent-strong);}
+#onboarding-skip{display:block;width:100%;text-align:center;background:none;border:none;color:var(--muted2);font-size:11.5px;margin-top:10px;}
+.modal-foot{font-size:11px;color:var(--muted2);text-align:center;margin-top:10px;}
+
+/* ---------- Landing splash (Phase 0) ----------
+   Scoped --l-* variables, but now sourced from the app's own real identity
+   (--accent/--accent-strong/--font-display) instead of an unrelated green/blue
+   cinematic palette, so the landing page reads as the front door of the SAME
+   product. Background stays a deep, dramatic near-black in both themes (true
+   black in dark mode, a warm charcoal in light mode) while the accent color
+   itself still shifts with data-theme, same as the rest of the app. */
+#view-landing{
+  --l-bg:#17130B; --l-bg2:#241D11; --l-text:#F7F3E9; --l-muted:#B5AA92;
+  --l-accent:var(--accent); --l-accent2:var(--accent-strong); --l-border:rgba(247,243,233,0.12);
+  --l-font-display:var(--font-display); --l-font-mono:var(--font-mono);
+  min-height:100vh;max-width:none;margin:0;padding:0;
+  background:radial-gradient(ellipse at 50% -10%, var(--l-bg2), var(--l-bg) 60%);
+  color:var(--l-text);
+  position:relative;overflow:hidden;font-family:var(--font-ui);
+}
+:root[data-theme="dark"] #view-landing{
+  --l-bg:var(--bg); --l-bg2:var(--panel-elevated); --l-border:var(--border);
+}
+/* #view-landing is an ID selector, which outranks the generic
+   main[data-view-panel]{display:none} rule above on specificity alone — so the
+   flex layout that makes it visible has to live behind the data-view gate too,
+   not on the bare #view-landing selector, or it would stay visible in every view. */
+html[data-view="landing"] #view-landing{display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.land-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(201,138,75,0.07) 1px,transparent 1px),linear-gradient(90deg,rgba(201,138,75,0.07) 1px,transparent 1px);background-size:42px 42px;mask-image:radial-gradient(ellipse 70% 60% at 50% 30%, black, transparent);pointer-events:none;}
+.land-inner{position:relative;z-index:1;max-width:720px;padding:64px 24px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:22px;}
+.land-skip{position:absolute;top:18px;right:22px;z-index:2;color:var(--l-muted);font-size:12px;text-decoration:none;border:1px solid var(--l-border);border-radius:999px;padding:5px 12px;background:rgba(255,255,255,0.02);}
+.land-skip:hover{color:var(--l-text);border-color:var(--l-accent);}
+.land-eyebrow{font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--l-accent);font-weight:600;margin:0;}
+.land-title{font-family:var(--l-font-display);font-size:clamp(34px,6vw,58px);font-weight:600;letter-spacing:-0.01em;margin:0;line-height:1.08;color:var(--l-text);}
+.land-title em{color:var(--l-accent);font-style:normal;}
+.land-sub{color:var(--l-muted);font-size:15px;max-width:52ch;margin:0;line-height:1.6;}
+.land-cta{display:inline-flex;align-items:center;gap:8px;background:var(--l-accent);color:var(--accent-contrast);font-weight:700;font-size:14.5px;border:none;border-radius:999px;padding:12px 26px;margin-top:6px;transition:transform 140ms,box-shadow 140ms;box-shadow:0 0 0 0 rgba(201,138,75,0.4);}
+.land-cta:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(201,138,75,0.3);}
+.land-stats{display:flex;gap:28px;margin-top:18px;flex-wrap:wrap;justify-content:center;}
+.land-stat{text-align:center;}
+.land-stat-value{font-family:var(--l-font-mono);font-size:26px;font-weight:600;color:var(--l-text);}
+.land-stat-label{font-size:10.5px;letter-spacing:0.05em;text-transform:uppercase;color:var(--l-muted);margin-top:3px;}
+.land-ticker-wrap{position:relative;z-index:1;width:100%;max-width:100%;overflow:hidden;border-top:1px solid var(--l-border);border-bottom:1px solid var(--l-border);padding:10px 0;margin-top:30px;background:rgba(255,255,255,0.015);}
+.land-ticker-track{display:flex;gap:40px;width:max-content;white-space:nowrap;animation:land-ticker-scroll 50s linear infinite;}
+@keyframes land-ticker-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.land-ticker-chip{font-family:var(--l-font-mono);font-size:12px;color:var(--l-accent2);letter-spacing:0.02em;}
+@media (max-width:600px){ .land-stats{gap:18px;} }
+
+/* ---------- Intelligence view (Phase 3) ---------- */
+#view-intelligence h2.intel-heading{font-family:var(--font-display);font-size:19px;font-weight:600;margin:0 0 14px;}
+.rollup-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:20px;}
+.rollup-tile{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius-lg);padding:14px 16px;box-shadow:var(--shadow);}
+.rollup-tile .rollup-value{font-family:var(--font-display);font-size:26px;font-weight:600;color:var(--text);}
+.rollup-tile .rollup-label{font-size:10.5px;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted2);margin-top:4px;}
+.rollup-tile.critical .rollup-value{color:var(--critical);}
+#top-developments{display:flex;flex-direction:column;gap:10px;margin-bottom:22px;}
+.dev-row{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius-lg);padding:13px 15px;box-shadow:var(--shadow);}
+.dev-row-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:5px;}
+.dev-score{font-family:var(--font-mono);font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;background:var(--tag-bg);color:var(--muted);}
+.dev-score.bucket-critical{background:var(--critical-bg);color:var(--critical-text);}
+.dev-score.bucket-high{background:rgba(201,138,75,0.16);color:var(--accent-strong);}
+.dev-title{font-weight:600;font-size:13.5px;color:var(--text);}
+.dev-members{color:var(--muted2);font-size:11.5px;margin-top:3px;}
+#watchlist-widget .chips{margin-top:8px;}
+#my-work-panel{margin-top:4px;}
+.mywork-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;}
+.mywork-tile{background:var(--panel-elevated);border:1px solid var(--border);border-radius:var(--radius-md);padding:10px 12px;text-align:center;}
+.mywork-tile .mywork-value{font-family:var(--font-display);font-size:19px;font-weight:600;}
+.mywork-tile .mywork-label{font-size:9.5px;text-transform:uppercase;letter-spacing:0.04em;color:var(--muted2);margin-top:2px;}
+.badge-kev{background:var(--critical-bg);color:var(--critical-text);font-size:10px;font-weight:700;padding:1px 6px;border-radius:4px;}
+</style>
+<link rel="stylesheet" href="theme.css">
+</head>
+<body>
+<main id="view-landing" data-view-panel="landing">
+  <div class="land-grid" aria-hidden="true"></div>
+  <a href="#" id="land-skip" class="land-skip">Skip →</a>
+  <div class="land-inner">
+    <p class="land-eyebrow">Personal cybersecurity intelligence</p>
+    <h1 class="land-title">Stay ahead<br>of the <em>next</em> breach</h1>
+    <p class="land-sub">CyberFeed aggregates advisories, vendor research, and breaking news from 18 trusted sources into one living dashboard — enriched, scored, and ready in seconds.</p>
+    <button id="land-cta" class="land-cta" type="button">Enter CyberFeed →</button>
+    <div class="land-stats">
+      <div class="land-stat"><div class="land-stat-value" id="land-stat-sources">—</div><div class="land-stat-label">Live sources</div></div>
+      <div class="land-stat"><div class="land-stat-value" id="land-stat-items">—</div><div class="land-stat-label">Tracked items</div></div>
+    </div>
+  </div>
+  <div class="wave-band" aria-hidden="true"></div>
+  <div class="land-ticker-wrap">
+    <div class="land-ticker-track" id="land-ticker-track"></div>
+  </div>
+</main>
+<header>
+  <div class="brand">
+    <svg class="brand-mark" viewBox="0 0 32 30" aria-hidden="true">
+      <defs>
+        <linearGradient id="brainGradHeader" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="var(--accent-strong)"/>
+          <stop offset="1" stop-color="var(--accent)"/>
+        </linearGradient>
+      </defs>
+      <circle cx="9" cy="8" r="4.5" fill="url(#brainGradHeader)"/>
+      <circle cx="16" cy="6" r="5" fill="url(#brainGradHeader)"/>
+      <circle cx="23" cy="8" r="4.5" fill="url(#brainGradHeader)"/>
+      <rect x="4" y="7" width="24" height="16" rx="8" fill="url(#brainGradHeader)" stroke="var(--accent-strong)" stroke-width="0.8"/>
+      <path d="M16 5c-0.6 2 0.6 4-0.2 6" fill="none" stroke="var(--accent-strong)" stroke-width="0.7" stroke-linecap="round" opacity="0.55"/>
+      <ellipse cx="9" cy="17" rx="1.4" ry="0.85" fill="#F4A9A0" opacity="0.8"/>
+      <ellipse cx="23" cy="17" rx="1.4" ry="0.85" fill="#F4A9A0" opacity="0.8"/>
+      <ellipse cx="12" cy="15" rx="1.1" ry="1.5" fill="#2A1C10"/>
+      <ellipse cx="20" cy="15" rx="1.1" ry="1.5" fill="#2A1C10"/>
+      <path d="M13 18.3c1 1.1 5 1.1 6 0" fill="none" stroke="#2A1C10" stroke-width="0.8" stroke-linecap="round"/>
+    </svg>
+    CyberFeed
+  </div>
+  <div class="view-tabs">
+    <button class="tab-btn" data-view-tab="news">News</button>
+    <button class="tab-btn" data-view-tab="intelligence">Intelligence</button>
+    <button class="tab-btn" data-view-tab="videos">Videos</button>
+    <button class="tab-btn" data-view-tab="library">
+      <svg class="nav-book-icon" viewBox="0 0 16 14" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true">
+        <path d="M1 2.2c1.8-1 4.4-1 6 0v9.6c-1.6-1-4.2-1-6 0V2.2z"/>
+        <path d="M15 2.2c-1.8-1-4.4-1-6 0v9.6c1.6-1 4.2-1 6 0V2.2z"/>
+      </svg>
+      Library
+    </button>
+    <button class="tab-btn" data-view-tab="resources">Resources</button>
+  </div>
+  <div id="news-header-controls">
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <label class="vhidden" for="search">Search articles</label>
+      <input id="search" type="search" placeholder="Search articles, keywords, CVEs, or tags..." aria-label="Search articles">
+      <span class="search-kbd">/ or ⌃K</span>
+    </div>
+    <div class="header-actions">
+      <button class="icon-btn-nav" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">
+        <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2"/>
+          <path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/>
+        </svg>
+        <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5z"/>
+        </svg>
+      </button>
+      <button class="icon-btn-nav" id="view-toggle" aria-label="Toggle card/compact view" title="Card / compact view">▤</button>
+      <button class="icon-btn-nav" id="export-btn" aria-label="Export bookmarks and settings" title="Export data">⭳</button>
+      <button class="icon-btn-nav" id="import-btn" aria-label="Import bookmarks and settings" title="Import data">⭱</button>
+      <input type="file" id="import-file" accept="application/json" class="vhidden" aria-hidden="true">
+      <button class="icon-btn-nav" id="help-btn" aria-label="Keyboard shortcuts help" title="Keyboard shortcuts">?</button>
+      <button class="icon-btn-nav" id="profile-btn" aria-label="Edit your name" title="Edit your name">?</button>
+    </div>
+  </div>
+</header>
+<div id="critical-banner" role="region" aria-label="Critical watch ticker">
+  <span class="cw-icon">⚠</span>
+  <span class="cw-label">Critical Watch</span>
+  <span class="cw-live"><span class="cw-live-dot"></span>LIVE</span>
+  <span class="cw-count" id="cw-count"></span>
+  <div class="cw-viewport">
+    <div class="cw-track" id="cw-track"></div>
+  </div>
+  <button class="cw-pause-btn" id="cw-pause-btn" aria-label="Pause ticker" aria-pressed="false">⏸</button>
+</div>
+
+<main id="view-news" data-view-panel="news">
+  <section id="hero">
+    <div class="hero-top">
+      <div class="hero-headline">
+        <svg class="hero-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <defs>
+            <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="var(--accent-strong)"/>
+              <stop offset="1" stop-color="var(--accent)"/>
+            </linearGradient>
+          </defs>
+          <path d="M24 3.5 42 10v12c0 13.5-9 21.5-18 21.5S6 35.5 6 22V10z" fill="url(#shieldGrad)" stroke="var(--accent-strong)" stroke-width="1.2"/>
+          <path d="M13 24.5h6l3-8 4.5 16 3-8h6.5" fill="none" stroke="var(--accent-contrast)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div>
+          <p id="hero-eyebrow">Personal CyberFeed</p>
+          <h1 id="hero-greeting">Welcome to CyberFeed.</h1>
+          <p id="hero-sub">Your daily cybersecurity briefing, aggregated from trusted sources.</p>
+        </div>
+      </div>
+      <div id="hero-status">
+        <div class="live-status">
+          <span class="live-dot" id="live-dot"></span>
+          <span>Updated <span id="feed-updated-text" class="mono">loading…</span></span>
+        </div>
+        <div id="live-clock" aria-live="off">
+          <span>🕐</span><span class="clock-time" id="clock-time">--:--:--</span>
+        </div>
+        <button id="refresh-btn" aria-label="Refresh feeds now" title="Refresh now">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 4v6h-6"/></svg>
+          Refresh
+        </button>
+      </div>
+    </div>
+    <div id="stats-strip"></div>
+    <div class="wave-band" aria-hidden="true"></div>
+  </section>
+
+  <div class="dash-grid">
+    <section id="feed">
+      <div id="trending">
+        <h2>Trending Topics</h2>
+        <div class="chips" id="trending-chips"></div>
+      </div>
+
+      <div id="feed-header">
+        <h2>
+          <svg class="feed-mark" viewBox="0 0 34 32" aria-hidden="true">
+            <rect x="4" y="5" width="26" height="22" rx="4" fill="none" stroke="var(--accent)" stroke-width="1.7"/>
+            <path d="M8 18.5h4l2.2-6.5 3.3 11 2.2-7.5h6.3" fill="none" stroke="var(--accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Latest Intelligence · <span id="result-count"></span>
+        </h2>
+        <div class="toolbar" style="margin:0;">
+          <div class="group">
+            <label class="vhidden" for="sort-select">Sort articles</label>
+            <select id="sort-select" class="sort-select">
+              <option value="newest">Newest first</option>
+              <option value="oldest">Oldest first</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div id="new-articles-banner">
+        <button id="new-articles-btn" type="button"></button>
+      </div>
+
+      <div id="loading">Loading feeds...</div>
+      <div id="empty-state" style="display:none;">No articles match your filters.</div>
+      <div id="articles" role="list"></div>
+      <nav id="pagination" class="pagination" aria-label="Article pages"></nav>
+    </section>
+
+    <aside id="intel-panel" aria-label="Intelligence summary">
+      <div class="intel-widget" id="top-sources-widget">
+        <h3>Top Sources</h3>
+        <div id="top-sources-list"></div>
+      </div>
+      <nav class="intel-widget" id="filters-widget" aria-label="Filters">
+        <h3>Filters</h3>
+        <div class="filter-group">
+          <button class="cat-btn" id="nav-home">Home</button>
+          <button class="cat-btn" id="nav-my-feed">My Feed</button>
+        </div>
+        <div class="filter-group">
+          <p class="filter-label">Time</p>
+          <button class="cat-btn active" data-time="all">All time</button>
+          <button class="cat-btn" data-time="24h">Last 24 hours</button>
+          <button class="cat-btn" data-time="7d">Last 7 days</button>
+          <button class="cat-btn" data-time="30d">Last 30 days</button>
+        </div>
+        <div class="filter-group">
+          <p class="filter-label">Status</p>
+          <button class="cat-btn" data-status="unread">Unread</button>
+          <button class="cat-btn" data-status="bookmarked">Bookmarked</button>
+        </div>
+        <div class="filter-group">
+          <p class="filter-label">Category</p>
+          <div id="category-list"></div>
+        </div>
+        <div class="filter-group">
+          <p class="filter-label">Sources</p>
+          <div id="source-list"></div>
+        </div>
+      </nav>
+      <div class="intel-widget" id="your-tags-widget">
+        <h3>Your Tags</h3>
+        <form id="tag-add-form">
+          <label class="vhidden" for="tag-add-input">Add a keyword to watch</label>
+          <input id="tag-add-input" type="text" placeholder="Add a keyword..." maxlength="40" autocomplete="off">
+          <button type="submit" id="tag-add-btn">+</button>
+        </form>
+        <div class="chips" id="your-tags-list"></div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<main id="view-intelligence" data-view-panel="intelligence">
+  <section id="intelligence">
+    <h2 class="intel-heading">Intelligence</h2>
+    <div class="rollup-grid" id="rollup-grid">
+      <div class="rollup-tile critical"><div class="rollup-value" id="rollup-critical">0</div><div class="rollup-label">Critical items</div></div>
+      <div class="rollup-tile"><div class="rollup-value" id="rollup-high">0</div><div class="rollup-label">High severity</div></div>
+      <div class="rollup-tile"><div class="rollup-value" id="rollup-cves">0</div><div class="rollup-label">Distinct CVEs seen</div></div>
+      <div class="rollup-tile"><div class="rollup-value" id="rollup-malware">0</div><div class="rollup-label">Malware / ransomware</div></div>
+    </div>
+
+    <div class="intel-widget brief-card" id="daily-brief" style="margin-bottom:16px;">
+      <div class="widget-head"><h3>Daily brief</h3><button class="btn" id="brief-copy" type="button">Copy brief</button></div>
+      <div id="brief-body"></div>
+    </div>
+
+    <div class="intel-widget" id="cve-tracker" style="margin-bottom:16px;">
+      <div class="widget-head"><h3>CVE tracker</h3><span class="mono" id="cve-count"></span></div>
+      <div class="cve-controls">
+        <input id="cve-search" type="search" placeholder="Filter CVEs or sources..." aria-label="Filter CVEs">
+        <label class="cve-check"><input type="checkbox" id="cve-kev-only"> KEV only</label>
+        <select id="cve-sort" class="sort-select" aria-label="Sort CVEs">
+          <option value="newest">Newest</option>
+          <option value="mentions">Most mentioned</option>
+          <option value="kev">KEV first</option>
+        </select>
+      </div>
+      <div id="cve-list" role="list"></div>
+      <button class="btn" id="cve-more" type="button" hidden>Show more</button>
+    </div>
+
+    <div class="intel-widget lookup-card" id="cve-lookup" style="margin-bottom:16px;">
+      <div class="widget-head"><h3>CVE lookup</h3></div>
+      <form id="cve-lookup-form" class="cve-controls">
+        <input id="cve-lookup-input" type="text" placeholder="CVE-2024-3400" maxlength="20" autocomplete="off" aria-label="CVE ID">
+        <button class="btn active" type="submit">Look up</button>
+      </form>
+      <div id="cve-lookup-result" aria-live="polite"></div>
+    </div>
+
+    <div class="intel-widget" id="intel-trending-widget" style="margin-bottom:16px;">
+      <h3>Trending (click to filter Top Developments)</h3>
+      <div class="chips" id="intel-trending-chips"></div>
+    </div>
+
+    <div class="intel-widget" id="watchlist-widget" style="margin-bottom:20px;">
+      <h3>Watchlist</h3>
+      <form id="watchlist-add-form">
+        <label class="vhidden" for="watchlist-add-input">Add a CVE, vendor, topic, or actor to watch</label>
+        <input id="watchlist-add-input" type="text" placeholder="Add a CVE, vendor, topic, or actor..." maxlength="60" autocomplete="off">
+        <button type="submit" id="watchlist-add-btn">+</button>
+      </form>
+      <div class="chips" id="watchlist-list"></div>
+    </div>
+
+    <h3 style="font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted2);margin:0 0 10px;font-weight:600;">Top Developments</h3>
+    <div id="top-developments"></div>
+
+    <div class="intel-widget" id="my-work-panel">
+      <h3>My Work</h3>
+      <div class="mywork-grid" id="mywork-grid"></div>
+    </div>
+  </section>
+</main>
+
+<main id="view-library" data-view-panel="library">
+  <section id="library">
+    <div class="library-header">
+      <svg class="library-mark" viewBox="0 0 56 48" aria-hidden="true">
+        <rect x="4" y="12" width="10" height="32" rx="2" fill="var(--accent)"/>
+        <rect x="17" y="6" width="10" height="38" rx="2" fill="var(--accent-strong)"/>
+        <rect x="30" y="16" width="10" height="28" rx="2" fill="var(--accent)"/>
+        <rect x="43" y="22" width="8" height="22" rx="2" fill="var(--accent-strong)"/>
+      </svg>
+      <h2>Your Library</h2>
+    </div>
+    <div class="toolbar">
+      <div class="group">
+        <button class="btn active" id="library-subtab-books" data-library-subtab="books">Books</button>
+        <button class="btn" id="library-subtab-investigations" data-library-subtab="investigations">Investigations</button>
+      </div>
+      <input type="file" id="book-upload" accept="application/pdf" class="vhidden" aria-hidden="true">
+      <button class="btn" id="book-upload-btn">+ Add PDF</button>
+    </div>
+    <div id="library-books-panel" class="library-split">
+      <aside class="my-uploads" aria-label="Your uploaded books">
+        <h3 class="split-title">Your books</h3>
+        <div id="book-empty-state" style="display:none;">
+          <div class="book-empty-inner">
+            <p class="book-empty-title">Nothing uploaded yet</p>
+            <p class="book-empty-sub">Upload a PDF with “+ Add PDF”. It appears here and on the shelf. Pages, progress and reading time are tracked in your browser.</p>
+          </div>
+        </div>
+        <div id="book-list" role="list"></div>
+      </aside>
+      <section class="shelves" aria-label="Bookshelf">
+        <div class="mode-toggle" role="group" aria-label="Library mode">
+          <button class="btn active" id="mode-books" type="button">Books</button>
+          <button class="btn" id="mode-courses" type="button">Courses</button>
+        </div>
+        <div id="courses-panel" hidden>
+          <h3 class="split-title">Free video courses</h3>
+          <div class="shelf-filters" id="course-filters" role="group" aria-label="Filter courses by topic"></div>
+          <div id="course-player" class="course-player" hidden></div>
+          <div id="course-grid" class="course-grid"></div>
+          <form id="course-add" class="course-add">
+            <input id="course-url" type="text" placeholder="Paste a YouTube video or playlist link" aria-label="YouTube link">
+            <button class="btn active" type="submit">Add course</button>
+            <span id="course-msg" class="course-msg" role="status"></span>
+          </form>
+        </div>
+        <div id="books-panel">
+        <div class="shelves-head">
+          <h3 class="split-title" id="shelves-title">Top trending must-reads</h3>
+          <div class="shelf-filters" id="shelf-filters" role="group" aria-label="Filter shelf by category"></div>
+        </div>
+        <div id="shelf-rows"></div>
+        <div id="shelf-detail" class="shelf-detail" hidden></div>
+        </div>
+      </section>
+    </div>
+    <div id="library-investigations-panel" style="display:none;">
+      <form id="investigation-add-form" style="display:flex;flex-direction:column;gap:8px;max-width:480px;margin-bottom:18px;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius-lg);padding:14px 16px;box-shadow:var(--shadow);">
+        <strong style="font-size:13px;">New investigation</strong>
+        <input id="investigation-title" type="text" placeholder="Article title" required style="padding:7px 9px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--bg);color:var(--text);">
+        <input id="investigation-link" type="url" placeholder="Article link (https://...)" style="padding:7px 9px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--bg);color:var(--text);">
+        <input id="investigation-source" type="text" placeholder="Source" style="padding:7px 9px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--bg);color:var(--text);">
+        <textarea id="investigation-notes" placeholder="Notes" rows="3" style="padding:7px 9px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--bg);color:var(--text);font-family:inherit;"></textarea>
+        <button type="submit" class="btn active" style="align-self:flex-start;">+ Create investigation</button>
+      </form>
+      <div id="investigation-empty-state" style="display:none;color:var(--muted);padding:20px 0;">No investigations yet. Create one above to start tracking IOCs, techniques, and notes on a story.</div>
+      <div id="investigation-list" role="list" style="display:flex;flex-direction:column;gap:8px;"></div>
+    </div>
+  </section>
+</main>
+
+<main id="view-videos" data-view-panel="videos">
+  <section id="videos">
+    <div class="videos-head">
+      <h2 class="intel-heading">Security news videos</h2>
+      <span class="mono videos-updated" id="videos-updated"></span>
+    </div>
+    <button id="video-new-banner" class="new-banner" type="button" hidden></button>
+    <div id="video-player" class="course-player" hidden></div>
+    <div id="just-dropped" class="just-dropped" hidden>
+      <div class="brief-sub">Just dropped (last 48 hours)</div>
+      <div id="just-dropped-row" class="just-dropped-row"></div>
+    </div>
+    <div class="cve-controls">
+      <input id="video-search" type="search" placeholder="Search videos or channels..." aria-label="Search videos">
+    </div>
+    <div class="shelf-filters" id="video-filters" role="group" aria-label="Filter videos by topic"></div>
+    <div id="video-grid" class="course-grid"></div>
+    <button class="btn" id="video-more" type="button" hidden>Show more</button>
+  </section>
+</main>
+
+<main id="view-reader" data-view-panel="reader">
+  <section id="reader">
+    <div class="toolbar">
+      <button class="btn" id="reader-back">← Library</button>
+      <strong id="reader-title"></strong>
+      <div class="group">
+        <button class="btn" id="reader-prev" aria-label="Previous page">‹</button>
+        <span id="reader-page-indicator"></span>
+        <input id="reader-page-jump" type="number" min="1" aria-label="Jump to page">
+        <button class="btn" id="reader-next" aria-label="Next page">›</button>
+      </div>
+      <div class="group">
+        <button class="btn" id="reader-zoom-out" aria-label="Zoom out">−</button>
+        <span id="reader-zoom-level"></span>
+        <button class="btn" id="reader-zoom-in" aria-label="Zoom in">+</button>
+      </div>
+      <div class="group">
+        <span>⏱</span>
+        <span id="reader-session-timer" aria-live="off">0s</span>
+      </div>
+      <div class="group" style="position:relative;">
+        <button class="btn" id="reader-shortcuts-btn" aria-label="Keyboard shortcuts" aria-expanded="false">⌨ Shortcuts</button>
+        <div id="reader-shortcuts-panel" hidden>
+          <h4>Keyboard shortcuts</h4>
+          <dl>
+            <dt>Next page</dt><dd><kbd>→</kbd> <kbd>PgDn</kbd> <kbd>Space</kbd></dd>
+            <dt>Previous page</dt><dd><kbd>←</kbd> <kbd>PgUp</kbd> <kbd>Shift+Space</kbd></dd>
+            <dt>First page</dt><dd><kbd>Home</kbd></dd>
+            <dt>Last page</dt><dd><kbd>End</kbd></dd>
+            <dt>Close reader</dt><dd><kbd>Esc</kbd></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div id="reader-canvas-wrap">
+      <canvas id="reader-canvas"></canvas>
+    </div>
+  </section>
+</main>
+
+<main id="view-resources" data-view-panel="resources">
+  <section id="resources">
+    <div id="resources-header">
+      <svg class="resources-mark" viewBox="0 0 56 48" aria-hidden="true">
+        <defs>
+          <linearGradient id="resGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="var(--accent-strong)"/>
+            <stop offset="1" stop-color="var(--accent)"/>
+          </linearGradient>
+        </defs>
+        <path d="M4 10c0-2.2 1.8-4 4-4h12l4 5h24c2.2 0 4 1.8 4 4v25c0 2.2-1.8 4-4 4H8c-2.2 0-4-1.8-4-4V10z" fill="url(#resGrad)" stroke="var(--accent-strong)" stroke-width="1.2"/>
+      </svg>
+      <div>
+        <h2>Learn Cybersecurity</h2>
+        <p class="res-sub">A curated set of free and reputable places to start, practice, and go deep: guided beginner labs, practice ranges, official standards, databases, tools, and certification bodies.</p>
+      </div>
+    </div>
+
+    <div class="res-grid">
+      <div class="res-category">
+        <h3>Start Here</h3>
+        <p class="res-cat-desc">Beginner friendly, hands on platforms</p>
+        <ul>
+          <li><a href="https://tryhackme.com" target="_blank" rel="noopener noreferrer">TryHackMe<span class="res-desc">Guided, gamified rooms covering every fundamental</span></a></li>
+          <li><a href="https://www.hackthebox.com" target="_blank" rel="noopener noreferrer">Hack The Box<span class="res-desc">Realistic machines and challenges for all levels</span></a></li>
+          <li><a href="https://www.cybrary.it" target="_blank" rel="noopener noreferrer">Cybrary<span class="res-desc">Free courses and structured career paths</span></a></li>
+          <li><a href="https://www.coursera.org" target="_blank" rel="noopener noreferrer">Coursera<span class="res-desc">University backed security and IT courses</span></a></li>
+          <li><a href="https://labex.io/learn/cybersecurity" target="_blank" rel="noopener noreferrer">LabEx Cybersecurity Labs<span class="res-desc">Interactive browser based security labs</span></a></li>
+          <li><a href="https://roadmap.sh/cyber-security" target="_blank" rel="noopener noreferrer">Cybersecurity Roadmap<span class="res-desc">Step by step visual learning path</span></a></li>
+          <li><a href="https://academy.tcm-sec.com" target="_blank" rel="noopener noreferrer">TCM Security Academy<span class="res-desc">Affordable, practical video courses</span></a></li>
+        </ul>
+      </div>
+
+      <div class="res-category">
+        <h3>Practice &amp; CTFs</h3>
+        <p class="res-cat-desc">Sharpen skills on real challenges</p>
+        <ul>
+          <li><a href="https://portswigger.net/web-security" target="_blank" rel="noopener noreferrer">PortSwigger Web Security Academy<span class="res-desc">Free, deep dive into web app vulnerabilities</span></a></li>
+          <li><a href="https://overthewire.org" target="_blank" rel="noopener noreferrer">OverTheWire<span class="res-desc">Classic wargames for Linux and security basics</span></a></li>
+          <li><a href="https://www.root-me.org" target="_blank" rel="noopener noreferrer">Root-Me<span class="res-desc">Hundreds of practice challenges across domains</span></a></li>
+          <li><a href="https://ctftime.org" target="_blank" rel="noopener noreferrer">CTFtime<span class="res-desc">Find and track live Capture the Flag events</span></a></li>
+          <li><a href="https://www.vulnhub.com" target="_blank" rel="noopener noreferrer">VulnHub<span class="res-desc">Downloadable vulnerable VMs to practice on</span></a></li>
+          <li><a href="https://picoctf.org" target="_blank" rel="noopener noreferrer">picoCTF<span class="res-desc">Beginner friendly CTF built by Carnegie Mellon</span></a></li>
+          <li><a href="https://www.hackthissite.org" target="_blank" rel="noopener noreferrer">HackThisSite<span class="res-desc">Long running set of legal hacking challenges</span></a></li>
+        </ul>
+      </div>
+
+      <div class="res-category">
+        <h3>Blue Team &amp; Defense</h3>
+        <p class="res-cat-desc">Detection, response, and defensive skills</p>
+        <ul>
+          <li><a href="https://letsdefend.io" target="_blank" rel="noopener noreferrer">LetsDefend<span class="res-desc">SOC analyst training with simulated alerts</span></a></li>
+          <li><a href="https://cyberdefenders.org" target="_blank" rel="noopener noreferrer">CyberDefenders<span class="res-desc">Blue team labs built from real incidents</span></a></li>
+          <li><a href="https://blueteamlabs.online" target="_blank" rel="noopener noreferrer">Blue Team Labs Online<span class="res-desc">Hands on investigation and forensics labs</span></a></li>
+          <li><a href="https://atomicredteam.io" target="_blank" rel="noopener noreferrer">Atomic Red Team<span class="res-desc">Small, testable detections mapped to ATT&amp;CK</span></a></li>
+          <li><a href="https://adsecurity.org" target="_blank" rel="noopener noreferrer">Active Directory Security<span class="res-desc">In depth AD attack and defense research</span></a></li>
+        </ul>
+      </div>
+
+      <div class="res-category">
+        <h3>Reference &amp; Standards</h3>
+        <p class="res-cat-desc">The frameworks the industry runs on</p>
+        <ul>
+          <li><a href="https://owasp.org" target="_blank" rel="noopener noreferrer">OWASP<span class="res-desc">Top 10, cheat sheets, and open security projects</span></a></li>
+          <li><a href="https://attack.mitre.org" target="_blank" rel="noopener noreferrer">MITRE ATT&amp;CK<span class="res-desc">Adversary tactics and techniques knowledge base</span></a></li>
+          <li><a href="https://cve.mitre.org" target="_blank" rel="noopener noreferrer">CVE Program<span class="res-desc">The authoritative public vulnerability database</span></a></li>
+          <li><a href="https://www.nist.gov/cyberframework" target="_blank" rel="noopener noreferrer">NIST Cybersecurity Framework<span class="res-desc">Risk management guidance used worldwide</span></a></li>
+          <li><a href="https://cheatsheetseries.owasp.org" target="_blank" rel="noopener noreferrer">OWASP Cheat Sheet Series<span class="res-desc">Pragmatic checklists for secure development</span></a></li>
+          <li><a href="https://hacktricks.wiki/en/" target="_blank" rel="noopener noreferrer">HackTricks<span class="res-desc">Extensive wiki of pentesting techniques</span></a></li>
+        </ul>
+      </div>
+
+      <div class="res-category">
+        <h3>Threat &amp; Vulnerability Databases</h3>
+        <p class="res-cat-desc">Look up exposures, advisories, and exploits</p>
+        <ul>
+          <li><a href="https://nvd.nist.gov/vuln/search" target="_blank" rel="noopener noreferrer">National Vulnerability Database<span class="res-desc">US government repository of CVE data</span></a></li>
+          <li><a href="https://www.exploit-db.com" target="_blank" rel="noopener noreferrer">The Exploit Database<span class="res-desc">Archive of exploits maintained by Offensive Security</span></a></li>
+          <li><a href="https://cve.circl.lu" target="_blank" rel="noopener noreferrer">cve-search<span class="res-desc">Searchable interface to public CVE data</span></a></li>
+          <li><a href="https://vuldb.com" target="_blank" rel="noopener noreferrer">VulDB<span class="res-desc">Long running vulnerability documentation database</span></a></li>
+          <li><a href="https://github.com/advisories" target="_blank" rel="noopener noreferrer">GitHub Advisory Database<span class="res-desc">Security advisories from the open source ecosystem</span></a></li>
+          <li><a href="https://osv.dev" target="_blank" rel="noopener noreferrer">OSV.dev<span class="res-desc">Vulnerability database for open source projects</span></a></li>
+        </ul>
+      </div>
+
+      <div class="res-category">
+        <h3>Secure Development (OWASP)</h3>
+        <p class="res-cat-desc">Build and test software securely</p>
+        <ul>
+          <li><a href="https://owasp.org/Top10/" target="_blank" rel="noopener noreferrer">OWASP Top 10<span class="res-desc">The most critical security risks to web apps</span></a></li>
+          <li><a href="https://www.zaproxy.org" target="_blank" rel="noopener noreferrer">OWASP ZAP<span class="res-desc">Free integrated penetration testing tool</span></a></li>
+          <li><a href="https://owasp.org/www-project-juice-shop/" target="_blank" rel="noopener noreferrer">OWASP Juice Shop<span class="res-desc">Intentionally insecure app for security training</span></a></li>
+          <li><a href="https://owasp.org/www-project-webgoat/" target="_blank" rel="noopener noreferrer">OWASP WebGoat<span class="res-desc">Deliberately insecure application to learn on</span></a></li>
+          <li><a href="https://jeremylong.github.io/DependencyCheck/" target="_blank" rel="noopener noreferrer">OWASP Dependency-Check<span class="res-desc">Finds known vulnerable dependencies</span></a></li>
+          <li><a href="https://owasp.org/www-project-application-security-verification-standard/" target="_blank" rel="noopener noreferrer">OWASP ASVS<span class="res-desc">Application Security Verification Standard</span></a></li>
+        </ul>
+      </div>
+
+      <div class="res-category">
+        <h3>Security Tools &amp; Testing</h3>
+        <p class="res-cat-desc">Free scanners and analyzers to try now</p>
+        <ul>
+          <li><a href="https://www.ssllabs.com/ssltest/" target="_blank" rel="noopener noreferrer">Qualys SSL Labs<span class="res-desc">Detailed analysis of TLS server configurations</span></a></li>
+          <li><a href="https://securityheaders.com" target="_blank" rel="noopener noreferrer">SecurityHeaders.com<span class="res-desc">Analyzes HTTP security headers on any site</span></a></li>
+          <li><a href="https://csp-evaluator.withgoogle.com" target="_blank" rel="noopener noreferrer">Google CSP Evaluator<span class="res-desc">Checks Content Security Policy configurations</span></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/observatory" target="_blank" rel="noopener noreferrer">MDN HTTP Observatory<span class="res-desc">Scores website security configuration</span></a></li>
+          <li><a href="https://www.hardenize.com" target="_blank" rel="noopener noreferrer">Hardenize<span class="res-desc">Assesses DNS, TLS, and email security</span></a></li>
+          <li><a href="https://github.com/google/osv-scanner" target="_blank" rel="noopener noreferrer">OSV-Scanner<span class="res-desc">Scans lockfiles and SBOMs for known CVEs</span></a></li>
+        </ul>
+      </div>
+
+      <div class="res-category">
+        <h3>Government &amp; Advisories</h3>
+        <p class="res-cat-desc">Official alerts and guidance</p>
+        <ul>
+          <li><a href="https://www.cisa.gov" target="_blank" rel="noopener noreferrer">CISA<span class="res-desc">US advisories, alerts, and best practices</span></a></li>
+          <li><a href="https://www.enisa.europa.eu" target="_blank" rel="noopener noreferrer">ENISA<span class="res-desc">EU cybersecurity agency resources</span></a></li>
+          <li><a href="https://www.ncsc.gov.uk" target="_blank" rel="noopener noreferrer">UK NCSC<span class="res-desc">National Cyber Security Centre guidance</span></a></li>
+          <li><a href="https://csrc.nist.gov" target="_blank" rel="noopener noreferrer">NIST Computer Security Resource Center<span class="res-desc">Standards, publications, and news</span></a></li>
+        </ul>
+      </div>
+
+      <div class="res-category">
+        <h3>Certifications</h3>
+        <p class="res-cat-desc">Formal paths employers recognize</p>
+        <ul>
+          <li><a href="https://www.offensive-security.com" target="_blank" rel="noopener noreferrer">OffSec (OSCP)<span class="res-desc">Hands on offensive security certifications</span></a></li>
+          <li><a href="https://www.isc2.org" target="_blank" rel="noopener noreferrer">(ISC)&sup2;<span class="res-desc">CISSP and other professional certifications</span></a></li>
+          <li><a href="https://www.comptia.org" target="_blank" rel="noopener noreferrer">CompTIA<span class="res-desc">Security+ and Network+ for foundational skills</span></a></li>
+          <li><a href="https://www.sans.org" target="_blank" rel="noopener noreferrer">SANS &amp; GIAC<span class="res-desc">Professional training and respected certifications</span></a></li>
+          <li><a href="https://pauljerimy.com/security-certification-roadmap/" target="_blank" rel="noopener noreferrer">Security Certification Roadmap<span class="res-desc">Visual map of certifications by domain and level</span></a></li>
+        </ul>
+      </div>
+
+      <div class="res-category">
+        <h3>Communities &amp; Reading</h3>
+        <p class="res-cat-desc">Stay current and ask questions</p>
+        <ul>
+          <li><a href="https://www.reddit.com/r/netsec" target="_blank" rel="noopener noreferrer">r/netsec<span class="res-desc">Active community discussion on security news</span></a></li>
+          <li><a href="https://news.ycombinator.com" target="_blank" rel="noopener noreferrer">Hacker News<span class="res-desc">Tech news with frequent security discussion</span></a></li>
+          <li><a href="https://www.first.org" target="_blank" rel="noopener noreferrer">FIRST.org<span class="res-desc">Global forum of incident response and security teams</span></a></li>
+          <li><a href="https://www.hackingarticles.in" target="_blank" rel="noopener noreferrer">Hacking Articles<span class="res-desc">Walkthroughs and practical pentesting writeups</span></a></li>
+          <li><a href="https://pentester.land" target="_blank" rel="noopener noreferrer">Pentester Land<span class="res-desc">Curated bug bounty writeups and resources</span></a></li>
+          <li><a href="https://www.bugbountyhunting.com" target="_blank" rel="noopener noreferrer">BugBountyHunting.com<span class="res-desc">Methodology and tips for bug bounty hunters</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <div class="footer-brand">
+        <svg viewBox="0 0 32 30" aria-hidden="true">
+          <defs>
+            <linearGradient id="brainGradFooter" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="var(--accent-strong)"/>
+              <stop offset="1" stop-color="var(--accent)"/>
+            </linearGradient>
+          </defs>
+          <circle cx="9" cy="8" r="4.5" fill="url(#brainGradFooter)"/>
+          <circle cx="16" cy="6" r="5" fill="url(#brainGradFooter)"/>
+          <circle cx="23" cy="8" r="4.5" fill="url(#brainGradFooter)"/>
+          <rect x="4" y="7" width="24" height="16" rx="8" fill="url(#brainGradFooter)" stroke="var(--accent-strong)" stroke-width="0.8"/>
+          <path d="M16 5c-0.6 2 0.6 4-0.2 6" fill="none" stroke="var(--accent-strong)" stroke-width="0.7" stroke-linecap="round" opacity="0.55"/>
+          <ellipse cx="9" cy="17" rx="1.4" ry="0.85" fill="#F4A9A0" opacity="0.8"/>
+          <ellipse cx="23" cy="17" rx="1.4" ry="0.85" fill="#F4A9A0" opacity="0.8"/>
+          <ellipse cx="12" cy="15" rx="1.1" ry="1.5" fill="#2A1C10"/>
+          <ellipse cx="20" cy="15" rx="1.1" ry="1.5" fill="#2A1C10"/>
+          <path d="M13 18.3c1 1.1 5 1.1 6 0" fill="none" stroke="#2A1C10" stroke-width="0.8" stroke-linecap="round"/>
+        </svg>
+        CyberFeed
+      </div>
+      <p>Your personal cybersecurity intelligence dashboard. A GitHub Action refreshes the article snapshot from all 18 sources every 5 minutes; this page polls it in the background every 2 minutes and offers new stories as they land, with a live fallback fetch when the snapshot is unavailable.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Data &amp; privacy</h4>
+      <ul>
+        <li>Article thumbnails may load directly from the originating publisher.</li>
+        <li>Books you upload are stored only in this browser (IndexedDB) and are never uploaded anywhere.</li>
+        <li>Bookmarks, read status, and tags are stored locally on this device.</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Keyboard shortcuts</h4>
+      <ul>
+        <li><kbd>/</kbd> or <kbd>Ctrl+K</kbd> focus search</li>
+        <li><kbd>j</kbd> / <kbd>k</kbd> navigate articles</li>
+        <li><kbd>b</kbd> bookmark, <kbd>o</kbd> open, <kbd>t</kbd> theme</li>
+        <li>Reader shortcuts are listed inside the Books reader.</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<div id="onboarding-modal" class="modal-overlay" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="onboarding-heading">
+    <svg class="modal-logo" viewBox="0 0 32 30" aria-hidden="true">
+      <defs>
+        <linearGradient id="brainGradModal" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="var(--accent-strong)"/>
+          <stop offset="1" stop-color="var(--accent)"/>
+        </linearGradient>
+      </defs>
+      <circle cx="9" cy="8" r="4.5" fill="url(#brainGradModal)"/>
+      <circle cx="16" cy="6" r="5" fill="url(#brainGradModal)"/>
+      <circle cx="23" cy="8" r="4.5" fill="url(#brainGradModal)"/>
+      <rect x="4" y="7" width="24" height="16" rx="8" fill="url(#brainGradModal)" stroke="var(--accent-strong)" stroke-width="0.8"/>
+      <path d="M16 5c-0.6 2 0.6 4-0.2 6" fill="none" stroke="var(--accent-strong)" stroke-width="0.7" stroke-linecap="round" opacity="0.55"/>
+      <ellipse cx="9" cy="17" rx="1.4" ry="0.85" fill="#F4A9A0" opacity="0.8"/>
+      <ellipse cx="23" cy="17" rx="1.4" ry="0.85" fill="#F4A9A0" opacity="0.8"/>
+      <ellipse cx="12" cy="15" rx="1.1" ry="1.5" fill="#2A1C10"/>
+      <ellipse cx="20" cy="15" rx="1.1" ry="1.5" fill="#2A1C10"/>
+      <path d="M13 18.3c1 1.1 5 1.1 6 0" fill="none" stroke="#2A1C10" stroke-width="0.8" stroke-linecap="round"/>
+    </svg>
+    <h2 id="onboarding-heading">Welcome to CyberFeed</h2>
+    <p>Before we get started, what should we call you?</p>
+    <label class="vhidden" for="onboarding-input">Your name</label>
+    <input id="onboarding-input" type="text" placeholder="Enter your name..." maxlength="40" autocomplete="off">
+    <button id="onboarding-continue">Continue</button>
+    <button id="onboarding-skip">Skip for now</button>
+    <p class="modal-foot">You can change this anytime via the profile button in the header.</p>
+  </div>
+</div>
+
+<script src="render-helpers.js"></script>
+<script src="app.js"></script>
+<script src="trending-books.js"></script>
+<script src="books.js"></script>
+<script src="shelves.js"></script>
+<script src="courses.js"></script>
+<script src="intel.js"></script>
+<script src="videos.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>

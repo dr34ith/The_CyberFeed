@@ -1,0 +1,730 @@
+{
+  "generated_at": "2026-11-09T05:45:18.251445+00:00",
+  "items": [
+    {
+      "id": "yGlZAL_M2SU",
+      "title": "DEF CON 34 - Main - How Dealer Installed AntiTheft System Exposes 1M+ Cars - A Schulman, J Yu, Y Wei",
+      "published": "2026-11-06T22:48:20+00:00",
+      "thumb": "https://i2.ytimg.com/vi/yGlZAL_M2SU/hqdefault.jpg",
+      "views": 11079,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "ltwLEu0otaY",
+      "title": "DEF CON 34 - Main - Bird Hunting Season The Final Flight - Jon Gaines",
+      "published": "2026-11-06T22:48:10+00:00",
+      "thumb": "https://i1.ytimg.com/vi/ltwLEu0otaY/hqdefault.jpg",
+      "views": 3143,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "IFMOtEqqF1A",
+      "title": "DEF CON 34 - BugBounty - How Cache Poisoning Led to Critical Acct Takeover in TikTok's Web - G Chong",
+      "published": "2026-11-06T22:48:06+00:00",
+      "thumb": "https://i2.ytimg.com/vi/IFMOtEqqF1A/hqdefault.jpg",
+      "views": 2619,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "lDrpgYYXGtA",
+      "title": "DEF CON 34 - Aerospace - Behind the Badge SAOv3, Open Sourcing Aerospace Village ISS Badge - Panel",
+      "published": "2026-11-06T22:48:06+00:00",
+      "thumb": "https://i1.ytimg.com/vi/lDrpgYYXGtA/hqdefault.jpg",
+      "views": 2468,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "9YsizCh9oiA",
+      "title": "DEF CON 34 - Main - C2YA Inside the Adversary's Inbox - Vitaly Simonovich",
+      "published": "2026-11-06T22:48:05+00:00",
+      "thumb": "https://i2.ytimg.com/vi/9YsizCh9oiA/hqdefault.jpg",
+      "views": 2126,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "MgiNgdg4gAA",
+      "title": "DEF CON 34 - AppSec - A Billion User Blast Radius Owning ChatGPT’s Secure Sandbox - Simcha Kosman",
+      "published": "2026-11-06T22:47:52+00:00",
+      "thumb": "https://i2.ytimg.com/vi/MgiNgdg4gAA/hqdefault.jpg",
+      "views": 2454,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "_FKX5hDwgVE",
+      "title": "DEF CON 34 - Main - Breaking Local AI Runtimes Exploiting llama cpp & Ollama - V Tokarev, O Itach",
+      "published": "2026-11-06T22:47:52+00:00",
+      "thumb": "https://i4.ytimg.com/vi/_FKX5hDwgVE/hqdefault.jpg",
+      "views": 2333,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "0pJet2AADxM",
+      "title": "DEF CON 34 - BugBounty - AI Nightmare Hacking at 0 Hour - Pedro Paniago",
+      "published": "2026-11-06T22:47:51+00:00",
+      "thumb": "https://i1.ytimg.com/vi/0pJet2AADxM/hqdefault.jpg",
+      "views": 2577,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "6U7cWKZzQBc",
+      "title": "DEF CON 34 - Main - Beyond the Ceremony - The 2026 Passkey Attack Surface - Matteo Giordano",
+      "published": "2026-11-06T22:47:51+00:00",
+      "thumb": "https://i3.ytimg.com/vi/6U7cWKZzQBc/hqdefault.jpg",
+      "views": 1619,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "8ewe-9hf-tA",
+      "title": "DEF CON 34 - Main - Defender’s Dilemma Releasing Dual-Use AI Models as Capabilities Climb - Panel",
+      "published": "2026-11-06T22:47:51+00:00",
+      "thumb": "https://i1.ytimg.com/vi/8ewe-9hf-tA/hqdefault.jpg",
+      "views": 1845,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "CJQ3SJnK-Pw",
+      "title": "DEF CON 34 - BugBounty - Finding Prompt Injection Vulns via Mutated Prompt Gen - B Steele, A Garg",
+      "published": "2026-11-06T22:47:51+00:00",
+      "thumb": "https://i4.ytimg.com/vi/CJQ3SJnK-Pw/hqdefault.jpg",
+      "views": 1308,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "RNVNVLBKBWQ",
+      "title": "DEF CON 34 - Main - Certified Re-Pwned Escalating All the Way Up -Daniel Monzon, Eric Labrador",
+      "published": "2026-11-06T22:47:51+00:00",
+      "thumb": "https://i3.ytimg.com/vi/RNVNVLBKBWQ/hqdefault.jpg",
+      "views": 1051,
+      "channel": "DEFCONConference",
+      "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "topic": "Conference talks"
+    },
+    {
+      "id": "rirjzZfXwqY",
+      "title": "Stop Blaming Humans: Rethinking Security Culture with John Scott",
+      "published": "2026-11-06T11:00:35+00:00",
+      "thumb": "https://i3.ytimg.com/vi/rirjzZfXwqY/hqdefault.jpg",
+      "views": 394,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "t4mfZRL_hFA",
+      "title": "What Road Safety Can Teach Us About Phishing",
+      "published": "2026-11-06T11:00:23+00:00",
+      "thumb": "https://i1.ytimg.com/vi/t4mfZRL_hFA/hqdefault.jpg",
+      "views": 146,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "O-sa-V5Poq8",
+      "title": "Stop Blaming Humans: Rethinking Security Culture with John Scott",
+      "published": "2026-11-06T06:21:26+00:00",
+      "thumb": "https://i4.ytimg.com/vi/O-sa-V5Poq8/hqdefault.jpg",
+      "views": 351,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "1cOnSsMb_HY",
+      "title": "The Looming AI Cyber Disaster: Myth or Reality?",
+      "published": "2026-11-05T21:39:37+00:00",
+      "thumb": "https://i2.ytimg.com/vi/1cOnSsMb_HY/hqdefault.jpg",
+      "views": 798,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "D71hA69mLFo",
+      "title": "One Phishing Click Shouldn’t Bring Down a Company",
+      "published": "2026-11-05T20:14:18+00:00",
+      "thumb": "https://i1.ytimg.com/vi/D71hA69mLFo/hqdefault.jpg",
+      "views": 103,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "eZUbPRXOJoo",
+      "title": "The New Era of Cloud Security: Google Cloud Security & Wiz in Action",
+      "published": "2026-11-05T16:42:54+00:00",
+      "thumb": "https://i2.ytimg.com/vi/eZUbPRXOJoo/hqdefault.jpg",
+      "views": 369,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "BmBw827GgFA",
+      "title": "Mutex Explained - Computerphile",
+      "published": "2026-11-05T14:00:16+00:00",
+      "thumb": "https://i3.ytimg.com/vi/BmBw827GgFA/hqdefault.jpg",
+      "views": 145083,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "T2UaHfh4vO8",
+      "title": "Equation Group. How Cyber Espionage Changed the Course of History",
+      "published": "2026-11-03T21:00:03+00:00",
+      "thumb": "https://i1.ytimg.com/vi/T2UaHfh4vO8/hqdefault.jpg",
+      "views": 613,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    },
+    {
+      "id": "PEnvElZjFCA",
+      "title": "Fireside Chat with Keynote Speakers | Day 1",
+      "published": "2026-11-03T18:34:03+00:00",
+      "thumb": "https://i1.ytimg.com/vi/PEnvElZjFCA/hqdefault.jpg",
+      "views": 591,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "5IXad5KqB58",
+      "title": "Snap built a zero-trust architecture with Gemini platform security, enabling 98% autonomous velocity",
+      "published": "2026-11-03T14:18:32+00:00",
+      "thumb": "https://i2.ytimg.com/vi/5IXad5KqB58/hqdefault.jpg",
+      "views": 180,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "9dwV9iM1L5c",
+      "title": "From Blind Spots to Full Visibility: Streamlining Protection with NDR",
+      "published": "2026-11-03T08:42:51+00:00",
+      "thumb": "https://i2.ytimg.com/vi/9dwV9iM1L5c/hqdefault.jpg",
+      "views": 243,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    },
+    {
+      "id": "vfcPpTWR_fQ",
+      "title": "Analyze Feed Activity with Cloud Logging",
+      "published": "2026-11-02T21:11:14+00:00",
+      "thumb": "https://i3.ytimg.com/vi/vfcPpTWR_fQ/hqdefault.jpg",
+      "views": 95,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "aAEVX9o8LuY",
+      "title": "Google SecOps: Data Health Hub Overview",
+      "published": "2026-11-02T21:05:05+00:00",
+      "thumb": "https://i2.ytimg.com/vi/aAEVX9o8LuY/hqdefault.jpg",
+      "views": 208,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "kSHHAtxuhfs",
+      "title": "How Jamf secures 30 million Apple devices with Google Cloud Security",
+      "published": "2026-11-02T20:55:07+00:00",
+      "thumb": "https://i4.ytimg.com/vi/kSHHAtxuhfs/hqdefault.jpg",
+      "views": 89,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "0xqPt0qKHeA",
+      "title": "How LastPass protects customer credentials using Google Threat Intelligence",
+      "published": "2026-11-02T20:51:06+00:00",
+      "thumb": "https://i1.ytimg.com/vi/0xqPt0qKHeA/hqdefault.jpg",
+      "views": 95,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "iuuqKLevlcQ",
+      "title": "How a zero-click hack broke the \"unhackable\" iPhone 📱",
+      "published": "2026-11-02T18:09:07+00:00",
+      "thumb": "https://i2.ytimg.com/vi/iuuqKLevlcQ/hqdefault.jpg",
+      "views": 333,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    },
+    {
+      "id": "gdPQ2K2LYZU",
+      "title": "Takers, Shapers, and Makers | Chris Crowley, SANS Senior Instructor",
+      "published": "2026-11-02T16:01:06+00:00",
+      "thumb": "https://i4.ytimg.com/vi/gdPQ2K2LYZU/hqdefault.jpg",
+      "views": 234,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "NDgS__J1U-M",
+      "title": "The Private Key Mistake! (TLS Key set to \"4\") - Computerphile",
+      "published": "2026-10-30T15:47:25+00:00",
+      "thumb": "https://i3.ytimg.com/vi/NDgS__J1U-M/hqdefault.jpg",
+      "views": 239355,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "fvb6rHiOARQ",
+      "title": "Beyond Red vs. Blue: Mastering \"Purple Team\" Security with AI",
+      "published": "2026-10-28T19:28:54+00:00",
+      "thumb": "https://i3.ytimg.com/vi/fvb6rHiOARQ/hqdefault.jpg",
+      "views": 112,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "jiXtlOOrFfs",
+      "title": "Google Cloud x Genuine Parts: Accelerating Threat Defense at an Exponential Pace",
+      "published": "2026-10-28T19:22:54+00:00",
+      "thumb": "https://i3.ytimg.com/vi/jiXtlOOrFfs/hqdefault.jpg",
+      "views": 75,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "cI8IquVEyVY",
+      "title": "?PHP Problem? - Computerphile",
+      "published": "2026-10-28T16:23:55+00:00",
+      "thumb": "https://i4.ytimg.com/vi/cI8IquVEyVY/hqdefault.jpg",
+      "views": 299223,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "d9t7YvzNyhk",
+      "title": "RedOctober: The Mystery Crab and Its Cyber Arsenal",
+      "published": "2026-10-28T10:27:08+00:00",
+      "thumb": "https://i1.ytimg.com/vi/d9t7YvzNyhk/hqdefault.jpg",
+      "views": 429,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    },
+    {
+      "id": "rt0hzGbZs2c",
+      "title": "Fall Cyber Solutions Fest 2026: SOC Track",
+      "published": "2026-10-27T18:32:06+00:00",
+      "thumb": "https://i3.ytimg.com/vi/rt0hzGbZs2c/hqdefault.jpg",
+      "views": 0,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "YAAjCAN6xYc",
+      "title": "CounterCraft Stopped Playing Security Whack-a-Mole Thanks to Google Cloud",
+      "published": "2026-10-27T13:26:22+00:00",
+      "thumb": "https://i2.ytimg.com/vi/YAAjCAN6xYc/hqdefault.jpg",
+      "views": 98,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "xzxXZRoyBT8",
+      "title": "Defending the Perimeter: The Reality of Modern Surface Attacks",
+      "published": "2026-10-27T13:23:41+00:00",
+      "thumb": "https://i1.ytimg.com/vi/xzxXZRoyBT8/hqdefault.jpg",
+      "views": 70,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "Y0GwvtQLfV0",
+      "title": "The Future of Security Is About Comprehension, Not Just Detection",
+      "published": "2026-10-27T13:21:00+00:00",
+      "thumb": "https://i2.ytimg.com/vi/Y0GwvtQLfV0/hqdefault.jpg",
+      "views": 58,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "z7SkWJFt_Bs",
+      "title": "Outpacing the Threat Actors: Google Cloud x Nestlé",
+      "published": "2026-10-27T13:14:52+00:00",
+      "thumb": "https://i3.ytimg.com/vi/z7SkWJFt_Bs/hqdefault.jpg",
+      "views": 87,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
+    {
+      "id": "shY3U15Gm8M",
+      "title": "Hosts-Only Special | A Patch It Properly Week",
+      "published": "2026-10-23T19:00:40+00:00",
+      "thumb": "https://i4.ytimg.com/vi/shY3U15Gm8M/hqdefault.jpg",
+      "views": 950,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "KISVscOnTyo",
+      "title": "Special | A Patch It Properly Week",
+      "published": "2026-10-23T17:39:47+00:00",
+      "thumb": "https://i4.ytimg.com/vi/KISVscOnTyo/hqdefault.jpg",
+      "views": 577,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "RObyDPTKobM",
+      "title": "A Favor That Became Two Courses | Heather Barnhart, SANS Head of Faculty",
+      "published": "2026-10-23T14:00:48+00:00",
+      "thumb": "https://i3.ytimg.com/vi/RObyDPTKobM/hqdefault.jpg",
+      "views": 1122,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "h6j_ixGnpiY",
+      "title": "How Image Watermarking Works - Computerphile",
+      "published": "2026-10-22T13:00:06+00:00",
+      "thumb": "https://i1.ytimg.com/vi/h6j_ixGnpiY/hqdefault.jpg",
+      "views": 161162,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "OrfwyFVkzqY",
+      "title": "Emergency Livestream - PHP Vulnerabilities: What You Need to Know Today and Do Right Now",
+      "published": "2026-10-21T17:54:05+00:00",
+      "thumb": "https://i4.ytimg.com/vi/OrfwyFVkzqY/hqdefault.jpg",
+      "views": 30323,
+      "channel": "SANS Institute",
+      "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
+      "topic": "Forensics & DFIR"
+    },
+    {
+      "id": "xVFU0F_YwpY",
+      "title": "Operation Triangulation: The Most Sophisticated Attack on the (Un)hackable iPhone | Cyber True Crime",
+      "published": "2026-10-20T16:00:22+00:00",
+      "thumb": "https://i1.ytimg.com/vi/xVFU0F_YwpY/hqdefault.jpg",
+      "views": 985,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    },
+    {
+      "id": "WqrwAFs-fq0",
+      "title": "Multiplayer Gaming & Flight Simulation - Computerphile",
+      "published": "2026-10-15T13:30:19+00:00",
+      "thumb": "https://i4.ytimg.com/vi/WqrwAFs-fq0/hqdefault.jpg",
+      "views": 130904,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "W0jPTqIo5oE",
+      "title": "Race Conditions on a Human Scale - Computerphile",
+      "published": "2026-10-08T13:00:25+00:00",
+      "thumb": "https://i4.ytimg.com/vi/W0jPTqIo5oE/hqdefault.jpg",
+      "views": 124364,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "FYtQBgLfYD0",
+      "title": "TOP3 Metric. Results that speak for themselves",
+      "published": "2026-10-02T08:34:51+00:00",
+      "thumb": "https://i3.ytimg.com/vi/FYtQBgLfYD0/hqdefault.jpg",
+      "views": 2075,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    },
+    {
+      "id": "S6PqsZ65Mg4",
+      "title": "Implementing Undo - Computerphile",
+      "published": "2026-09-30T13:00:36+00:00",
+      "thumb": "https://i4.ytimg.com/vi/S6PqsZ65Mg4/hqdefault.jpg",
+      "views": 211689,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "giTmBaNGaHw",
+      "title": "What the Labs Kept Secret: The German Wiki & RubyGems Hacks - Computerphile",
+      "published": "2026-09-23T13:00:20+00:00",
+      "thumb": "https://i4.ytimg.com/vi/giTmBaNGaHw/hqdefault.jpg",
+      "views": 199866,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "iuHddnIzKRA",
+      "title": "The AI Language We Can't Read: Neuralese ft. Rob Miles - Computerphile",
+      "published": "2026-09-10T12:56:17+00:00",
+      "thumb": "https://i2.ytimg.com/vi/iuHddnIzKRA/hqdefault.jpg",
+      "views": 622812,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "kVXp6UNVPTo",
+      "title": "How Watermarks Track AI Generated Content - Computerphile",
+      "published": "2026-09-03T13:30:04+00:00",
+      "thumb": "https://i4.ytimg.com/vi/kVXp6UNVPTo/hqdefault.jpg",
+      "views": 527009,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "ICrmk0ZLMSk",
+      "title": "Keep the Rebel Spirit Alive #TheSAS2026 #kaspersky #cybersecurity",
+      "published": "2026-08-31T09:20:14+00:00",
+      "thumb": "https://i2.ytimg.com/vi/ICrmk0ZLMSk/hqdefault.jpg",
+      "views": 434,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    },
+    {
+      "id": "xs5iOwkX9fU",
+      "title": "Why CPU Time ≠ Wall Clock Time! - Computerphile",
+      "published": "2026-08-27T13:00:19+00:00",
+      "thumb": "https://i1.ytimg.com/vi/xs5iOwkX9fU/hqdefault.jpg",
+      "views": 154880,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "gXiRMSYCdg0",
+      "title": "Kaspersky’s Sustainability report 2024-2025: helping people grow",
+      "published": "2026-08-24T08:37:39+00:00",
+      "thumb": "https://i4.ytimg.com/vi/gXiRMSYCdg0/hqdefault.jpg",
+      "views": 366,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    },
+    {
+      "id": "5L7AVBYrwzU",
+      "title": "Kaspersky’s Sustainability report 2024-2025: growing together",
+      "published": "2026-08-24T08:36:45+00:00",
+      "thumb": "https://i2.ytimg.com/vi/5L7AVBYrwzU/hqdefault.jpg",
+      "views": 300,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    },
+    {
+      "id": "cdCWoTEvaLw",
+      "title": "Kaspersky’s Sustainability report 2024-2025: employee insight",
+      "published": "2026-08-24T08:35:45+00:00",
+      "thumb": "https://i4.ytimg.com/vi/cdCWoTEvaLw/hqdefault.jpg",
+      "views": 433,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    },
+    {
+      "id": "gn_Ckdl5FD4",
+      "title": "Kaspersky’s Sustainability report 2024-2025: the secret behind growth",
+      "published": "2026-08-24T08:33:54+00:00",
+      "thumb": "https://i4.ytimg.com/vi/gn_Ckdl5FD4/hqdefault.jpg",
+      "views": 897,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    },
+    {
+      "id": "pg7fntKLNak",
+      "title": "Quantum Simulation & Nature - Computerphile",
+      "published": "2026-08-17T15:18:03+00:00",
+      "thumb": "https://i1.ytimg.com/vi/pg7fntKLNak/hqdefault.jpg",
+      "views": 26384,
+      "channel": "Computerphile",
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "topic": "Computing"
+    },
+    {
+      "id": "X1WgzmPwPhM",
+      "title": "Kaspersky’s Sustainability report 2024-2025: small actions, real impact",
+      "published": "2026-08-16T22:03:24+00:00",
+      "thumb": "https://i1.ytimg.com/vi/X1WgzmPwPhM/hqdefault.jpg",
+      "views": 203,
+      "channel": "Kaspersky",
+      "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
+      "topic": "Threat research"
+    }
+  ],
+  "health": [
+    {
+      "channel": "The Hacker News",
+      "ok": false,
+      "count": 0,
+      "error": "ValueError: feed has no videos"
+    },
+    {
+      "channel": "BleepingComputer",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "channel": "Cisco Talos",
+      "ok": false,
+      "count": 0,
+      "error": "ValueError: channel id could not be resolved"
+    },
+    {
+      "channel": "CrowdStrike",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "channel": "Mandiant (Google Cloud)",
+      "ok": true,
+      "count": 15,
+      "feed_title": "Mandiant & Google Cloud Security"
+    },
+    {
+      "channel": "Malwarebytes",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "channel": "ESET",
+      "ok": false,
+      "count": 0,
+      "error": "ValueError: feed belongs to 'kulishnik22', not 'ESET' (rejected)"
+    },
+    {
+      "channel": "Kaspersky",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "stale": true
+    },
+    {
+      "channel": "CISA",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "channel": "SANS Institute",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
+    },
+    {
+      "channel": "Security Weekly",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "channel": "Black Hat",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "channel": "DEFCONConference",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "stale": true
+    },
+    {
+      "channel": "13Cubed",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "channel": "John Hammond",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "channel": "NetworkChuck",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "channel": "David Bombal",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "channel": "Seytonic",
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "channel": "The PC Security Channel",
+      "ok": false,
+      "count": 0,
+      "error": "ValueError: channel id could not be resolved"
+    },
+    {
+      "channel": "Computerphile",
+      "ok": true,
+      "count": 15,
+      "feed_title": "Computerphile"
+    }
+  ]
+}
