@@ -1,12 +1,62 @@
 {
-  "generated_at": "2026-11-10T07:06:58.904561+00:00",
+  "generated_at": "2026-11-10T15:32:32.685904+00:00",
   "items": [
+    {
+      "id": "0Fr_RKv0s8c",
+      "title": "AI Won't Replace Traditional Security Tools",
+      "published": "2026-11-10T15:00:32+00:00",
+      "thumb": "https://i1.ytimg.com/vi/0Fr_RKv0s8c/hqdefault.jpg",
+      "views": 16,
+      "channel": "Security Weekly",
+      "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
+      "topic": "News"
+    },
+    {
+      "id": "Q-e9L6ECpgM",
+      "title": "Payload Podcast 013 - Catchup",
+      "published": "2026-11-10T13:54:16+00:00",
+      "thumb": "https://i2.ytimg.com/vi/Q-e9L6ECpgM/hqdefault.jpg",
+      "views": 0,
+      "channel": "John Hammond",
+      "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
+      "topic": "Hacking"
+    },
+    {
+      "id": "LwE8e0Kl5qc",
+      "title": "Human Expertise Will Always Be The Core Of AI Cybersecurity - Andrew Wesie - ASW #408",
+      "published": "2026-11-10T10:00:18+00:00",
+      "thumb": "https://i1.ytimg.com/vi/LwE8e0Kl5qc/hqdefault.jpg",
+      "views": 102,
+      "channel": "Security Weekly",
+      "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
+      "topic": "News"
+    },
+    {
+      "id": "kvbGPafjEYM",
+      "title": "PHP2Shell Exploitation Hits Production Firewalls",
+      "published": "2026-11-09T20:00:17+00:00",
+      "thumb": "https://i4.ytimg.com/vi/kvbGPafjEYM/hqdefault.jpg",
+      "views": 60,
+      "channel": "Security Weekly",
+      "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
+      "topic": "News"
+    },
+    {
+      "id": "BtvVsGDTkYI",
+      "title": "Security 2027: How We Defend What’s Next",
+      "published": "2026-11-09T16:00:04+00:00",
+      "thumb": "https://i3.ytimg.com/vi/BtvVsGDTkYI/hqdefault.jpg",
+      "views": 701,
+      "channel": "Mandiant (Google Cloud)",
+      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
+      "topic": "Threat research"
+    },
     {
       "id": "c0PdeJuqcWg",
       "title": "Genuine Parts Company cuts false positives by 42% with Google SecOps",
       "published": "2026-11-09T15:00:23+00:00",
       "thumb": "https://i4.ytimg.com/vi/c0PdeJuqcWg/hqdefault.jpg",
-      "views": 1,
+      "views": 55,
       "channel": "Mandiant (Google Cloud)",
       "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
       "topic": "Threat research"
@@ -16,7 +66,7 @@
       "title": "Security Can't Keep Up With Modern Work",
       "published": "2026-11-09T15:00:23+00:00",
       "thumb": "https://i4.ytimg.com/vi/wMgZjj4nfUI/hqdefault.jpg",
-      "views": 9,
+      "views": 171,
       "channel": "Security Weekly",
       "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
       "topic": "News"
@@ -26,7 +76,7 @@
       "title": "ClickFix Cache Trick",
       "published": "2026-11-09T14:37:32+00:00",
       "thumb": "https://i2.ytimg.com/vi/yydGYEnRKzg/hqdefault.jpg",
-      "views": 353,
+      "views": 4678,
       "channel": "John Hammond",
       "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
       "topic": "Hacking"
@@ -36,7 +86,7 @@
       "title": "What ShellBags NodeSlot Values Really Tell You",
       "published": "2026-11-09T13:43:10+00:00",
       "thumb": "https://i4.ytimg.com/vi/kN2JIt60Sco/hqdefault.jpg",
-      "views": 145,
+      "views": 1429,
       "channel": "13Cubed",
       "channel_id": "UCy8ntxFEudOCRZYT1f7ya9Q",
       "topic": "Forensics & DFIR"
@@ -46,7 +96,7 @@
       "title": "How Kaspersky Uncovered the First Known Russian-Speaking APT",
       "published": "2026-11-09T13:35:48+00:00",
       "thumb": "https://i4.ytimg.com/vi/Ce5_bhwyF1Q/hqdefault.jpg",
-      "views": 36,
+      "views": 273,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
@@ -56,7 +106,7 @@
       "title": "How Kaspersky Uncovered the Most Advanced APT in History",
       "published": "2026-11-09T13:35:45+00:00",
       "thumb": "https://i2.ytimg.com/vi/IIVxMh_L_lY/hqdefault.jpg",
-      "views": 208,
+      "views": 2053,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
@@ -66,7 +116,7 @@
       "title": "Assessing risk at the speed of change, coordinated disclosure, and the news - ESW #484",
       "published": "2026-11-09T10:00:12+00:00",
       "thumb": "https://i2.ytimg.com/vi/QlAxxnK0LWs/hqdefault.jpg",
-      "views": 85,
+      "views": 365,
       "channel": "Security Weekly",
       "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
       "topic": "News"
@@ -76,7 +126,7 @@
       "title": "Taking your PHP Website Offline",
       "published": "2026-11-07T19:00:30+00:00",
       "thumb": "https://i3.ytimg.com/vi/F4duxQ4mMrg/hqdefault.jpg",
-      "views": 4604,
+      "views": 5334,
       "channel": "John Hammond",
       "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
       "topic": "Hacking"
@@ -86,7 +136,7 @@
       "title": "AI Security Boundaries",
       "published": "2026-11-07T17:57:28+00:00",
       "thumb": "https://i2.ytimg.com/vi/9FVcrVMnZNw/hqdefault.jpg",
-      "views": 2498,
+      "views": 4102,
       "channel": "John Hammond",
       "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
       "topic": "Hacking"
@@ -96,7 +146,7 @@
       "title": "Nobody Teaches Us Digital Self Defense",
       "published": "2026-11-07T15:45:06+00:00",
       "thumb": "https://i1.ytimg.com/vi/hhJmpIM0-yg/hqdefault.jpg",
-      "views": 331,
+      "views": 390,
       "channel": "Security Weekly",
       "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
       "topic": "News"
@@ -106,7 +156,7 @@
       "title": "When the person who fails every security check asks for admin access",
       "published": "2026-11-07T00:00:29+00:00",
       "thumb": "https://i3.ytimg.com/vi/B0Eb2_ETw8k/hqdefault.jpg",
-      "views": 2731,
+      "views": 2817,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -116,7 +166,7 @@
       "title": "Stop Prioritizing Vulnerabilities by CVSS Alone",
       "published": "2026-11-06T23:00:21+00:00",
       "thumb": "https://i3.ytimg.com/vi/ZvDPzP7U4cc/hqdefault.jpg",
-      "views": 628,
+      "views": 654,
       "channel": "Security Weekly",
       "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
       "topic": "News"
@@ -126,7 +176,7 @@
       "title": "DEF CON 34 - Main - How Dealer Installed AntiTheft System Exposes 1M+ Cars - A Schulman, J Yu, Y Wei",
       "published": "2026-11-06T22:48:20+00:00",
       "thumb": "https://i2.ytimg.com/vi/yGlZAL_M2SU/hqdefault.jpg",
-      "views": 12224,
+      "views": 16082,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -136,7 +186,7 @@
       "title": "DEF CON 34 - Main - Bird Hunting Season The Final Flight - Jon Gaines",
       "published": "2026-11-06T22:48:10+00:00",
       "thumb": "https://i1.ytimg.com/vi/ltwLEu0otaY/hqdefault.jpg",
-      "views": 3403,
+      "views": 4051,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -146,7 +196,7 @@
       "title": "DEF CON 34 - BugBounty - How Cache Poisoning Led to Critical Acct Takeover in TikTok's Web - G Chong",
       "published": "2026-11-06T22:48:06+00:00",
       "thumb": "https://i2.ytimg.com/vi/IFMOtEqqF1A/hqdefault.jpg",
-      "views": 2756,
+      "views": 3005,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -156,7 +206,7 @@
       "title": "DEF CON 34 - Aerospace - Behind the Badge SAOv3, Open Sourcing Aerospace Village ISS Badge - Panel",
       "published": "2026-11-06T22:48:06+00:00",
       "thumb": "https://i1.ytimg.com/vi/lDrpgYYXGtA/hqdefault.jpg",
-      "views": 2576,
+      "views": 2813,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -166,7 +216,7 @@
       "title": "DEF CON 34 - Main - C2YA Inside the Adversary's Inbox - Vitaly Simonovich",
       "published": "2026-11-06T22:48:05+00:00",
       "thumb": "https://i2.ytimg.com/vi/9YsizCh9oiA/hqdefault.jpg",
-      "views": 2218,
+      "views": 2402,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -176,7 +226,7 @@
       "title": "DEF CON 34 - AppSec - A Billion User Blast Radius Owning ChatGPT’s Secure Sandbox - Simcha Kosman",
       "published": "2026-11-06T22:47:52+00:00",
       "thumb": "https://i2.ytimg.com/vi/MgiNgdg4gAA/hqdefault.jpg",
-      "views": 2644,
+      "views": 3381,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -186,7 +236,7 @@
       "title": "DEF CON 34 - Main - Breaking Local AI Runtimes Exploiting llama cpp & Ollama - V Tokarev, O Itach",
       "published": "2026-11-06T22:47:52+00:00",
       "thumb": "https://i4.ytimg.com/vi/_FKX5hDwgVE/hqdefault.jpg",
-      "views": 2431,
+      "views": 2619,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -196,7 +246,7 @@
       "title": "DEF CON 34 - BugBounty - AI Nightmare Hacking at 0 Hour - Pedro Paniago",
       "published": "2026-11-06T22:47:51+00:00",
       "thumb": "https://i1.ytimg.com/vi/0pJet2AADxM/hqdefault.jpg",
-      "views": 3247,
+      "views": 4811,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -206,7 +256,7 @@
       "title": "DEF CON 34 - Main - Beyond the Ceremony - The 2026 Passkey Attack Surface - Matteo Giordano",
       "published": "2026-11-06T22:47:51+00:00",
       "thumb": "https://i3.ytimg.com/vi/6U7cWKZzQBc/hqdefault.jpg",
-      "views": 1671,
+      "views": 1791,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -216,7 +266,7 @@
       "title": "DEF CON 34 - Main - Defender’s Dilemma Releasing Dual-Use AI Models as Capabilities Climb - Panel",
       "published": "2026-11-06T22:47:51+00:00",
       "thumb": "https://i1.ytimg.com/vi/8ewe-9hf-tA/hqdefault.jpg",
-      "views": 1913,
+      "views": 2078,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -226,7 +276,7 @@
       "title": "DEF CON 34 - BugBounty - Finding Prompt Injection Vulns via Mutated Prompt Gen - B Steele, A Garg",
       "published": "2026-11-06T22:47:51+00:00",
       "thumb": "https://i4.ytimg.com/vi/CJQ3SJnK-Pw/hqdefault.jpg",
-      "views": 1389,
+      "views": 1533,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -236,7 +286,7 @@
       "title": "DEF CON 34 - Main - Certified Re-Pwned Escalating All the Way Up -Daniel Monzon, Eric Labrador",
       "published": "2026-11-06T22:47:51+00:00",
       "thumb": "https://i3.ytimg.com/vi/RNVNVLBKBWQ/hqdefault.jpg",
-      "views": 1097,
+      "views": 1189,
       "channel": "DEFCONConference",
       "channel_id": "UC6Om9kAkl32dWlDSNlDS9Iw",
       "topic": "Conference talks"
@@ -246,7 +296,7 @@
       "title": "AI hates us all, Binance, OpenSSH, Apple, WordPress, DNS, Scams, Josh Marpet and More - SWN #631",
       "published": "2026-11-06T22:00:33+00:00",
       "thumb": "https://i3.ytimg.com/vi/f_rte_AeWqI/hqdefault.jpg",
-      "views": 534,
+      "views": 652,
       "channel": "Security Weekly",
       "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
       "topic": "News"
@@ -256,7 +306,7 @@
       "title": "Next Steps for PHP",
       "published": "2026-11-06T19:00:05+00:00",
       "thumb": "https://i1.ytimg.com/vi/PSDdF_Naz_M/hqdefault.jpg",
-      "views": 2212,
+      "views": 2320,
       "channel": "John Hammond",
       "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
       "topic": "Hacking"
@@ -266,7 +316,7 @@
       "title": "you need to use Herdr RIGHT NOW!!",
       "published": "2026-11-06T17:10:45+00:00",
       "thumb": "https://i2.ytimg.com/vi/9_FzA-J9S2E/hqdefault.jpg",
-      "views": 506659,
+      "views": 562273,
       "channel": "NetworkChuck",
       "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
       "topic": "Networking"
@@ -276,7 +326,7 @@
       "title": "ClickFix Gets Sneaky",
       "published": "2026-11-06T17:01:25+00:00",
       "thumb": "https://i4.ytimg.com/vi/gCyYXURQCNw/hqdefault.jpg",
-      "views": 10722,
+      "views": 14952,
       "channel": "John Hammond",
       "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
       "topic": "Hacking"
@@ -286,7 +336,7 @@
       "title": "This Doom Game Deletes Real Kubernetes Pods",
       "published": "2026-11-06T16:00:11+00:00",
       "thumb": "https://i2.ytimg.com/vi/AdeIrffwzCY/hqdefault.jpg",
-      "views": 6536,
+      "views": 6967,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -296,7 +346,7 @@
       "title": "AI Finds Vulnerabilities Nobody Expected",
       "published": "2026-11-06T15:00:28+00:00",
       "thumb": "https://i1.ytimg.com/vi/xCN_BcAKx7c/hqdefault.jpg",
-      "views": 558,
+      "views": 581,
       "channel": "Security Weekly",
       "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
       "topic": "News"
@@ -306,7 +356,7 @@
       "title": "A Database of Malware (in Minecraft)",
       "published": "2026-11-06T14:00:18+00:00",
       "thumb": "https://i1.ytimg.com/vi/xGpIgLJ9ZIM/hqdefault.jpg",
-      "views": 18311,
+      "views": 19549,
       "channel": "John Hammond",
       "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
       "topic": "Hacking"
@@ -316,7 +366,7 @@
       "title": "Stop Blaming Humans: Rethinking Security Culture with John Scott",
       "published": "2026-11-06T11:00:35+00:00",
       "thumb": "https://i3.ytimg.com/vi/rirjzZfXwqY/hqdefault.jpg",
-      "views": 423,
+      "views": 496,
       "channel": "SANS Institute",
       "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
       "topic": "Forensics & DFIR"
@@ -326,7 +376,7 @@
       "title": "What Road Safety Can Teach Us About Phishing",
       "published": "2026-11-06T11:00:23+00:00",
       "thumb": "https://i1.ytimg.com/vi/t4mfZRL_hFA/hqdefault.jpg",
-      "views": 150,
+      "views": 160,
       "channel": "SANS Institute",
       "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
       "topic": "Forensics & DFIR"
@@ -336,7 +386,7 @@
       "title": "Stop Blaming Humans: Rethinking Security Culture with John Scott",
       "published": "2026-11-06T06:21:26+00:00",
       "thumb": "https://i4.ytimg.com/vi/O-sa-V5Poq8/hqdefault.jpg",
-      "views": 361,
+      "views": 378,
       "channel": "SANS Institute",
       "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
       "topic": "Forensics & DFIR"
@@ -346,7 +396,7 @@
       "title": "Old Rotary Phones Get a Hacker Makeover",
       "published": "2026-11-05T23:00:08+00:00",
       "thumb": "https://i2.ytimg.com/vi/aKmpVICFx3s/hqdefault.jpg",
-      "views": 873,
+      "views": 882,
       "channel": "Security Weekly",
       "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
       "topic": "News"
@@ -356,7 +406,7 @@
       "title": "\"That’s Not Supposed to Happen\" - PSW #951",
       "published": "2026-11-05T22:00:09+00:00",
       "thumb": "https://i2.ytimg.com/vi/eXaIT7-Z3SA/hqdefault.jpg",
-      "views": 956,
+      "views": 1074,
       "channel": "Security Weekly",
       "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
       "topic": "News"
@@ -366,7 +416,7 @@
       "title": "The Looming AI Cyber Disaster: Myth or Reality?",
       "published": "2026-11-05T21:39:37+00:00",
       "thumb": "https://i2.ytimg.com/vi/1cOnSsMb_HY/hqdefault.jpg",
-      "views": 836,
+      "views": 895,
       "channel": "SANS Institute",
       "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
       "topic": "Forensics & DFIR"
@@ -376,7 +426,7 @@
       "title": "One Phishing Click Shouldn’t Bring Down a Company",
       "published": "2026-11-05T20:14:18+00:00",
       "thumb": "https://i1.ytimg.com/vi/D71hA69mLFo/hqdefault.jpg",
-      "views": 110,
+      "views": 121,
       "channel": "SANS Institute",
       "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
       "topic": "Forensics & DFIR"
@@ -386,7 +436,7 @@
       "title": "Dissecting PHP Vulnerabilities with AI",
       "published": "2026-11-05T19:00:14+00:00",
       "thumb": "https://i4.ytimg.com/vi/KdMdEwLbQ8M/hqdefault.jpg",
-      "views": 9225,
+      "views": 9357,
       "channel": "John Hammond",
       "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
       "topic": "Hacking"
@@ -396,7 +446,7 @@
       "title": "The New Era of Cloud Security: Google Cloud Security & Wiz in Action",
       "published": "2026-11-05T16:42:54+00:00",
       "thumb": "https://i2.ytimg.com/vi/eZUbPRXOJoo/hqdefault.jpg",
-      "views": 375,
+      "views": 399,
       "channel": "Mandiant (Google Cloud)",
       "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
       "topic": "Threat research"
@@ -406,7 +456,7 @@
       "title": "Patch Speed Isn't the Real Risk",
       "published": "2026-11-05T15:00:00+00:00",
       "thumb": "https://i4.ytimg.com/vi/sE6wDeOpQUo/hqdefault.jpg",
-      "views": 370,
+      "views": 373,
       "channel": "Security Weekly",
       "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
       "topic": "News"
@@ -416,7 +466,7 @@
       "title": "Mutex Explained - Computerphile",
       "published": "2026-11-05T14:00:16+00:00",
       "thumb": "https://i3.ytimg.com/vi/BmBw827GgFA/hqdefault.jpg",
-      "views": 148525,
+      "views": 158141,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -426,27 +476,17 @@
       "title": "My Minecraft Mod needs Quarantine",
       "published": "2026-11-05T14:00:09+00:00",
       "thumb": "https://i3.ytimg.com/vi/zY0CAOjufAU/hqdefault.jpg",
-      "views": 14010,
+      "views": 14394,
       "channel": "John Hammond",
       "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
       "topic": "Hacking"
-    },
-    {
-      "id": "QhbtZyg7o-A",
-      "title": "Your Youngest Employees Could Drive Transformation",
-      "published": "2026-11-04T22:00:03+00:00",
-      "thumb": "https://i2.ytimg.com/vi/QhbtZyg7o-A/hqdefault.jpg",
-      "views": 50,
-      "channel": "Security Weekly",
-      "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
-      "topic": "News"
     },
     {
       "id": "taFbLkCFYvM",
       "title": "Falcon Intelligence Mobile: Adversary Insights and Agentic AI in Your Pocket",
       "published": "2026-11-04T19:41:30+00:00",
       "thumb": "https://i1.ytimg.com/vi/taFbLkCFYvM/hqdefault.jpg",
-      "views": 517,
+      "views": 588,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -456,7 +496,7 @@
       "title": "Agentic Adversary Emulation: AI-Powered Red Teaming to Validate Defenses",
       "published": "2026-11-04T19:33:40+00:00",
       "thumb": "https://i3.ytimg.com/vi/vKBerPYoESM/hqdefault.jpg",
-      "views": 543,
+      "views": 616,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -466,7 +506,7 @@
       "title": "Falcon Guardian AI Kill Switch: Stop Rogue AI Agents in Their Tracks",
       "published": "2026-11-04T19:28:41+00:00",
       "thumb": "https://i2.ytimg.com/vi/E51jZKEqe7M/hqdefault.jpg",
-      "views": 464,
+      "views": 568,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -476,7 +516,7 @@
       "title": "Next-Gen Identity Security: Agentic Identity Provider in Action",
       "published": "2026-11-04T19:23:39+00:00",
       "thumb": "https://i2.ytimg.com/vi/EE1NCb4RhHg/hqdefault.jpg",
-      "views": 404,
+      "views": 460,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -486,7 +526,7 @@
       "title": "CrowdStrike Extends the Agentic SOC to Detect and Stop the Agent Insider Threat",
       "published": "2026-11-04T19:15:10+00:00",
       "thumb": "https://i4.ytimg.com/vi/wGzsnpJsRhc/hqdefault.jpg",
-      "views": 395,
+      "views": 474,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -496,7 +536,7 @@
       "title": "Fighting PHP Zombies",
       "published": "2026-11-04T19:00:36+00:00",
       "thumb": "https://i3.ytimg.com/vi/6BkHNbiRgLE/hqdefault.jpg",
-      "views": 4297,
+      "views": 4336,
       "channel": "John Hammond",
       "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
       "topic": "Hacking"
@@ -506,7 +546,7 @@
       "title": "CrowdStrike Falcon Guardian: Advancing AI Security and Safety from Endpoint to Cloud",
       "published": "2026-11-04T18:59:23+00:00",
       "thumb": "https://i4.ytimg.com/vi/SieZlcx20CY/hqdefault.jpg",
-      "views": 615,
+      "views": 732,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -516,7 +556,7 @@
       "title": "CrowdStrike Falcon Guardian Overview",
       "published": "2026-11-04T18:53:54+00:00",
       "thumb": "https://i4.ytimg.com/vi/CUEMH6F6PFg/hqdefault.jpg",
-      "views": 268,
+      "views": 315,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -526,47 +566,27 @@
       "title": "Fromage-Gate: Old-School Hacking Tactics vs. French Supermarkets",
       "published": "2026-11-04T18:47:35+00:00",
       "thumb": "https://i2.ytimg.com/vi/QH9Lh7wVZAg/hqdefault.jpg",
-      "views": 3228,
+      "views": 3410,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
-    },
-    {
-      "id": "yT-AxLRn_60",
-      "title": "Your Android TV Box Could Be a Botnet",
-      "published": "2026-11-04T18:00:15+00:00",
-      "thumb": "https://i2.ytimg.com/vi/yT-AxLRn_60/hqdefault.jpg",
-      "views": 205,
-      "channel": "Security Weekly",
-      "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
-      "topic": "News"
     },
     {
       "id": "CyuHd7wOAkM",
       "title": "Attacks Are Accelerating",
       "published": "2026-11-04T15:43:40+00:00",
       "thumb": "https://i4.ytimg.com/vi/CyuHd7wOAkM/hqdefault.jpg",
-      "views": 5787,
+      "views": 5456,
       "channel": "John Hammond",
       "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
       "topic": "Hacking"
-    },
-    {
-      "id": "QmV8D0HZMLo",
-      "title": "Blame Users or Fix Security Systems?",
-      "published": "2026-11-04T15:00:17+00:00",
-      "thumb": "https://i2.ytimg.com/vi/QmV8D0HZMLo/hqdefault.jpg",
-      "views": 57,
-      "channel": "Security Weekly",
-      "channel_id": "UCg--XBjJ50a9tUhTKXVPiqg",
-      "topic": "News"
     },
     {
       "id": "AtGmZZrQHJo",
       "title": "Microsoft Edge Did ANOTHER Awesome Thing",
       "published": "2026-11-04T14:00:23+00:00",
       "thumb": "https://i2.ytimg.com/vi/AtGmZZrQHJo/hqdefault.jpg",
-      "views": 20400,
+      "views": 20907,
       "channel": "John Hammond",
       "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
       "topic": "Hacking"
@@ -576,7 +596,7 @@
       "title": "Automated AI Security Testing: Find and Fix Security Weaknesses Before Deployment",
       "published": "2026-11-04T13:40:51+00:00",
       "thumb": "https://i1.ytimg.com/vi/0XJWmcu0gYQ/hqdefault.jpg",
-      "views": 357,
+      "views": 388,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -586,7 +606,7 @@
       "title": "Falcon Observe: Agent Observability for AI Trust",
       "published": "2026-11-04T13:37:24+00:00",
       "thumb": "https://i2.ytimg.com/vi/M1xaNL-wuc4/hqdefault.jpg",
-      "views": 279,
+      "views": 313,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -596,7 +616,7 @@
       "title": "#FalConEurope2026: Platform Innovation & Adversary Intelligence | Michael Sentonas and Adam Meyers",
       "published": "2026-11-04T12:49:43+00:00",
       "thumb": "https://i2.ytimg.com/vi/q7eZRPCD634/hqdefault.jpg",
-      "views": 767401,
+      "views": 973979,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -606,7 +626,7 @@
       "title": "Falcon Cloud Security: Real-Time Multicloud Detection and Response",
       "published": "2026-11-04T06:00:28+00:00",
       "thumb": "https://i3.ytimg.com/vi/vTYCTsAuTlk/hqdefault.jpg",
-      "views": 276,
+      "views": 325,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -616,7 +636,7 @@
       "title": "Falcon Cloud Security: Real-Time CDR for Microsoft Azure",
       "published": "2026-11-04T06:00:23+00:00",
       "thumb": "https://i4.ytimg.com/vi/30jDNMSpqdI/hqdefault.jpg",
-      "views": 124,
+      "views": 139,
       "channel": "CrowdStrike",
       "channel_id": "UCsRdY9CtEVWTNO4ulwfzqVA",
       "topic": "Threat research"
@@ -626,7 +646,7 @@
       "title": "Understanding the Blast Radius of a Cryptographic Change",
       "published": "2026-11-04T03:14:37+00:00",
       "thumb": "https://i4.ytimg.com/vi/7SCMgzQzsx8/hqdefault.jpg",
-      "views": 2727,
+      "views": 2763,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
@@ -636,7 +656,7 @@
       "title": "Eliminating the Blind Spots Between Humans, Machines, and AI",
       "published": "2026-11-04T03:12:30+00:00",
       "thumb": "https://i2.ytimg.com/vi/QHb5UPJGmHY/hqdefault.jpg",
-      "views": 1715,
+      "views": 1729,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
@@ -646,7 +666,7 @@
       "title": "AI, Resilience & Trust: Securing the Autonomous Enterprise",
       "published": "2026-11-04T00:10:53+00:00",
       "thumb": "https://i3.ytimg.com/vi/J4EgJcmvVws/hqdefault.jpg",
-      "views": 1799,
+      "views": 1815,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
@@ -656,7 +676,7 @@
       "title": "When they ask what it’s like working in cybersecurity",
       "published": "2026-11-04T00:00:15+00:00",
       "thumb": "https://i2.ytimg.com/vi/YTvysnaZs7o/hqdefault.jpg",
-      "views": 1046,
+      "views": 1049,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -666,7 +686,7 @@
       "title": "Black Hat Podcasts: RE:BRIEF Trailer",
       "published": "2026-11-03T22:08:27+00:00",
       "thumb": "https://i4.ytimg.com/vi/G01Xd9ogFOQ/hqdefault.jpg",
-      "views": 490,
+      "views": 518,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
@@ -676,27 +696,17 @@
       "title": "Equation Group. How Cyber Espionage Changed the Course of History",
       "published": "2026-11-03T21:00:03+00:00",
       "thumb": "https://i1.ytimg.com/vi/T2UaHfh4vO8/hqdefault.jpg",
-      "views": 624,
+      "views": 693,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
-    },
-    {
-      "id": "Yu1qqCF5beA",
-      "title": "Version Jumping in PHP",
-      "published": "2026-11-03T19:00:28+00:00",
-      "thumb": "https://i2.ytimg.com/vi/Yu1qqCF5beA/hqdefault.jpg",
-      "views": 7908,
-      "channel": "John Hammond",
-      "channel_id": "UCVeW9qkBjo3zosnqUbG7CFw",
-      "topic": "Hacking"
     },
     {
       "id": "PEnvElZjFCA",
       "title": "Fireside Chat with Keynote Speakers | Day 1",
       "published": "2026-11-03T18:34:03+00:00",
       "thumb": "https://i1.ytimg.com/vi/PEnvElZjFCA/hqdefault.jpg",
-      "views": 594,
+      "views": 608,
       "channel": "SANS Institute",
       "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
       "topic": "Forensics & DFIR"
@@ -706,7 +716,7 @@
       "title": "SecTor 2026 | Using Claude or Codex? We Can Hack Your App?",
       "published": "2026-11-03T18:06:32+00:00",
       "thumb": "https://i2.ytimg.com/vi/y_lw2P0393k/hqdefault.jpg",
-      "views": 5381,
+      "views": 5459,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
@@ -716,7 +726,7 @@
       "title": "Snap built a zero-trust architecture with Gemini platform security, enabling 98% autonomous velocity",
       "published": "2026-11-03T14:18:32+00:00",
       "thumb": "https://i2.ytimg.com/vi/5IXad5KqB58/hqdefault.jpg",
-      "views": 184,
+      "views": 194,
       "channel": "Mandiant (Google Cloud)",
       "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
       "topic": "Threat research"
@@ -726,7 +736,7 @@
       "title": "From Blind Spots to Full Visibility: Streamlining Protection with NDR",
       "published": "2026-11-03T08:42:51+00:00",
       "thumb": "https://i2.ytimg.com/vi/9dwV9iM1L5c/hqdefault.jpg",
-      "views": 245,
+      "views": 260,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
@@ -736,7 +746,7 @@
       "title": "Black Hat Europe 2026 | Welcome Video",
       "published": "2026-11-02T21:44:30+00:00",
       "thumb": "https://i2.ytimg.com/vi/1HU_OsgzBQ0/hqdefault.jpg",
-      "views": 2716,
+      "views": 2752,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
@@ -746,7 +756,7 @@
       "title": "Analyze Feed Activity with Cloud Logging",
       "published": "2026-11-02T21:11:14+00:00",
       "thumb": "https://i3.ytimg.com/vi/vfcPpTWR_fQ/hqdefault.jpg",
-      "views": 97,
+      "views": 99,
       "channel": "Mandiant (Google Cloud)",
       "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
       "topic": "Threat research"
@@ -756,7 +766,7 @@
       "title": "Google SecOps: Data Health Hub Overview",
       "published": "2026-11-02T21:05:05+00:00",
       "thumb": "https://i2.ytimg.com/vi/aAEVX9o8LuY/hqdefault.jpg",
-      "views": 210,
+      "views": 215,
       "channel": "Mandiant (Google Cloud)",
       "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
       "topic": "Threat research"
@@ -766,7 +776,7 @@
       "title": "How Jamf secures 30 million Apple devices with Google Cloud Security",
       "published": "2026-11-02T20:55:07+00:00",
       "thumb": "https://i4.ytimg.com/vi/kSHHAtxuhfs/hqdefault.jpg",
-      "views": 92,
+      "views": 94,
       "channel": "Mandiant (Google Cloud)",
       "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
       "topic": "Threat research"
@@ -786,7 +796,7 @@
       "title": "How a zero-click hack broke the \"unhackable\" iPhone 📱",
       "published": "2026-11-02T18:09:07+00:00",
       "thumb": "https://i2.ytimg.com/vi/iuuqKLevlcQ/hqdefault.jpg",
-      "views": 334,
+      "views": 351,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
@@ -796,7 +806,7 @@
       "title": "Takers, Shapers, and Makers | Chris Crowley, SANS Senior Instructor",
       "published": "2026-11-02T16:01:06+00:00",
       "thumb": "https://i4.ytimg.com/vi/gdPQ2K2LYZU/hqdefault.jpg",
-      "views": 238,
+      "views": 241,
       "channel": "SANS Institute",
       "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
       "topic": "Forensics & DFIR"
@@ -806,7 +816,7 @@
       "title": "Critical Infrastructure Security and Resilience Month 2026",
       "published": "2026-11-02T15:00:03+00:00",
       "thumb": "https://i1.ytimg.com/vi/8I-AbGDd7aw/hqdefault.jpg",
-      "views": 1090,
+      "views": 1211,
       "channel": "CISA",
       "channel_id": "UCxyq9roe-npgzrVwbpoAy0A",
       "topic": "News"
@@ -816,7 +826,7 @@
       "title": "this WiFi GPU is wild.....",
       "published": "2026-10-30T23:21:11+00:00",
       "thumb": "https://i3.ytimg.com/vi/F92TIKWBGyg/hqdefault.jpg",
-      "views": 358926,
+      "views": 359985,
       "channel": "NetworkChuck",
       "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
       "topic": "Networking"
@@ -826,7 +836,7 @@
       "title": "local AI's biggest problem... they solved it?",
       "published": "2026-10-30T18:45:36+00:00",
       "thumb": "https://i4.ytimg.com/vi/cFdoXn6yvE4/hqdefault.jpg",
-      "views": 1011667,
+      "views": 1039134,
       "channel": "NetworkChuck",
       "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
       "topic": "Networking"
@@ -836,7 +846,7 @@
       "title": "The Private Key Mistake! (TLS Key set to \"4\") - Computerphile",
       "published": "2026-10-30T15:47:25+00:00",
       "thumb": "https://i3.ytimg.com/vi/NDgS__J1U-M/hqdefault.jpg",
-      "views": 240065,
+      "views": 242001,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -846,7 +856,7 @@
       "title": "What to Do: Bomb Threat",
       "published": "2026-10-30T14:36:50+00:00",
       "thumb": "https://i3.ytimg.com/vi/nkvHmC-LUxA/hqdefault.jpg",
-      "views": 679,
+      "views": 730,
       "channel": "CISA",
       "channel_id": "UCxyq9roe-npgzrVwbpoAy0A",
       "topic": "News"
@@ -856,7 +866,7 @@
       "title": "Beyond Red vs. Blue: Mastering \"Purple Team\" Security with AI",
       "published": "2026-10-28T19:28:54+00:00",
       "thumb": "https://i3.ytimg.com/vi/fvb6rHiOARQ/hqdefault.jpg",
-      "views": 115,
+      "views": 120,
       "channel": "Mandiant (Google Cloud)",
       "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
       "topic": "Threat research"
@@ -876,7 +886,7 @@
       "title": "?PHP Problem? - Computerphile",
       "published": "2026-10-28T16:23:55+00:00",
       "thumb": "https://i4.ytimg.com/vi/cI8IquVEyVY/hqdefault.jpg",
-      "views": 300116,
+      "views": 302058,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -886,7 +896,7 @@
       "title": "RedOctober: The Mystery Crab and Its Cyber Arsenal",
       "published": "2026-10-28T10:27:08+00:00",
       "thumb": "https://i1.ytimg.com/vi/d9t7YvzNyhk/hqdefault.jpg",
-      "views": 432,
+      "views": 440,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
@@ -906,7 +916,7 @@
       "title": "why EVERYONE is copying this",
       "published": "2026-10-27T16:37:54+00:00",
       "thumb": "https://i4.ytimg.com/vi/Ck7wB7pdebQ/hqdefault.jpg",
-      "views": 746215,
+      "views": 754667,
       "channel": "NetworkChuck",
       "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
       "topic": "Networking"
@@ -932,21 +942,11 @@
       "topic": "Threat research"
     },
     {
-      "id": "Y0GwvtQLfV0",
-      "title": "The Future of Security Is About Comprehension, Not Just Detection",
-      "published": "2026-10-27T13:21:00+00:00",
-      "thumb": "https://i2.ytimg.com/vi/Y0GwvtQLfV0/hqdefault.jpg",
-      "views": 58,
-      "channel": "Mandiant (Google Cloud)",
-      "channel_id": "UCexu0DP7VKdDByusuTA53FQ",
-      "topic": "Threat research"
-    },
-    {
       "id": "XhOvl3RGC0w",
       "title": "Password is incorrect. Please try again.",
       "published": "2026-10-26T23:00:06+00:00",
       "thumb": "https://i1.ytimg.com/vi/XhOvl3RGC0w/hqdefault.jpg",
-      "views": 1796,
+      "views": 1800,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -956,7 +956,7 @@
       "title": "Preparing for Disruption",
       "published": "2026-10-26T19:08:08+00:00",
       "thumb": "https://i1.ytimg.com/vi/xAIhEBwcLtc/hqdefault.jpg",
-      "views": 3448,
+      "views": 3469,
       "channel": "CISA",
       "channel_id": "UCxyq9roe-npgzrVwbpoAy0A",
       "topic": "News"
@@ -966,7 +966,7 @@
       "title": "CISA 2030: Defend, Harden, Prevail",
       "published": "2026-10-26T12:55:51+00:00",
       "thumb": "https://i3.ytimg.com/vi/Zbejmg0UGRs/hqdefault.jpg",
-      "views": 1114,
+      "views": 1131,
       "channel": "CISA",
       "channel_id": "UCxyq9roe-npgzrVwbpoAy0A",
       "topic": "News"
@@ -976,7 +976,7 @@
       "title": "Apple Had No Idea This Was Inside 174 Million iPhones",
       "published": "2026-10-24T11:39:36+00:00",
       "thumb": "https://i1.ytimg.com/vi/PBLB1nZ2SZI/hqdefault.jpg",
-      "views": 469373,
+      "views": 469915,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -986,7 +986,7 @@
       "title": "National slap your coworker day hits different when you work in cybersecurity",
       "published": "2026-10-23T23:17:14+00:00",
       "thumb": "https://i3.ytimg.com/vi/67PsYJvkUAM/hqdefault.jpg",
-      "views": 2346,
+      "views": 2347,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -996,7 +996,7 @@
       "title": "Hosts-Only Special | A Patch It Properly Week",
       "published": "2026-10-23T19:00:40+00:00",
       "thumb": "https://i4.ytimg.com/vi/shY3U15Gm8M/hqdefault.jpg",
-      "views": 950,
+      "views": 954,
       "channel": "SANS Institute",
       "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
       "topic": "Forensics & DFIR"
@@ -1006,7 +1006,7 @@
       "title": "Special | A Patch It Properly Week",
       "published": "2026-10-23T17:39:47+00:00",
       "thumb": "https://i4.ytimg.com/vi/KISVscOnTyo/hqdefault.jpg",
-      "views": 577,
+      "views": 579,
       "channel": "SANS Institute",
       "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
       "topic": "Forensics & DFIR"
@@ -1016,7 +1016,7 @@
       "title": "The #1 Danger Isn't Roblox",
       "published": "2026-10-23T15:06:19+00:00",
       "thumb": "https://i2.ytimg.com/vi/ijxeoYzLfRk/hqdefault.jpg",
-      "views": 81359,
+      "views": 81586,
       "channel": "NetworkChuck",
       "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
       "topic": "Networking"
@@ -1026,7 +1026,7 @@
       "title": "A Favor That Became Two Courses | Heather Barnhart, SANS Head of Faculty",
       "published": "2026-10-23T14:00:48+00:00",
       "thumb": "https://i3.ytimg.com/vi/RObyDPTKobM/hqdefault.jpg",
-      "views": 1124,
+      "views": 1125,
       "channel": "SANS Institute",
       "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
       "topic": "Forensics & DFIR"
@@ -1036,7 +1036,7 @@
       "title": "We Tried to Scam Cybersecurity Experts. Here's What Happened.",
       "published": "2026-10-23T11:45:07+00:00",
       "thumb": "https://i4.ytimg.com/vi/o-RMWC4a1hY/hqdefault.jpg",
-      "views": 559,
+      "views": 565,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -1046,7 +1046,7 @@
       "title": "We’re suspicious of your use of AI. Do you actually know how to do this job?",
       "published": "2026-10-22T22:30:35+00:00",
       "thumb": "https://i4.ytimg.com/vi/_IgDDISzFG4/hqdefault.jpg",
-      "views": 2985,
+      "views": 2986,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -1056,7 +1056,7 @@
       "title": "How Image Watermarking Works - Computerphile",
       "published": "2026-10-22T13:00:06+00:00",
       "thumb": "https://i1.ytimg.com/vi/h6j_ixGnpiY/hqdefault.jpg",
-      "views": 161547,
+      "views": 162553,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -1066,7 +1066,7 @@
       "title": "Me at the staff meeting knowing the user who keeps clicking phishing links will blame IT again",
       "published": "2026-10-21T23:00:11+00:00",
       "thumb": "https://i3.ytimg.com/vi/J8lSjtUjszw/hqdefault.jpg",
-      "views": 2772,
+      "views": 2775,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -1076,7 +1076,7 @@
       "title": "CISA Live! How to Build a Career in Cybersecurity",
       "published": "2026-10-21T19:50:56+00:00",
       "thumb": "https://i1.ytimg.com/vi/TwKmY8wu7cQ/hqdefault.jpg",
-      "views": 981,
+      "views": 997,
       "channel": "CISA",
       "channel_id": "UCxyq9roe-npgzrVwbpoAy0A",
       "topic": "News"
@@ -1086,7 +1086,7 @@
       "title": "Emergency Livestream - PHP Vulnerabilities: What You Need to Know Today and Do Right Now",
       "published": "2026-10-21T17:54:05+00:00",
       "thumb": "https://i4.ytimg.com/vi/OrfwyFVkzqY/hqdefault.jpg",
-      "views": 30332,
+      "views": 30347,
       "channel": "SANS Institute",
       "channel_id": "UC2uPNhGken-ogEpJDi4ly6w",
       "topic": "Forensics & DFIR"
@@ -1096,7 +1096,7 @@
       "title": "Black Hat Stories | Island.io",
       "published": "2026-10-21T14:45:28+00:00",
       "thumb": "https://i2.ytimg.com/vi/eO0FZm_xeSo/hqdefault.jpg",
-      "views": 572,
+      "views": 583,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
@@ -1106,7 +1106,7 @@
       "title": "Real or Scam: Can you spot them?",
       "published": "2026-10-20T23:00:30+00:00",
       "thumb": "https://i1.ytimg.com/vi/D1vTV_YhKdQ/hqdefault.jpg",
-      "views": 870,
+      "views": 871,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -1116,7 +1116,7 @@
       "title": "Black Hat Europe 2026 | Hear From Our Sponsors",
       "published": "2026-10-20T19:07:00+00:00",
       "thumb": "https://i2.ytimg.com/vi/Muk6elQ_qcs/hqdefault.jpg",
-      "views": 3365,
+      "views": 3374,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
@@ -1126,7 +1126,7 @@
       "title": "Operation Triangulation: The Most Sophisticated Attack on the (Un)hackable iPhone | Cyber True Crime",
       "published": "2026-10-20T16:00:22+00:00",
       "thumb": "https://i1.ytimg.com/vi/xVFU0F_YwpY/hqdefault.jpg",
-      "views": 987,
+      "views": 1000,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
@@ -1136,7 +1136,7 @@
       "title": "0day Hacks NetworkChuck (OSINT)",
       "published": "2026-10-20T15:42:09+00:00",
       "thumb": "https://i2.ytimg.com/vi/5wZUwZWxMLQ/hqdefault.jpg",
-      "views": 722498,
+      "views": 731267,
       "channel": "NetworkChuck",
       "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
       "topic": "Networking"
@@ -1146,7 +1146,7 @@
       "title": "Black Hat Stories | First Time Exhibitor",
       "published": "2026-10-20T14:00:32+00:00",
       "thumb": "https://i3.ytimg.com/vi/NAPi2gWNZP4/hqdefault.jpg",
-      "views": 395,
+      "views": 397,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
@@ -1156,7 +1156,7 @@
       "title": "The AI Reality. The Human Response. | Black Hat Europe 2026, London",
       "published": "2026-10-19T20:20:19+00:00",
       "thumb": "https://i2.ytimg.com/vi/1PZ8fu1v14Q/hqdefault.jpg",
-      "views": 3585,
+      "views": 3597,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
@@ -1166,7 +1166,7 @@
       "title": "Black Hat Stories | Chris Gaun, VP of Product Marketing at Island.io",
       "published": "2026-10-19T17:04:56+00:00",
       "thumb": "https://i3.ytimg.com/vi/V8Uku6dk5d0/hqdefault.jpg",
-      "views": 717,
+      "views": 721,
       "channel": "Black Hat",
       "channel_id": "UCJ6q9Ie29ajGqKApbLqfBOg",
       "topic": "Conference talks"
@@ -1176,7 +1176,7 @@
       "title": "Cybersecurity Careers Week 2026",
       "published": "2026-10-19T17:03:03+00:00",
       "thumb": "https://i4.ytimg.com/vi/G-hh5nKWWJY/hqdefault.jpg",
-      "views": 486,
+      "views": 490,
       "channel": "CISA",
       "channel_id": "UCxyq9roe-npgzrVwbpoAy0A",
       "topic": "News"
@@ -1186,7 +1186,7 @@
       "title": "Building Resilience to Cyber Threats Driven by Evolving Technology Fireside Chat",
       "published": "2026-10-19T13:00:41+00:00",
       "thumb": "https://i2.ytimg.com/vi/AzGPyq8P_04/hqdefault.jpg",
-      "views": 906,
+      "views": 929,
       "channel": "CISA",
       "channel_id": "UCxyq9roe-npgzrVwbpoAy0A",
       "topic": "News"
@@ -1196,7 +1196,7 @@
       "title": "Level Up Your Defenses for Cybersecurity Awareness Month 2026",
       "published": "2026-10-17T15:01:17+00:00",
       "thumb": "https://i1.ytimg.com/vi/lVnCBsCl73Y/hqdefault.jpg",
-      "views": 435,
+      "views": 437,
       "channel": "CISA",
       "channel_id": "UCxyq9roe-npgzrVwbpoAy0A",
       "topic": "News"
@@ -1206,7 +1206,7 @@
       "title": "Flushing the toilet kills our network!",
       "published": "2026-10-17T13:31:56+00:00",
       "thumb": "https://i3.ytimg.com/vi/jdoaBSOTiK4/hqdefault.jpg",
-      "views": 60032,
+      "views": 60266,
       "channel": "NetworkChuck",
       "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
       "topic": "Networking"
@@ -1226,7 +1226,7 @@
       "title": "Multiplayer Gaming & Flight Simulation - Computerphile",
       "published": "2026-10-15T13:30:19+00:00",
       "thumb": "https://i4.ytimg.com/vi/WqrwAFs-fq0/hqdefault.jpg",
-      "views": 130976,
+      "views": 131184,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -1236,7 +1236,7 @@
       "title": "Key Ways to Stay Secure Online: Cybersecurity Awareness Month 2026",
       "published": "2026-10-14T20:22:10+00:00",
       "thumb": "https://i3.ytimg.com/vi/BLXWyRhzlQs/hqdefault.jpg",
-      "views": 1254,
+      "views": 1277,
       "channel": "CISA",
       "channel_id": "UCxyq9roe-npgzrVwbpoAy0A",
       "topic": "News"
@@ -1246,7 +1246,7 @@
       "title": "IT troubleshooting the outage they caused",
       "published": "2026-10-13T23:00:28+00:00",
       "thumb": "https://i2.ytimg.com/vi/eV-lz01llG4/hqdefault.jpg",
-      "views": 811,
+      "views": 822,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -1256,7 +1256,7 @@
       "title": "4 Core Steps for Cybersecurity Awareness Month 2026",
       "published": "2026-10-13T14:00:15+00:00",
       "thumb": "https://i1.ytimg.com/vi/PbDo9RvgPc4/hqdefault.jpg",
-      "views": 418,
+      "views": 420,
       "channel": "CISA",
       "channel_id": "UCxyq9roe-npgzrVwbpoAy0A",
       "topic": "News"
@@ -1266,7 +1266,7 @@
       "title": "You can monitor EVERYTHING in your homelab with this",
       "published": "2026-10-12T14:19:35+00:00",
       "thumb": "https://i3.ytimg.com/vi/Bjifz55TTPI/hqdefault.jpg",
-      "views": 506410,
+      "views": 508034,
       "channel": "NetworkChuck",
       "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
       "topic": "Networking"
@@ -1276,7 +1276,7 @@
       "title": "When you think your manager is calling you in for a promotion, but it’s actually bc you clicked￼",
       "published": "2026-10-09T23:00:03+00:00",
       "thumb": "https://i3.ytimg.com/vi/672GzzJhS7c/hqdefault.jpg",
-      "views": 2432,
+      "views": 2433,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -1286,7 +1286,7 @@
       "title": "I turned my house into a VIDEO GAME!",
       "published": "2026-10-08T14:00:34+00:00",
       "thumb": "https://i4.ytimg.com/vi/CgG3dtH5IMM/hqdefault.jpg",
-      "views": 153982,
+      "views": 154369,
       "channel": "NetworkChuck",
       "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
       "topic": "Networking"
@@ -1296,7 +1296,7 @@
       "title": "Race Conditions on a Human Scale - Computerphile",
       "published": "2026-10-08T13:00:25+00:00",
       "thumb": "https://i4.ytimg.com/vi/W0jPTqIo5oE/hqdefault.jpg",
-      "views": 124416,
+      "views": 124542,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -1306,7 +1306,7 @@
       "title": "I Got Promoted at Microsoft... Then I Quit",
       "published": "2026-10-06T13:16:37+00:00",
       "thumb": "https://i4.ytimg.com/vi/OnavGwRIAtw/hqdefault.jpg",
-      "views": 17481,
+      "views": 17499,
       "channel": "13Cubed",
       "channel_id": "UCy8ntxFEudOCRZYT1f7ya9Q",
       "topic": "Forensics & DFIR"
@@ -1316,7 +1316,7 @@
       "title": "The global scam crisis: Cybersecurity experts explain how scams are evolving",
       "published": "2026-10-06T10:46:37+00:00",
       "thumb": "https://i3.ytimg.com/vi/6Rkk8S6Ceds/hqdefault.jpg",
-      "views": 1396,
+      "views": 1421,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -1326,7 +1326,7 @@
       "title": "your house needs TWO networks (here's why)",
       "published": "2026-10-05T19:10:52+00:00",
       "thumb": "https://i3.ytimg.com/vi/nuhh_KfCz9M/hqdefault.jpg",
-      "views": 643829,
+      "views": 648847,
       "channel": "NetworkChuck",
       "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
       "topic": "Networking"
@@ -1346,7 +1346,7 @@
       "title": "It's the last day to update your password before it expires but you've already used every password",
       "published": "2026-10-02T23:00:01+00:00",
       "thumb": "https://i2.ytimg.com/vi/ixplnOXhCZw/hqdefault.jpg",
-      "views": 378,
+      "views": 380,
       "channel": "Malwarebytes",
       "channel_id": "UCRAxwkquV9-2NK5bmS_IHAQ",
       "topic": "Threat research"
@@ -1356,7 +1356,7 @@
       "title": "TOP3 Metric. Results that speak for themselves",
       "published": "2026-10-02T08:34:51+00:00",
       "thumb": "https://i3.ytimg.com/vi/FYtQBgLfYD0/hqdefault.jpg",
-      "views": 2094,
+      "views": 2132,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
@@ -1366,7 +1366,7 @@
       "title": "Implementing Undo - Computerphile",
       "published": "2026-09-30T13:00:36+00:00",
       "thumb": "https://i4.ytimg.com/vi/S6PqsZ65Mg4/hqdefault.jpg",
-      "views": 211752,
+      "views": 211921,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -1376,7 +1376,7 @@
       "title": "openAI is coming for grok and Jev",
       "published": "2026-09-29T20:25:13+00:00",
       "thumb": "https://i2.ytimg.com/vi/5pXMOUB_y0c/hqdefault.jpg",
-      "views": 247355,
+      "views": 247450,
       "channel": "NetworkChuck",
       "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
       "topic": "Networking"
@@ -1396,7 +1396,7 @@
       "title": "What the Labs Kept Secret: The German Wiki & RubyGems Hacks - Computerphile",
       "published": "2026-09-23T13:00:20+00:00",
       "thumb": "https://i4.ytimg.com/vi/giTmBaNGaHw/hqdefault.jpg",
-      "views": 199894,
+      "views": 199989,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -1406,7 +1406,7 @@
       "title": "The AI Language We Can't Read: Neuralese ft. Rob Miles - Computerphile",
       "published": "2026-09-10T12:56:17+00:00",
       "thumb": "https://i2.ytimg.com/vi/iuHddnIzKRA/hqdefault.jpg",
-      "views": 622903,
+      "views": 623129,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -1416,7 +1416,7 @@
       "title": "How Watermarks Track AI Generated Content - Computerphile",
       "published": "2026-09-03T13:30:04+00:00",
       "thumb": "https://i4.ytimg.com/vi/kVXp6UNVPTo/hqdefault.jpg",
-      "views": 527219,
+      "views": 527748,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -1426,7 +1426,7 @@
       "title": "Windows Forensics on a Mac?! You Have to See This!",
       "published": "2026-09-02T12:35:41+00:00",
       "thumb": "https://i4.ytimg.com/vi/W9xHbNgZuT0/hqdefault.jpg",
-      "views": 8244,
+      "views": 8268,
       "channel": "13Cubed",
       "channel_id": "UCy8ntxFEudOCRZYT1f7ya9Q",
       "topic": "Forensics & DFIR"
@@ -1436,7 +1436,7 @@
       "title": "Keep the Rebel Spirit Alive #TheSAS2026 #kaspersky #cybersecurity",
       "published": "2026-08-31T09:20:14+00:00",
       "thumb": "https://i2.ytimg.com/vi/ICrmk0ZLMSk/hqdefault.jpg",
-      "views": 435,
+      "views": 444,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
@@ -1446,7 +1446,7 @@
       "title": "Why CPU Time ≠ Wall Clock Time! - Computerphile",
       "published": "2026-08-27T13:00:19+00:00",
       "thumb": "https://i1.ytimg.com/vi/xs5iOwkX9fU/hqdefault.jpg",
-      "views": 154927,
+      "views": 155018,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -1456,7 +1456,7 @@
       "title": "Want to Get Into Threat Hunting? Start Here!",
       "published": "2026-08-26T17:14:52+00:00",
       "thumb": "https://i3.ytimg.com/vi/B_iHFonaOHg/hqdefault.jpg",
-      "views": 1154,
+      "views": 1157,
       "channel": "13Cubed",
       "channel_id": "UCy8ntxFEudOCRZYT1f7ya9Q",
       "topic": "Forensics & DFIR"
@@ -1466,7 +1466,7 @@
       "title": "Kaspersky’s Sustainability report 2024-2025: helping people grow",
       "published": "2026-08-24T08:37:39+00:00",
       "thumb": "https://i4.ytimg.com/vi/gXiRMSYCdg0/hqdefault.jpg",
-      "views": 367,
+      "views": 368,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
@@ -1476,7 +1476,7 @@
       "title": "Kaspersky’s Sustainability report 2024-2025: growing together",
       "published": "2026-08-24T08:36:45+00:00",
       "thumb": "https://i2.ytimg.com/vi/5L7AVBYrwzU/hqdefault.jpg",
-      "views": 301,
+      "views": 302,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
@@ -1486,7 +1486,7 @@
       "title": "Kaspersky’s Sustainability report 2024-2025: employee insight",
       "published": "2026-08-24T08:35:45+00:00",
       "thumb": "https://i4.ytimg.com/vi/cdCWoTEvaLw/hqdefault.jpg",
-      "views": 434,
+      "views": 435,
       "channel": "Kaspersky",
       "channel_id": "UCGhEv7BFBWdo0k4UXTm2eZg",
       "topic": "Threat research"
@@ -1496,7 +1496,7 @@
       "title": "Quantum Simulation & Nature - Computerphile",
       "published": "2026-08-17T15:18:03+00:00",
       "thumb": "https://i1.ytimg.com/vi/pg7fntKLNak/hqdefault.jpg",
-      "views": 26398,
+      "views": 26413,
       "channel": "Computerphile",
       "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
       "topic": "Computing"
@@ -1506,7 +1506,7 @@
       "title": "The Threat Hunting Course I Wish I Had",
       "published": "2026-08-10T11:52:36+00:00",
       "thumb": "https://i4.ytimg.com/vi/cFxwYz5TOk0/hqdefault.jpg",
-      "views": 3682,
+      "views": 3695,
       "channel": "13Cubed",
       "channel_id": "UCy8ntxFEudOCRZYT1f7ya9Q",
       "topic": "Forensics & DFIR"
@@ -1516,7 +1516,7 @@
       "title": "How to pass the CCNA exam (advice from two Cisco instructors)",
       "published": "2026-07-24T14:00:16+00:00",
       "thumb": "https://i4.ytimg.com/vi/7w_SDn0IEjA/hqdefault.jpg",
-      "views": 133377,
+      "views": 133664,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1526,7 +1526,7 @@
       "title": "Automate Volatility 3 Memory Analysis with This Tool",
       "published": "2026-07-20T12:18:45+00:00",
       "thumb": "https://i1.ytimg.com/vi/0GMTydimOP4/hqdefault.jpg",
-      "views": 3887,
+      "views": 3896,
       "channel": "13Cubed",
       "channel_id": "UCy8ntxFEudOCRZYT1f7ya9Q",
       "topic": "Forensics & DFIR"
@@ -1536,7 +1536,7 @@
       "title": "Inside the Cisco Live 2026 NOC (exclusive tour)",
       "published": "2026-07-10T14:00:37+00:00",
       "thumb": "https://i2.ytimg.com/vi/YyeEXwIF78Y/hqdefault.jpg",
-      "views": 54564,
+      "views": 54592,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1546,7 +1546,7 @@
       "title": "CCNA 2.0 performance labs: How to pass the new hands-on questions",
       "published": "2026-06-28T16:00:35+00:00",
       "thumb": "https://i1.ytimg.com/vi/Xw02nLyW-q4/hqdefault.jpg",
-      "views": 140841,
+      "views": 140968,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1556,7 +1556,7 @@
       "title": "How to run an AI agent INSIDE your network CLI for 2026",
       "published": "2026-06-26T16:00:28+00:00",
       "thumb": "https://i4.ytimg.com/vi/shGjxZKKa6o/hqdefault.jpg",
-      "views": 49115,
+      "views": 49141,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1566,7 +1566,7 @@
       "title": "How the USN Journal Really Works",
       "published": "2026-06-15T12:01:39+00:00",
       "thumb": "https://i2.ytimg.com/vi/eSLHyqZlglk/hqdefault.jpg",
-      "views": 2704,
+      "views": 2713,
       "channel": "13Cubed",
       "channel_id": "UCy8ntxFEudOCRZYT1f7ya9Q",
       "topic": "Forensics & DFIR"
@@ -1576,7 +1576,7 @@
       "title": "AES Explained: How Encryption Protects Your Data",
       "published": "2026-06-10T14:00:07+00:00",
       "thumb": "https://i4.ytimg.com/vi/wxUuMvizZzs/hqdefault.jpg",
-      "views": 125915,
+      "views": 125922,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1596,7 +1596,7 @@
       "title": "Raspberry Pi 5 Kali Linux install in 10 minutes (with WiFi hacking)",
       "published": "2026-05-29T15:00:09+00:00",
       "thumb": "https://i1.ytimg.com/vi/8Slbc9r53d8/hqdefault.jpg",
-      "views": 174941,
+      "views": 174993,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1606,7 +1606,7 @@
       "title": "Stuxnet’s Older Brother Revealed After 21 Years",
       "published": "2026-05-12T12:42:54+00:00",
       "thumb": "https://i2.ytimg.com/vi/1NoocEuep2s/hqdefault.jpg",
-      "views": 70255,
+      "views": 70263,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1616,7 +1616,7 @@
       "title": "Did Cisco change the future of Quantum Computing",
       "published": "2026-05-10T14:30:32+00:00",
       "thumb": "https://i3.ytimg.com/vi/VU3blzdmEXc/hqdefault.jpg",
-      "views": 190682,
+      "views": 190683,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1626,7 +1626,7 @@
       "title": "Hunting Copy Fail: 732 Bytes to Root",
       "published": "2026-05-01T23:49:06+00:00",
       "thumb": "https://i3.ytimg.com/vi/ZVmpK-9rP0Q/hqdefault.jpg",
-      "views": 5986,
+      "views": 5988,
       "channel": "13Cubed",
       "channel_id": "UCy8ntxFEudOCRZYT1f7ya9Q",
       "topic": "Forensics & DFIR"
@@ -1636,7 +1636,7 @@
       "title": "$600 Million Warship VS $5 Tracker",
       "published": "2026-04-27T18:09:47+00:00",
       "thumb": "https://i4.ytimg.com/vi/WHbfbfI6F_M/hqdefault.jpg",
-      "views": 190440,
+      "views": 190443,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1646,7 +1646,7 @@
       "title": "The AI Conversation I've Been Avoiding",
       "published": "2026-04-21T11:48:57+00:00",
       "thumb": "https://i4.ytimg.com/vi/wKn-9sKBqX8/hqdefault.jpg",
-      "views": 11458,
+      "views": 11511,
       "channel": "13Cubed",
       "channel_id": "UCy8ntxFEudOCRZYT1f7ya9Q",
       "topic": "Forensics & DFIR"
@@ -1656,7 +1656,7 @@
       "title": "The Dirty Trick Feds Use To Read Deleted Messages",
       "published": "2026-04-18T10:17:34+00:00",
       "thumb": "https://i3.ytimg.com/vi/fa9HLNUgZdM/hqdefault.jpg",
-      "views": 69302,
+      "views": 69313,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1666,7 +1666,7 @@
       "title": "iPhone Hacking Just Got Scary Easy",
       "published": "2026-04-01T16:04:56+00:00",
       "thumb": "https://i3.ytimg.com/vi/R0GB59nBKHs/hqdefault.jpg",
-      "views": 174823,
+      "views": 174935,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1676,7 +1676,7 @@
       "title": "Iran Just Hacked The FBI Director: Everything We Know",
       "published": "2026-03-28T00:25:17+00:00",
       "thumb": "https://i2.ytimg.com/vi/AlM0vylK_r8/hqdefault.jpg",
-      "views": 76771,
+      "views": 76772,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1686,7 +1686,7 @@
       "title": "How Secure Is Your Linux Server? Test It with This Free Audit Tool",
       "published": "2026-03-27T15:00:23+00:00",
       "thumb": "https://i1.ytimg.com/vi/XeCK4CWyGZk/hqdefault.jpg",
-      "views": 370461,
+      "views": 370465,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1696,7 +1696,7 @@
       "title": "Claude AI for CCNA: How to Automate Your Studies",
       "published": "2026-03-23T14:30:04+00:00",
       "thumb": "https://i1.ytimg.com/vi/4S_pKcKQfWc/hqdefault.jpg",
-      "views": 428031,
+      "views": 428279,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1706,7 +1706,7 @@
       "title": "Raspberry Pi Website Monitor",
       "published": "2026-03-22T15:30:02+00:00",
       "thumb": "https://i2.ytimg.com/vi/16wLv9YpdN4/hqdefault.jpg",
-      "views": 348646,
+      "views": 348653,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1716,7 +1716,7 @@
       "title": "Every Insane Hack in the 2026 Iran War (So Far)",
       "published": "2026-03-22T12:20:31+00:00",
       "thumb": "https://i2.ytimg.com/vi/uNw6XzFhQ8w/hqdefault.jpg",
-      "views": 108919,
+      "views": 108950,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1726,7 +1726,7 @@
       "title": "Mac Imaging Made Easy with Fuji",
       "published": "2026-03-18T13:35:03+00:00",
       "thumb": "https://i2.ytimg.com/vi/9ZkLdFodhzM/hqdefault.jpg",
-      "views": 5723,
+      "views": 5738,
       "channel": "13Cubed",
       "channel_id": "UCy8ntxFEudOCRZYT1f7ya9Q",
       "topic": "Forensics & DFIR"
@@ -1736,7 +1736,7 @@
       "title": "Tracking Program Execution with a Little Known Registry Key",
       "published": "2026-02-17T13:27:57+00:00",
       "thumb": "https://i2.ytimg.com/vi/yoFkF-NHZvo/hqdefault.jpg",
-      "views": 3102,
+      "views": 3107,
       "channel": "13Cubed",
       "channel_id": "UCy8ntxFEudOCRZYT1f7ya9Q",
       "topic": "Forensics & DFIR"
@@ -1746,7 +1746,7 @@
       "title": "What is My IP Address? Windows Linux Mac Network Commands Guide",
       "published": "2026-02-06T14:30:06+00:00",
       "thumb": "https://i1.ytimg.com/vi/8B7cYqAzMDw/hqdefault.jpg",
-      "views": 282047,
+      "views": 282061,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1756,7 +1756,7 @@
       "title": "NEW Lawsuit Could Destroy WhatsApp",
       "published": "2026-01-28T16:31:27+00:00",
       "thumb": "https://i2.ytimg.com/vi/mBCQTqgwJxw/hqdefault.jpg",
-      "views": 83688,
+      "views": 83690,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1766,7 +1766,7 @@
       "title": "NEW Bluetooth Headphone Hack is Real and Bad",
       "published": "2026-01-16T22:08:01+00:00",
       "thumb": "https://i2.ytimg.com/vi/Ux07J-wS2VA/hqdefault.jpg",
-      "views": 356620,
+      "views": 356651,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1786,7 +1786,7 @@
       "title": "200 Million User Records... Breached",
       "published": "2025-12-16T19:15:52+00:00",
       "thumb": "https://i1.ytimg.com/vi/TX_FqZ2ZlC8/hqdefault.jpg",
-      "views": 372620,
+      "views": 372625,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1796,7 +1796,7 @@
       "title": "Prisoner Hacks ENTIRE Prison System, Immediately Watches P...",
       "published": "2025-12-08T20:39:30+00:00",
       "thumb": "https://i2.ytimg.com/vi/-xCp7nag3GM/hqdefault.jpg",
-      "views": 117954,
+      "views": 117982,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1806,7 +1806,7 @@
       "title": "Fake Instagram hacking tool leading to scams and malware",
       "published": "2020-08-10T14:31:10+00:00",
       "thumb": "https://i2.ytimg.com/vi/m32gQlmeZIo/hqdefault.jpg",
-      "views": 2909,
+      "views": 2910,
       "channel": "BleepingComputer",
       "channel_id": "UCTU0ZJQ8Lqslww0R9Xk0sJg",
       "topic": "News"
@@ -1856,7 +1856,7 @@
       "title": "FreeRDP remote code execution attack via RDP connection",
       "published": "2019-02-05T14:14:00+00:00",
       "thumb": "https://i3.ytimg.com/vi/Z4Z3BP9gCeI/hqdefault.jpg",
-      "views": 12404,
+      "views": 12405,
       "channel": "BleepingComputer",
       "channel_id": "UCTU0ZJQ8Lqslww0R9Xk0sJg",
       "topic": "News"
@@ -1927,14 +1927,13 @@
       "channel": "The Hacker News",
       "ok": false,
       "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "ValueError: feed has no videos"
     },
     {
       "channel": "BleepingComputer",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "BleepingComputer"
     },
     {
       "channel": "Cisco Talos",
@@ -1944,107 +1943,93 @@
     },
     {
       "channel": "CrowdStrike",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "CrowdStrike"
     },
     {
       "channel": "Mandiant (Google Cloud)",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "Mandiant & Google Cloud Security"
     },
     {
       "channel": "Malwarebytes",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "Malwarebytes"
     },
     {
       "channel": "ESET",
       "ok": false,
       "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "ValueError: feed belongs to 'kulishnik22', not 'ESET' (rejected)"
     },
     {
       "channel": "Kaspersky",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "Kaspersky"
     },
     {
       "channel": "CISA",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "CISA"
     },
     {
       "channel": "SANS Institute",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "SANS Institute"
     },
     {
       "channel": "Security Weekly",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "Security Weekly - A CRA Resource"
     },
     {
       "channel": "Black Hat",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "Black Hat"
     },
     {
       "channel": "DEFCONConference",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "DEFCONConference"
     },
     {
       "channel": "13Cubed",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "13Cubed"
     },
     {
       "channel": "John Hammond",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "John Hammond"
     },
     {
       "channel": "NetworkChuck",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "NetworkChuck"
     },
     {
       "channel": "David Bombal",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "David Bombal Tech"
     },
     {
       "channel": "Seytonic",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "Seytonic"
     },
     {
       "channel": "The PC Security Channel",
@@ -2054,10 +2039,9 @@
     },
     {
       "channel": "Computerphile",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "Computerphile"
     }
   ]
 }
