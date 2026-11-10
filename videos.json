@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T00:07:35.487584+00:00",
+  "generated_at": "2026-11-10T07:06:58.904561+00:00",
   "items": [
     {
       "id": "c0PdeJuqcWg",
@@ -2043,7 +2043,7 @@
       "channel": "Seytonic",
       "ok": false,
       "count": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "error": "HTTPError: HTTP Error 404: Not Found",
       "stale": true
     },
     {
