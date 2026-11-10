@@ -1,6 +1,467 @@
 {
-  "generated_at": "2026-11-09T16:02:49.244834+00:00",
+  "generated_at": "2026-11-10T00:04:38.444891+00:00",
   "items": [
+    {
+      "title": "Anthropic's super bug-finding Mythos model is going into Cisco and IBM products",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/10/anthropics-super-bug-finding-mythos-model-is-going-into-cisco-and-ibm-products/5308616",
+      "summary": "Enterprise security tools will offer its capabilities without handing customers the model itself",
+      "published": "2026-11-10T00:00:20+00:00",
+      "image": "https://image.theregister.com/?imageId=245983&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+      "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed",
+      "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
+      "published": "2026-11-09T23:52:12+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "ransomware"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 5,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "France blames Iran for supermarket hack meltdowns",
+      "link": "https://www.theregister.com/security/2026/11/09/france-blames-iran-for-supermarket-hack-meltdowns/5308591",
+      "summary": "The 'first cyber offensive campaign carried out purely for the purpose of sabotage on national territory'",
+      "published": "2026-11-09T22:45:21+00:00",
+      "image": "https://image.theregister.com/?imageId=258036&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+      "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses",
+      "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
+      "published": "2026-11-09T22:09:33+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "data breach"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents",
+      "summary": "New questionnaire captures critical data and information that improves the agency’s ability to assess incidents, identify trends and prioritize response actions.",
+      "published": "2026-11-09T21:38:20+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
+      "category": "News",
+      "tags": [
+        "nation-state"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+      "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published",
+      "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]",
+      "published": "2026-11-09T21:26:25+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "York University breach exposed personal information dating to 2007",
+      "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007",
+      "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
+      "published": "2026-11-09T21:22:31+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "data breach"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
+      "link": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
+      "summary": "Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.",
+      "published": "2026-11-09T21:12:24+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8b872cbcbcd2dcf7/6af22bc90de73971ce9d3cd2/pink_paint-Olga_Yastremska-GettyImages-2289198696.jpg?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Data breach at hearing aid giant Amplifon impacts thousands",
+      "link": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+      "summary": "The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.",
+      "published": "2026-11-09T20:44:00+00:00",
+      "image": null,
+      "source": "The Record",
+      "source_id": "therecord",
+      "category": "News",
+      "tags": [
+        "data breach"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Black Hat India 2026 Makes a Landmark Debut in Bengaluru, Bringing the Global Cybersecurity Community to India",
+      "link": "https://www.darkreading.com/cybersecurity-operations/black-hat-india-2026-landmark-debut",
+      "summary": "Inaugural edition by Informa Markets in India brings together leading researchers, security practitioners and industry decision makers for four days of cutting-edge research, technical exchange and strategic dialogue.",
+      "published": "2026-11-09T20:19:56+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust",
+      "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three patterns of misplaced trust in unsafe code and what they reveal a",
+      "published": "2026-11-09T20:17:31+00:00",
+      "image": null,
+      "source": "Microsoft Security Blog",
+      "source_id": "msrc",
+      "category": "Vendor",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Attackers backdoor trusted AWS integrations to steal secrets",
+      "link": "https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553",
+      "summary": "Wiz researchers uncovered the secret-stealing supply-chain attack",
+      "published": "2026-11-09T19:59:50+00:00",
+      "image": "https://image.theregister.com/?imageId=1681829&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [
+        "malware",
+        "cloud"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 5,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "France Blames Iran for the Supermarket Fridge Attacks",
+      "link": "https://securityaffairs.com/202742/hacking/france-blames-iran-for-the-supermarket-fridge-attacks.html",
+      "summary": "France blames Iran for supermarket fridge attacks. What’s known, what remains unclear, and how to secure exposed controllers. French Foreign Minister Jean-Noël Barrot said Iran’s Revolutionary Guard Corps was behind the attacks on supermarket fridges in France on 11 and 12 October. He said they hit 700 sites and raised",
+      "published": "2026-11-09T19:12:43+00:00",
+      "image": null,
+      "source": "Security Affairs",
+      "source_id": "securityaffairs",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "France blames Iran for fridge cyberattacks, says some caused fires",
+      "link": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+      "summary": "In the first attribution since the October attacks, the French authorities identified the perpetrators as part of Shahid Kaveh, an IRGC cyber unit previously linked to attacks on industrial controllers at U.S. water utilities.",
+      "published": "2026-11-09T18:45:00+00:00",
+      "image": null,
+      "source": "The Record",
+      "source_id": "therecord",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+      "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires",
+      "summary": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires. [...]",
+      "published": "2026-11-09T18:32:42+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Vanderbilt cybersecurity incident impacting campus devices and systems",
+      "link": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+      "summary": "Vanderbilt University announced a cyberattack, warning students and employees that campus devices and systems may be impacted by the incident.",
+      "published": "2026-11-09T18:30:00+00:00",
+      "image": null,
+      "source": "The Record",
+      "source_id": "therecord",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)",
+      "link": "https://isc.sans.edu/diary/rss/33502",
+      "summary": "Just saw a new (to me) URL in our honeypot data today:",
+      "published": "2026-11-09T18:18:15+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
+      "link": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
+      "summary": "Attackers can exploit a flaw in Claude's document-processing tool by creating a temporary file that Anthropic's AI assistant can access and run on a user's machine.",
+      "published": "2026-11-09T18:08:30+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt51641f3329337b62/6af209f8c974042ad49c3fce/office-Portra-GettyImages-1691188392_REVISED_FOR_16_BY_9.jpg?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credent",
+      "published": "2026-11-09T17:51:21+00:00",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj3p_1P-Ko_l_HuUr2Doq9kJOQa3Y5dCrkiVWqjJXzvQfYgKvgJXyvdBqLH2hp7s_ZY2kk-hhaCQhjf_v9SdjSbNpaDV2Eohk6-NEFUZp_ROjMJf_Q1xUSKcrqNj-Dd5ZrfjV6uP1blo579IaZ6hgHxOFAUhyJVgdGop-KVIWCjWQIYOKku3iN1N1EIUk/s1600/aws-hacked.jpg",
+      "source": "The Hacker News",
+      "source_id": "thehackernews",
+      "category": "News",
+      "tags": [
+        "vulnerability",
+        "data breach",
+        "cloud"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack",
+      "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
+      "published": "2026-11-09T17:50:32+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "malware"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 5,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+      "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+      "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the s",
+      "published": "2026-11-09T17:36:28+00:00",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4ZFiesBwDTk8fRRfKfNIw0lLkhqF6ZAExRxuuRtfRCWrxs6Rg7M5UdSIcJqH2zstViFreL30JMmdebYTlMOKvg4D6GvaS70XPdembzyIZoX2KBj_S3kxKWmBjJll4exWUYXrap9IDW_ugXHOux5jZXk44_v5xac1mxFouywezDcsGeMdLrGd1sJStMoo/s1600/bees.jpg",
+      "source": "The Hacker News",
+      "source_id": "thehackernews",
+      "category": "News",
+      "tags": [
+        "malware"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 5,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Researchers pwn automakers’ Android apps to remotely unlock cars, honk horns",
+      "link": "https://www.theregister.com/security/2026/11/09/researchers-pwn-automakers-android-apps-to-remotely-unlock-cars-honk-horns/5308483",
+      "summary": "Pair of researchers chain WAF bypasses and default logins to command vehicles in Australia and the US",
+      "published": "2026-11-09T17:31:00+00:00",
+      "image": "https://image.theregister.com/?imageId=5306530&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "PwC's CISO on AI, Robots & What's Next for Security",
+      "link": "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security",
+      "summary": "As AI accelerates change across the enterprise, PwC's James Shira explains why security teams must rethink their approach to risk and adapt their strategies.",
+      "published": "2026-11-09T17:17:23+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6ace2e1a111df3c2/6aee5059d31a318d0d477246/robots1800_kevin_winters_GettyImages-512935278.jpg?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
+      "category": "News",
+      "tags": [
+        "nation-state"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Binance denies data breach after alleged ShinyHunters claims",
+      "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims",
+      "summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+      "published": "2026-11-09T16:12:39+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "data breach"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems",
+      "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
+      "published": "2026-11-09T16:04:57+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "vulnerability",
+        "data breach"
+      ],
+      "cves": [
+        "CVE-2026-123158"
+      ],
+      "cluster_id": 0,
+      "severity_score": 50,
+      "severity_bucket": "high",
+      "kev": true,
+      "cvss": null
+    },
     {
       "title": "NIST: Solo Shouldn't Mean Less Secure",
       "link": "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure",
@@ -241,23 +702,6 @@
       "cvss": null
     },
     {
-      "title": "Pro-Russian hackers target European officials, offer rewards for personal information",
-      "link": "https://therecord.media/hackers-russia-italy-noname",
-      "summary": "Pro-Russian hackers published the personal information of Italian Foreign Minister Antonio Tajani and other senior European officials on the dark web, offering cryptocurrency rewards for additional details about them and their families.",
-      "published": "2026-11-09T13:15:00+00:00",
-      "image": null,
-      "source": "The Record",
-      "source_id": "therecord",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Plex2Shell Exploited Against QNAP NAS Users",
       "link": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users",
       "summary": "Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices. The post Plex2Shell Exploited Against QNAP NAS Users appeared first on SecurityWeek .",
@@ -403,6 +847,29 @@
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102895 GPUStack Improper Authentication Vulnerability CVE-2026-116779 SignalWire FreeSwitch Code Injection Vulnerability CVE-2026-123158 OpenBSD OpenSSH Unexpected Status Cod",
+      "published": "2026-11-09T12:00:00+00:00",
+      "image": null,
+      "source": "CISA Advisories",
+      "source_id": "cisa",
+      "category": "Advisory",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [
+        "CVE-2026-102895",
+        "CVE-2026-116779",
+        "CVE-2026-123158"
+      ],
+      "cluster_id": 0,
+      "severity_score": 50,
+      "severity_bucket": "high",
+      "kev": true,
       "cvss": null
     },
     {
@@ -696,6 +1163,23 @@
       "cvss": null
     },
     {
+      "title": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
+      "link": "https://isc.sans.edu/diary/rss/33500",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-11-09T02:05:10+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
       "title": "Don’t Hand Propaganda a Gift: Reading the Brenner Base Tunnel SE Breach Calmly",
       "link": "https://securityaffairs.com/202691/cyber-crime/dont-hand-propaganda-a-gift-reading-the-brenner-base-tunnel-se-breach-calmly.html",
       "summary": "Brenner Base Tunnel SE confirms a breach and Everest claims 812 GB. What we know, what we don’t, and why overblown alarm helps propaganda more than the attackers. Brenner Base Tunnel (BBT) SE, the company building the Brenner Base Tunnel between Italy and Austria, has confirmed that unauthorized people accessed some of",
@@ -712,6 +1196,27 @@
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+      "link": "https://isc.sans.edu/diary/rss/33498",
+      "summary": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly",
+      "published": "2026-11-08T15:44:33+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [
+        "CVE-2026-123158"
+      ],
+      "cluster_id": 0,
+      "severity_score": 50,
+      "severity_bucket": "high",
+      "kev": true,
       "cvss": null
     },
     {
@@ -815,25 +1320,6 @@
       "category": "News",
       "tags": [
         "vulnerability"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Inside ARTEX: AI Hacking Tools, Exposed Servers and South Korean Bank Breaches",
-      "link": "https://securityaffairs.com/202607/ai/inside-artex-ai-hacking-tools-exposed-servers-and-south-korean-bank-breaches.html",
-      "summary": "Hunt.io traced ARTEX servers and AI-powered hacking tools used in breaches affecting seven South Korean financial institutions. Between late September and early October 2026, seven South Korean financial institutions had data breached through internet-facing systems. About 66,000 to 67,000 people and around 2,200 corpo",
-      "published": "2026-11-07T19:56:18+00:00",
-      "image": null,
-      "source": "Security Affairs",
-      "source_id": "securityaffairs",
-      "category": "News",
-      "tags": [
-        "data breach"
       ],
       "cves": [],
       "cluster_id": null,
@@ -953,44 +1439,6 @@
       "cvss": null
     },
     {
-      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks",
-      "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
-      "published": "2026-11-07T00:00:55+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-      "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox",
-      "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
-      "published": "2026-11-06T22:27:25+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "data breach"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Friday Squid Blogging: New Jurassic Squid Predecessors",
       "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html",
       "summary": "News story: “ Scientists discover a bizarre Jurassic ‘squid’ unlike anything ever seen .” Scientists have identified the “fattest” belemnite ever discovered, a bizarre, barrel-shaped squid relative that lived in Wyoming’s ancient seas 160 million years ago. The exceptionally rare fossils reveal a creature unlike anythi",
@@ -1059,81 +1507,6 @@
       "cvss": null
     },
     {
-      "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-      "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs",
-      "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
-      "published": "2026-11-06T20:24:19+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "vulnerability",
-        "cloud"
-      ],
-      "cves": [],
-      "cluster_id": 1,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Medical services company settles with 4 states over 2023 hack of sensitive patient records",
-      "link": "https://therecord.media/medical-services-company-settles-with-4-state-ags",
-      "summary": "The case, brought by AGs in Connecticut, New Jersey, New York and Michigan, targeted the medical transcription, coding and imaging subsidiaries of the Nevada-based Perry Johnson Companies.",
-      "published": "2026-11-06T19:06:00+00:00",
-      "image": null,
-      "source": "The Record",
-      "source_id": "therecord",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Certificate authority DigiCert reports data breach involving business customer info",
-      "link": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
-      "summary": "DigiCert explained that over the summer, an internal business system was \"externally accessible when that was not intended,\" and someone had created an unauthorized account.",
-      "published": "2026-11-06T18:56:00+00:00",
-      "image": null,
-      "source": "The Record",
-      "source_id": "therecord",
-      "category": "News",
-      "tags": [
-        "data breach"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Fake security tools on GitHub push backdoors and infostealers",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers",
-      "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
-      "published": "2026-11-06T18:46:52+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "malware"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 5,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "AI Gave Your Incident Archive a Second Job",
       "link": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
       "summary": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises.",
@@ -1143,26 +1516,6 @@
       "source_id": "darkreading",
       "category": "News",
       "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks",
-      "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
-      "published": "2026-11-06T17:04:23+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "vulnerability",
-        "data breach"
-      ],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -1207,23 +1560,6 @@
       "cvss": null
     },
     {
-      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-      "link": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts",
-      "summary": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
-      "published": "2026-11-06T15:25:31+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
       "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
       "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH o",
@@ -1238,10 +1574,10 @@
       "cves": [
         "CVE-2026-123158"
       ],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
+      "cluster_id": 0,
+      "severity_score": 50,
+      "severity_bucket": "high",
+      "kev": true,
       "cvss": null
     },
     {
@@ -1262,23 +1598,6 @@
       "cvss": null
     },
     {
-      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-      "link": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it",
-      "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
-      "published": "2026-11-06T15:00:10+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
       "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
       "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within ",
@@ -1290,25 +1609,6 @@
       "tags": [
         "vulnerability",
         "cloud"
-      ],
-      "cves": [],
-      "cluster_id": 1,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Chainalysis says breach exposed credentials for all customers",
-      "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers",
-      "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
-      "published": "2026-11-06T14:17:07+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "data breach"
       ],
       "cves": [],
       "cluster_id": null,
@@ -1500,8 +1800,8 @@
       "cvss": null
     },
     {
-      "title": "Hospital gave very sick doctor a special PC for his personal, erm, pleasure",
-      "link": "https://www.theregister.com/security/2026/11/06/hospital-gave-very-sick-doctor-a-special-pc-for-his-personal-erm-pleasure/5307750",
+      "title": "Hospital gave very sick doctor a special PC for his very personal use",
+      "link": "https://www.theregister.com/security/2026/11/06/hospital-gave-very-sick-doctor-a-special-pc-for-his-very-personal-use/5307750",
       "summary": "Support chap told to either allow blatant policy violations or find a new job",
       "published": "2026-11-06T06:31:00+00:00",
       "image": "https://image.theregister.com/?imageId=222391&width=800",
@@ -1571,6 +1871,23 @@
       ],
       "cves": [],
       "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
+      "link": "https://isc.sans.edu/diary/rss/33494",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-11-06T02:00:02+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [],
+      "cves": [],
+      "cluster_id": 1,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -1981,6 +2298,27 @@
       "cvss": null
     },
     {
+      "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+      "link": "https://isc.sans.edu/diary/rss/33492",
+      "summary": "This morning, I was browsing our honeypot data for any new and existing PHP exploit attempts. Instead, I first ran into some GeoServer exploits, but found them to be too boring to write up. This Cisco IOS exploit attempt was a bit more interesting. Still nothing new. I suspect this is for CVE-2023-20198.",
+      "published": "2026-11-05T15:29:08+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [
+        "CVE-2023-20198"
+      ],
+      "cluster_id": null,
+      "severity_score": 40,
+      "severity_bucket": "high",
+      "kev": true,
+      "cvss": null
+    },
+    {
       "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
       "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
       "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems a",
@@ -2091,6 +2429,23 @@
       "cvss": null
     },
     {
+      "title": "Post-Quantum Questions to Ask Your Vendors",
+      "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+      "summary": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness for transitioning to post-quantum cryptography (PQC). As quantum computing advanc",
+      "published": "2026-11-05T12:00:00+00:00",
+      "image": null,
+      "source": "CISA Advisories",
+      "source_id": "cisa",
+      "category": "Advisory",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
       "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
       "link": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
       "summary": "Overview The Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), U.S. Department of Agriculture (USDA), and the Department of Transportation (DoT)—hereafter referred to as “the authoring organizations”—are aware of malicious cyber activity tar",
@@ -2108,17 +2463,17 @@
       "cvss": null
     },
     {
-      "title": "Post-Quantum Questions to Ask Your Vendors",
-      "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-      "summary": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness for transitioning to post-quantum cryptography (PQC). As quantum computing advanc",
-      "published": "2026-11-05T12:00:00+00:00",
+      "title": "ISC Stormcast For Thursday, November 5th, 2026 https://isc.sans.edu/podcastdetail/10166, (Thu, Nov 5th)",
+      "link": "https://isc.sans.edu/diary/rss/33490",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-11-05T11:25:11+00:00",
       "image": null,
-      "source": "CISA Advisories",
-      "source_id": "cisa",
-      "category": "Advisory",
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": null,
+      "cluster_id": 1,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -2510,6 +2865,28 @@
       "cvss": null
     },
     {
+      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+      "link": "https://isc.sans.edu/diary/rss/33488",
+      "summary": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the \"To\"",
+      "published": "2026-11-04T13:24:13+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [
+        "vulnerability",
+        "critical infrastructure"
+      ],
+      "cves": [
+        "CVE-2000-0411"
+      ],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
       "title": "Chrome 157 fixes 213 security issues, including 7 critical flaws",
       "link": "https://www.malwarebytes.com/blog/bugs/2026/11/chrome-157-fixes-213-security-issues-including-7-critical-flaws",
       "summary": "Your browser may not have updated itself yet. Here’s how to check your version and install the fix manually.",
@@ -2656,27 +3033,6 @@
       "cvss": null
     },
     {
-      "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-      "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-      "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their",
-      "published": "2026-11-04T07:46:15+00:00",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg",
-      "source": "The Hacker News",
-      "source_id": "thehackernews",
-      "category": "News",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [
-        "CVE-2026-58868"
-      ],
-      "cluster_id": null,
-      "severity_score": 15,
-      "severity_bucket": "medium",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries",
       "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries",
       "summary": "",
@@ -2747,24 +3103,20 @@
       "cvss": null
     },
     {
-      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-      "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use",
-      "published": "2026-11-04T05:43:11+00:00",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9IgE0BWDAvYzjY8wFSMADIRn69AMLYxUa-oPoOISNBOpPbxwBNoWrbXWzI6P0deiU6WDqitiIZx1gFXSAlR8xX9rj56BuU48veMEPJAGSsmQTbVPirFOCuyMc_KQxtbPfc841GZGZ-3HSYYHCGbHnzrihtwQUaMlXrT3leLzI2USh00hc9OBw4k1SCJt4/s1600/wp-exploit.jpg",
-      "source": "The Hacker News",
-      "source_id": "thehackernews",
-      "category": "News",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [
-        "CVE-2026-119977"
-      ],
-      "cluster_id": 0,
-      "severity_score": 50,
-      "severity_bucket": "high",
-      "kev": true,
+      "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
+      "link": "https://isc.sans.edu/diary/rss/33486",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-11-04T02:10:02+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [],
+      "cves": [],
+      "cluster_id": 1,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
       "cvss": null
     },
     {
@@ -3273,6 +3625,23 @@
       "cvss": null
     },
     {
+      "title": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
+      "link": "https://isc.sans.edu/diary/rss/33484",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-11-03T02:00:02+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [],
+      "cves": [],
+      "cluster_id": 1,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
       "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
       "link": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026",
       "summary": "Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42 .",
@@ -3412,6 +3781,27 @@
       "category": "News",
       "tags": [],
       "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
+      "link": "https://isc.sans.edu/diary/rss/33482",
+      "summary": "Last week, an often-ignored&#;x26;#;xc2;&#;x26;#;xa0;TCP option, introduced in 2020, made the news due to a new vulnerability in Linux&#;x26;#;39;s implementation (RFC&#;x26;#;xc2;&#;x26;#;xa0;8684, &#;x26;#;xc2;&#;x26;#;xa0;CVE-2026-98432)",
+      "published": "2026-11-02T14:52:05+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [
+        "CVE-2026-98432"
+      ],
       "cluster_id": null,
       "severity_score": 0,
       "severity_bucket": "low",
@@ -3665,74 +4055,6 @@
       "cvss": null
     },
     {
-      "title": "Crim spent $7K+ on AI services in extortion attacks, then left evidence for all to see",
-      "link": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754",
-      "summary": "n0n-existent security",
-      "published": "2026-10-30T19:37:12+00:00",
-      "image": "https://image.theregister.com/?imageId=5306779&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "GM cracks the petty cash box for multistate driver tracking settlement",
-      "link": "https://www.theregister.com/security/2026/10/30/gm-cracks-the-petty-cash-box-for-multistate-driver-tracking-settlement/5306721",
-      "summary": "$220 million? For all of you? Yeah, we can probably dig that up ...",
-      "published": "2026-10-30T16:48:37+00:00",
-      "image": "https://image.theregister.com/?imageId=229334&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Anthropic: That Claude Code extension compromise… couldn't be us",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
-      "summary": "Claudeshop fingers 'malicious actor' in targeted supply-chain attack on Cursor",
-      "published": "2026-10-30T16:27:00+00:00",
-      "image": "https://image.theregister.com/?imageId=5254625&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths",
-      "summary": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog .",
-      "published": "2026-10-30T16:11:44+00:00",
-      "image": null,
-      "source": "Microsoft Security Blog",
-      "source_id": "msrc",
-      "category": "Vendor",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "L’Italia è afflitta da vulnerabilità informatiche, senza una causa chiara",
       "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian",
       "summary": "I ricercatori non riescono a spiegare del tutto perché le minacce informatiche in Italia siano così diverse rispetto a quelle di qualsiasi altro Paese.",
@@ -3854,23 +4176,6 @@
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
-      "cvss": null
-    },
-    {
-      "title": "British intelligence agency misplaced 'thousands' of storage devices, years later still can't say how many",
-      "link": "https://www.theregister.com/security/2026/10/30/british-intelligence-agency-misplaced-thousands-of-storage-devices-years-later-still-cant-say-how-many/5306605",
-      "summary": "Other agency errors included an unchecked software bug that led to Terrorism Act detentions",
-      "published": "2026-10-30T11:45:00+00:00",
-      "image": "https://image.theregister.com/?imageId=197715&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
       "cvss": null
     },
     {
@@ -4062,25 +4367,6 @@
       "cvss": null
     },
     {
-      "title": "Hitachi Energy CoreTec Product",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
-      "summary": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability of the product. Please refer to the Recomm",
-      "published": "2026-10-29T12:00:00+00:00",
-      "image": null,
-      "source": "CISA Advisories",
-      "source_id": "cisa",
-      "category": "Advisory",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-97229 GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound vulnerability CVE-2026-76418 Cisco Secure Firewall ASA Software and Cisco Secure FTD Softw",
@@ -4103,6 +4389,25 @@
       "cvss": null
     },
     {
+      "title": "Hitachi Energy TRO600 series products",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
+      "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive information. Please refer to the Recommended Immed",
+      "published": "2026-10-29T12:00:00+00:00",
+      "image": null,
+      "source": "CISA Advisories",
+      "source_id": "cisa",
+      "category": "Advisory",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
       "title": "Siemens Mendix SAML Module",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
       "summary": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for the affected products and recommends to up",
@@ -4122,9 +4427,9 @@
       "cvss": null
     },
     {
-      "title": "Hitachi Energy TRO600 series products",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
-      "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive information. Please refer to the Recommended Immed",
+      "title": "Hitachi Energy CoreTec Product",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+      "summary": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability of the product. Please refer to the Recomm",
       "published": "2026-10-29T12:00:00+00:00",
       "image": null,
       "source": "CISA Advisories",
@@ -4166,23 +4471,6 @@
       "source": "Cisco Talos",
       "source_id": "talos",
       "category": "Research",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
-      "summary": "Researchers can't quite explain why cyber threats look so different in Italy compared with everywhere else.",
-      "published": "2026-10-29T08:00:00+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0dafcf0847efff9a/6ae24fff8ec8cff4371f87c5/rome-Sean_Gallup-GettyImages-623337092jpg.jpg?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
       "tags": [],
       "cves": [],
       "cluster_id": null,
@@ -4250,23 +4538,6 @@
       "cvss": null
     },
     {
-      "title": "GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub",
-      "link": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
-      "summary": "The supply chain attack campaign's shift toward developer endpoints and cloud access signals what could be next for the cybercrime outfit.",
-      "published": "2026-10-28T19:39:00+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb1d9be3de2e89da6/6ae252ca6c2fe31e558a43e9/Ghosts-GrafikLab-GettyImages-2173220193.jpg?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Unwrapping Retail Peak Season Cyber Threats",
       "link": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats",
       "summary": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .",
@@ -4281,40 +4552,6 @@
       "cves": [],
       "cluster_id": null,
       "severity_score": 5,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes",
-      "summary": "Artificial intelligence is everywhere in healthcare, from doctors' intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
-      "published": "2026-10-28T15:29:06+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt27f5645084863935/6ae21761f2adb985c612d4c7/GettyImages-1415423396.jpg?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
-      "link": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
-      "summary": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
-      "published": "2026-10-28T14:37:52+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf851053137fec653/6ae1e3cca1e4219344f6a136/credentials-NicoElNino-AdobeStock.png?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
       "cvss": null
@@ -4359,20 +4596,25 @@
       "cvss": null
     },
     {
-      "title": "Third Serengeti Sweep Tops 1,400 Arrests as Investigations Mature",
-      "link": "https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature",
-      "summary": "Interpol's annual Operation Serengeti, now in its third iteration, led to 1,462 arrests across 20 African countries and the US, recovering $105 million in stolen funds.",
-      "published": "2026-10-28T06:00:00+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt88d7810c6bea6d70/6ae11337facab4e020903095/lion-chasing-zebras-Wirestock_Creators-shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-48356 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-111497 Google Brotli Unchecked Return Value Vulnerability These types o",
+      "published": "2026-10-27T12:00:00+00:00",
+      "image": null,
+      "source": "CISA Advisories",
+      "source_id": "cisa",
+      "category": "Advisory",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [
+        "CVE-2026-111497",
+        "CVE-2026-48356"
+      ],
+      "cluster_id": 3,
+      "severity_score": 40,
+      "severity_bucket": "high",
+      "kev": true,
       "cvss": null
     },
     {
@@ -4395,28 +4637,6 @@
         "CVE-2026-16438"
       ],
       "cluster_id": null,
-      "severity_score": 40,
-      "severity_bucket": "high",
-      "kev": true,
-      "cvss": null
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-48356 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-111497 Google Brotli Unchecked Return Value Vulnerability These types o",
-      "published": "2026-10-27T12:00:00+00:00",
-      "image": null,
-      "source": "CISA Advisories",
-      "source_id": "cisa",
-      "category": "Advisory",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [
-        "CVE-2026-111497",
-        "CVE-2026-48356"
-      ],
-      "cluster_id": 3,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4630,9 +4850,9 @@
       "cvss": null
     },
     {
-      "title": "Siemens WinCC",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
-      "summary": "View CSAF Summary Multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens has released new versions for several affected products and recommends to update t",
+      "title": "InterSystems Corporation InterSystems IRIS for Health",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-295-01",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to view transmitted data and use that data to log into the device. The following versions of InterSystems Corporation InterSystems IRIS for Health are affected: InterSystems IRIS for Health 2026.2.0.221, 2026.1.0.235, 2025.3.0.226 (",
       "published": "2026-10-22T12:00:00+00:00",
       "image": null,
       "source": "CISA Advisories",
@@ -4649,9 +4869,9 @@
       "cvss": null
     },
     {
-      "title": "Siemens SENTRON 3NA COM Fuse",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
-      "summary": "View CSAF Summary SENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require the affected network to be re-established to restore normal operation. The foll",
+      "title": "Siemens Capital Embedded AR Classic",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04",
+      "summary": "View CSAF Summary The products listed below contain an out-of-bounds read vulnerability that could allow an attacker to cause abnormal product behavior, instability, or denial of service. Siemens has released a new version for Capital Embedded AR Classic R20-11 and recommends updating to the latest version. Siemens is ",
       "published": "2026-10-22T12:00:00+00:00",
       "image": null,
       "source": "CISA Advisories",
@@ -4668,60 +4888,9 @@
       "cvss": null
     },
     {
-      "title": "Siemens RUGGEDCOM CROSSBOW",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
-      "summary": "View CSAF Summary RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve sensitive administrative credentials, escalate privileges, and perform unauthorized operations such as modifying system configurations or causing a d",
-      "published": "2026-10-22T12:00:00+00:00",
-      "image": null,
-      "source": "CISA Advisories",
-      "source_id": "cisa",
-      "category": "Advisory",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Siemens SIMATIC S7 PLCs Web Server",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
-      "summary": "View CSAF Summary SIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user’s browser session and perform PLC operations within the scope of that user’s authorization. Siemens is preparing fixes and recommends specific mitigat",
-      "published": "2026-10-22T12:00:00+00:00",
-      "image": null,
-      "source": "CISA Advisories",
-      "source_id": "cisa",
-      "category": "Advisory",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Siemens RUGGEDCOM APE1808 Devices",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
-      "summary": "View CSAF Summary Nozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to contact customer support to receive patch and update information. The following versions of Siemens ",
-      "published": "2026-10-22T12:00:00+00:00",
-      "image": null,
-      "source": "CISA Advisories",
-      "source_id": "cisa",
-      "category": "Advisory",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
-      "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet availabl",
+      "title": "Siemens SIMATIC S7-1500 TM MFP",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
+      "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC S7-1500 TM MFP are a",
       "published": "2026-10-22T12:00:00+00:00",
       "image": null,
       "source": "CISA Advisories",
@@ -4753,9 +4922,28 @@
       "cvss": null
     },
     {
-      "title": "Siemens SIMATIC S7-1500 TM MFP",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
-      "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC S7-1500 TM MFP are a",
+      "title": "Siemens WinCC",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
+      "summary": "View CSAF Summary Multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens has released new versions for several affected products and recommends to update t",
+      "published": "2026-10-22T12:00:00+00:00",
+      "image": null,
+      "source": "CISA Advisories",
+      "source_id": "cisa",
+      "category": "Advisory",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
+      "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet availabl",
       "published": "2026-10-22T12:00:00+00:00",
       "image": null,
       "source": "CISA Advisories",
@@ -4770,55 +4958,15 @@
       "cvss": null
     },
     {
-      "title": "Siemens Capital Embedded AR Classic",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04",
-      "summary": "View CSAF Summary The products listed below contain an out-of-bounds read vulnerability that could allow an attacker to cause abnormal product behavior, instability, or denial of service. Siemens has released a new version for Capital Embedded AR Classic R20-11 and recommends updating to the latest version. Siemens is ",
+      "title": "Siemens RUGGEDCOM APE1808 Devices",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
+      "summary": "View CSAF Summary Nozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to contact customer support to receive patch and update information. The following versions of Siemens ",
       "published": "2026-10-22T12:00:00+00:00",
       "image": null,
       "source": "CISA Advisories",
       "source_id": "cisa",
       "category": "Advisory",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "InterSystems Corporation InterSystems IRIS for Health",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-295-01",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to view transmitted data and use that data to log into the device. The following versions of InterSystems Corporation InterSystems IRIS for Health are affected: InterSystems IRIS for Health 2026.2.0.221, 2026.1.0.235, 2025.3.0.226 (",
-      "published": "2026-10-22T12:00:00+00:00",
-      "image": null,
-      "source": "CISA Advisories",
-      "source_id": "cisa",
-      "category": "Advisory",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Siemens SIMATIC IPCs",
-      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-07",
-      "summary": "View CSAF Summary The products listed below contain a vulnerability that could allow an attacker to boot an operating system or UEFI application signed with that test key, bypassing UEFI Secure Boot protections even when Secure Boot is enabled. Siemens has released new versions for the affected products and recommends ",
-      "published": "2026-10-22T12:00:00+00:00",
-      "image": null,
-      "source": "CISA Advisories",
-      "source_id": "cisa",
-      "category": "Advisory",
-      "tags": [
-        "vulnerability"
-      ],
+      "tags": [],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -4830,6 +4978,57 @@
       "title": "Siemens Software Center",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-03",
       "summary": "View CSAF Summary The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected applica",
+      "published": "2026-10-22T12:00:00+00:00",
+      "image": null,
+      "source": "CISA Advisories",
+      "source_id": "cisa",
+      "category": "Advisory",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Siemens RUGGEDCOM CROSSBOW",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
+      "summary": "View CSAF Summary RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve sensitive administrative credentials, escalate privileges, and perform unauthorized operations such as modifying system configurations or causing a d",
+      "published": "2026-10-22T12:00:00+00:00",
+      "image": null,
+      "source": "CISA Advisories",
+      "source_id": "cisa",
+      "category": "Advisory",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
+      "summary": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive information. Siemens has released a new version for RUGGEDCOM CROSSBOW Station ",
+      "published": "2026-10-22T12:00:00+00:00",
+      "image": null,
+      "source": "CISA Advisories",
+      "source_id": "cisa",
+      "category": "Advisory",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Siemens SIMATIC S7 PLCs Web Server",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
+      "summary": "View CSAF Summary SIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user’s browser session and perform PLC operations within the scope of that user’s authorization. Siemens is preparing fixes and recommends specific mitigat",
       "published": "2026-10-22T12:00:00+00:00",
       "image": null,
       "source": "CISA Advisories",
@@ -5470,7 +5669,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:31.723621+00:00"
+      "fetched_at": "2026-11-10T00:04:26.124200+00:00"
     },
     {
       "id": "bleepingcomputer",
@@ -5478,7 +5677,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:31.983093+00:00"
+      "fetched_at": "2026-11-10T00:04:26.252309+00:00"
     },
     {
       "id": "krebsonsecurity",
@@ -5486,7 +5685,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:32.126212+00:00"
+      "fetched_at": "2026-11-10T00:04:26.443398+00:00"
     },
     {
       "id": "darkreading",
@@ -5494,7 +5693,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:32.331633+00:00"
+      "fetched_at": "2026-11-10T00:04:26.545965+00:00"
     },
     {
       "id": "securityweek",
@@ -5502,7 +5701,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:32.768117+00:00"
+      "fetched_at": "2026-11-10T00:04:27.426880+00:00"
     },
     {
       "id": "schneier",
@@ -5510,7 +5709,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:32.970735+00:00"
+      "fetched_at": "2026-11-10T00:04:27.571638+00:00"
     },
     {
       "id": "sophosnews",
@@ -5518,7 +5717,7 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:33.026892+00:00"
+      "fetched_at": "2026-11-10T00:04:27.692824+00:00"
     },
     {
       "id": "cisa",
@@ -5526,7 +5725,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:33.130526+00:00"
+      "fetched_at": "2026-11-10T00:04:27.831804+00:00"
     },
     {
       "id": "msrc",
@@ -5534,7 +5733,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:34.198742+00:00"
+      "fetched_at": "2026-11-10T00:04:28.149178+00:00"
     },
     {
       "id": "talos",
@@ -5542,7 +5741,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:34.256454+00:00"
+      "fetched_at": "2026-11-10T00:04:28.299517+00:00"
     },
     {
       "id": "unit42",
@@ -5550,7 +5749,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:34.366414+00:00"
+      "fetched_at": "2026-11-10T00:04:28.463690+00:00"
     },
     {
       "id": "crowdstrike",
@@ -5558,7 +5757,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:34.401667+00:00"
+      "fetched_at": "2026-11-10T00:04:28.551598+00:00"
     },
     {
       "id": "therecord",
@@ -5566,15 +5765,15 @@
       "ok": true,
       "count": 5,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:34.563915+00:00"
+      "fetched_at": "2026-11-10T00:04:28.832036+00:00"
     },
     {
       "id": "sans_isc",
       "name": "SANS Internet Storm Center",
-      "ok": false,
-      "count": 0,
-      "error": "ParseError: syntax error: line 1, column 0",
-      "fetched_at": "2026-11-09T16:02:34.938686+00:00"
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "fetched_at": "2026-11-10T00:04:29.120267+00:00"
     },
     {
       "id": "theregister",
@@ -5582,7 +5781,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:35.217664+00:00"
+      "fetched_at": "2026-11-10T00:04:29.408333+00:00"
     },
     {
       "id": "projectzero",
@@ -5590,7 +5789,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:35.722147+00:00"
+      "fetched_at": "2026-11-10T00:04:30.790352+00:00"
     },
     {
       "id": "malwarebytes",
@@ -5598,7 +5797,7 @@
       "ok": true,
       "count": 20,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:36.022354+00:00"
+      "fetched_at": "2026-11-10T00:04:31.026701+00:00"
     },
     {
       "id": "securityaffairs",
@@ -5606,30 +5805,35 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-09T16:02:36.061049+00:00"
+      "fetched_at": "2026-11-10T00:04:31.142414+00:00"
     }
   ],
   "clusters": [
     {
       "id": 0,
       "item_links": [
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems",
+        "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
         "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+        "https://isc.sans.edu/diary/rss/33498",
         "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins",
+        "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
         "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
         "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
         "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-        "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
         "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog"
       ],
-      "source_count": 3
+      "source_count": 5
     },
     {
       "id": 1,
       "item_links": [
-        "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs",
-        "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+        "https://isc.sans.edu/diary/rss/33494",
+        "https://isc.sans.edu/diary/rss/33490",
+        "https://isc.sans.edu/diary/rss/33486",
+        "https://isc.sans.edu/diary/rss/33484"
       ],
-      "source_count": 2
+      "source_count": 1
     },
     {
       "id": 2,
