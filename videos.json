@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T21:25:16.716677+00:00",
+  "generated_at": "2026-11-11T01:22:24.906956+00:00",
   "items": [
     {
       "id": "n9th4PxS4jg",
@@ -1927,13 +1927,14 @@
       "channel": "The Hacker News",
       "ok": false,
       "count": 0,
-      "error": "ValueError: feed has no videos"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "channel": "BleepingComputer",
-      "ok": true,
-      "count": 15,
-      "feed_title": "BleepingComputer"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Cisco Talos",
@@ -1943,93 +1944,107 @@
     },
     {
       "channel": "CrowdStrike",
-      "ok": true,
-      "count": 15,
-      "feed_title": "CrowdStrike"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Mandiant (Google Cloud)",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Mandiant & Google Cloud Security"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Malwarebytes",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Malwarebytes"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "ESET",
       "ok": false,
       "count": 0,
-      "error": "ValueError: feed belongs to 'kulishnik22', not 'ESET' (rejected)"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "channel": "Kaspersky",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Kaspersky"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "CISA",
-      "ok": true,
-      "count": 15,
-      "feed_title": "CISA"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "SANS Institute",
-      "ok": true,
-      "count": 15,
-      "feed_title": "SANS Institute"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Security Weekly",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Security Weekly - A CRA Resource"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Black Hat",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Black Hat"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "stale": true
     },
     {
       "channel": "DEFCONConference",
-      "ok": true,
-      "count": 15,
-      "feed_title": "DEFCONConference"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "13Cubed",
-      "ok": true,
-      "count": 15,
-      "feed_title": "13Cubed"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "John Hammond",
-      "ok": true,
-      "count": 15,
-      "feed_title": "John Hammond"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "NetworkChuck",
-      "ok": true,
-      "count": 15,
-      "feed_title": "NetworkChuck"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "David Bombal",
-      "ok": true,
-      "count": 15,
-      "feed_title": "David Bombal Tech"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Seytonic",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Seytonic"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "The PC Security Channel",
@@ -2039,9 +2054,10 @@
     },
     {
       "channel": "Computerphile",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Computerphile"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     }
   ]
 }

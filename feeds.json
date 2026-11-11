@@ -1,6 +1,138 @@
 {
-  "generated_at": "2026-11-10T21:24:24.435485+00:00",
+  "generated_at": "2026-11-11T01:19:27.389229+00:00",
   "items": [
+    {
+      "title": "Detecting sleeper agents hiding in AI model neurons",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons",
+      "summary": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The po",
+      "published": "2026-11-10T23:00:00+00:00",
+      "image": null,
+      "source": "Microsoft Security Blog",
+      "source_id": "msrc",
+      "category": "Vendor",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "November Patch Tuesday boasts over 1,000 bugs but only one zero-day so far",
+      "link": "https://www.theregister.com/security/2026/11/10/november-patch-tuesday-boasts-over-1000-bugs-but-only-one-zero-day-so-far/5308946",
+      "summary": "Microsoft admins wail and gnash their teeth",
+      "published": "2026-11-10T22:37:01+00:00",
+      "image": "https://image.theregister.com/?imageId=5308965&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+      "summary": "Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.",
+      "published": "2026-11-10T22:26:51+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt033b67685e64cff8/6af3980e4e01486fb09958c1/thanksgiving-Gurol_Tuna-GettyImages-2248720649.jpg?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "link": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges",
+      "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
+      "published": "2026-11-10T22:20:19+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "vulnerability",
+        "data breach"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities",
+      "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from",
+      "published": "2026-11-10T21:55:03+00:00",
+      "image": null,
+      "source": "Krebs on Security",
+      "source_id": "krebsonsecurity",
+      "category": "News",
+      "tags": [
+        "vulnerability",
+        "cloud"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Ring robots ready to patrol paranoids’ pads",
+      "link": "https://www.theregister.com/offbeat/2026/11/10/ring-robots-ready-to-patrol-paranoids-pads/5308932",
+      "summary": "Amazon calls its home security drone and business patrol bot 'proactive protection'",
+      "published": "2026-11-10T21:45:45+00:00",
+      "image": "https://image.theregister.com/?imageId=5308936&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "U.S. CISA adds IBM, SignalWire FreeSwitch, OpenSSH, and GPUStack flaws to its Known Exploited Vulnerabilities catalog",
+      "link": "https://securityaffairs.com/202813/hacking/u-s-cisa-adds-ibm-signalwire-freeswitch-openssh-and-gpustack-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+      "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds IBM, SignalWire FreeSwitch, OpenSSH, and GPUStack flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added IBM, SignalWire FreeSwitch, OpenSSH, and GPUStack vulnerabilities to its Known ",
+      "published": "2026-11-10T21:31:24+00:00",
+      "image": null,
+      "source": "Security Affairs",
+      "source_id": "securityaffairs",
+      "category": "News",
+      "tags": [
+        "vulnerability",
+        "cloud"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
     {
       "title": "US Army member arrested in UK over allegations of spying for Russia",
       "link": "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
@@ -11,6 +143,25 @@
       "source_id": "therecord",
       "category": "News",
       "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+      "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
+      "published": "2026-11-10T21:01:14+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte1b65168e9679e0a/6af379bdf986ff173e0a7def/Lock_with_target-Alena_Butusava-GettyImages-2263307877.jpg?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
+      "category": "News",
+      "tags": [
+        "data breach"
+      ],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -45,6 +196,23 @@
       "image": null,
       "source": "BleepingComputer",
       "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
+      "link": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
+      "summary": "New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene.",
+      "published": "2026-11-10T20:41:45+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
       "category": "News",
       "tags": [],
       "cves": [],
@@ -1382,25 +1550,6 @@
       "cvss": null
     },
     {
-      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-      "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses",
-      "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
-      "published": "2026-11-09T22:09:33+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "data breach"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents",
       "summary": "New questionnaire captures critical data and information that improves the agency’s ability to assess incidents, identify trends and prioritize response actions.",
@@ -2078,25 +2227,6 @@
       "tags": [],
       "cves": [],
       "cluster_id": 4,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Don’t Hand Propaganda a Gift: Reading the Brenner Base Tunnel SE Breach Calmly",
-      "link": "https://securityaffairs.com/202691/cyber-crime/dont-hand-propaganda-a-gift-reading-the-brenner-base-tunnel-se-breach-calmly.html",
-      "summary": "Brenner Base Tunnel SE confirms a breach and Everest claims 812 GB. What we know, what we don’t, and why overblown alarm helps propaganda more than the attackers. Brenner Base Tunnel (BBT) SE, the company building the Brenner Base Tunnel between Italy and Austria, has confirmed that unauthorized people accessed some of",
-      "published": "2026-11-08T17:46:16+00:00",
-      "image": null,
-      "source": "Security Affairs",
-      "source_id": "securityaffairs",
-      "category": "News",
-      "tags": [
-        "data breach"
-      ],
-      "cves": [],
-      "cluster_id": null,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -3789,26 +3919,6 @@
       "cvss": null
     },
     {
-      "title": "Britain on notice: AI-powered ransomware attacks to arrive by 2028",
-      "link": "https://www.theregister.com/security/2026/11/03/britain-on-notice-ai-powered-ransomware-attacks-to-arrive-by-2028/5307200",
-      "summary": "Cyber agency warns critical infrastructure is a likely target as chief urges bosses to stop doing 'tech on the cheap'",
-      "published": "2026-11-03T12:39:25+00:00",
-      "image": "https://image.theregister.com/?imageId=241603&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [
-        "ransomware",
-        "critical infrastructure"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 20,
-      "severity_bucket": "medium",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Hackers put porn on public billboards and claim it was “far too easy”",
       "link": "https://www.malwarebytes.com/blog/bugs/2026/11/hackers-put-porn-on-public-billboards-and-claim-it-was-far-too-easy",
       "summary": "A hacking group called Leakers$ gained access to remote management software for billboards and used it to show porn.",
@@ -4025,26 +4135,6 @@
       "cvss": null
     },
     {
-      "title": "Max-severity bug in widely used OT programming tool exploited to deliver Linux malware",
-      "link": "https://www.theregister.com/security/2026/11/02/max-severity-bug-in-widely-used-ot-programming-tool-exploited-to-deliver-linux-malware/5307086",
-      "summary": "Your industrial IoT gateway isn't exposed to the internet, right? RIGHT?!",
-      "published": "2026-11-02T22:55:17+00:00",
-      "image": "https://image.theregister.com/?imageId=5307102&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [
-        "malware",
-        "vulnerability"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 5,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
       "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
@@ -4207,25 +4297,6 @@
       "cvss": null
     },
     {
-      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor",
-      "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .",
-      "published": "2026-10-31T01:02:57+00:00",
-      "image": null,
-      "source": "Microsoft Security Blog",
-      "source_id": "msrc",
-      "category": "Vendor",
-      "tags": [
-        "malware"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 5,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Investors Dish on New Startups & What They'd Back Next",
       "link": "https://www.darkreading.com/cybersecurity-operations/investors-dish-new-startsup-what-back-next",
       "summary": "The cybersecurity market is difficult to predict, but a glimpse into the annual DataTribe Challenge shows what's trending and what's not.",
@@ -4330,23 +4401,6 @@
       "cvss": null
     },
     {
-      "title": "Undead Software Projects Continue to Raise Security Risks",
-      "link": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
-      "summary": "A security firm patched a decade-old app to prevent the takeover of millions of machines, highlighting that abandoned domains remain a boon to attackers.",
-      "published": "2026-10-30T14:10:37+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd40811c92b905082/6ae3b49914ffedf86f1c84cc/zombies-in-graveyard-zef_art-shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "link": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure Generation of Predictable Numbers or Identifiers ",
@@ -4366,44 +4420,6 @@
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
-      "cvss": null
-    },
-    {
-      "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
-      "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
-      "summary": "The \"FrostyNeighbor\" advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.",
-      "published": "2026-10-30T08:00:00+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd600d33b7bbbc448/6ae39a9b20628a26ab67c66f/Belarus_Russia_flags-Oleksii_Liskonih-GettyImages-1089909770.jpg?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
-      "tags": [
-        "nation-state"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
-      "summary": "Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products.",
-      "published": "2026-10-29T21:21:56+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfbdba6806da96431/6ae3993ee7e856faec896a9e/Mask-beast01-Getty.jpg?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
-      "tags": [
-        "phishing"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
       "cvss": null
     },
     {
@@ -5507,23 +5523,6 @@
       "cvss": null
     },
     {
-      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-      "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions",
-      "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims.",
-      "published": "2026-09-25T21:44:40+00:00",
-      "image": null,
-      "source": "Krebs on Security",
-      "source_id": "krebsonsecurity",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
       "link": "https://projectzero.google/2026/09/windows-dangling-com.html",
       "summary": "This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the Cr",
@@ -5679,7 +5678,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:57.500893+00:00"
+      "fetched_at": "2026-11-11T01:19:21.329685+00:00"
     },
     {
       "id": "bleepingcomputer",
@@ -5687,7 +5686,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:57.643206+00:00"
+      "fetched_at": "2026-11-11T01:19:21.613755+00:00"
     },
     {
       "id": "krebsonsecurity",
@@ -5695,7 +5694,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:57.691718+00:00"
+      "fetched_at": "2026-11-11T01:19:21.753972+00:00"
     },
     {
       "id": "darkreading",
@@ -5703,7 +5702,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:57.747780+00:00"
+      "fetched_at": "2026-11-11T01:19:22.043253+00:00"
     },
     {
       "id": "securityweek",
@@ -5711,7 +5710,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:57.954921+00:00"
+      "fetched_at": "2026-11-11T01:19:22.651152+00:00"
     },
     {
       "id": "schneier",
@@ -5719,7 +5718,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:58.035199+00:00"
+      "fetched_at": "2026-11-11T01:19:22.813187+00:00"
     },
     {
       "id": "sophosnews",
@@ -5727,7 +5726,7 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:58.095027+00:00"
+      "fetched_at": "2026-11-11T01:19:22.935402+00:00"
     },
     {
       "id": "cisa",
@@ -5735,7 +5734,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:58.281451+00:00"
+      "fetched_at": "2026-11-11T01:19:23.391547+00:00"
     },
     {
       "id": "msrc",
@@ -5743,7 +5742,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:58.383650+00:00"
+      "fetched_at": "2026-11-11T01:19:23.664789+00:00"
     },
     {
       "id": "talos",
@@ -5751,7 +5750,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:58.432426+00:00"
+      "fetched_at": "2026-11-11T01:19:23.844320+00:00"
     },
     {
       "id": "unit42",
@@ -5759,7 +5758,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:58.493627+00:00"
+      "fetched_at": "2026-11-11T01:19:24.048519+00:00"
     },
     {
       "id": "crowdstrike",
@@ -5767,7 +5766,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:58.553095+00:00"
+      "fetched_at": "2026-11-11T01:19:24.209853+00:00"
     },
     {
       "id": "therecord",
@@ -5775,7 +5774,7 @@
       "ok": true,
       "count": 5,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:58.677021+00:00"
+      "fetched_at": "2026-11-11T01:19:24.727751+00:00"
     },
     {
       "id": "sans_isc",
@@ -5783,7 +5782,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:58.801743+00:00"
+      "fetched_at": "2026-11-11T01:19:25.084502+00:00"
     },
     {
       "id": "theregister",
@@ -5791,7 +5790,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:59.147057+00:00"
+      "fetched_at": "2026-11-11T01:19:25.497447+00:00"
     },
     {
       "id": "projectzero",
@@ -5799,7 +5798,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:59.625236+00:00"
+      "fetched_at": "2026-11-11T01:19:26.068869+00:00"
     },
     {
       "id": "malwarebytes",
@@ -5807,7 +5806,7 @@
       "ok": true,
       "count": 20,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:59.741005+00:00"
+      "fetched_at": "2026-11-11T01:19:26.413565+00:00"
     },
     {
       "id": "securityaffairs",
@@ -5815,7 +5814,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-10T21:23:59.762786+00:00"
+      "fetched_at": "2026-11-11T01:19:26.571209+00:00"
     }
   ],
   "clusters": [
