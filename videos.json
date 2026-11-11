@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T01:22:24.906956+00:00",
+  "generated_at": "2026-11-11T07:50:37.213080+00:00",
   "items": [
     {
       "id": "n9th4PxS4jg",
@@ -2001,7 +2001,7 @@
       "channel": "Black Hat",
       "ok": false,
       "count": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "error": "HTTPError: HTTP Error 404: Not Found",
       "stale": true
     },
     {

@@ -1,6 +1,97 @@
 {
-  "generated_at": "2026-11-11T01:19:27.389229+00:00",
+  "generated_at": "2026-11-11T07:47:39.898935+00:00",
   "items": [
+    {
+      "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
+      "link": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms",
+      "summary": "Apple has patched Bluetooth and AirPlay pairing flaws, iMessage vulnerabilities, and an exploited Brotli bug across its platforms. The post Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms appeared first on SecurityWeek .",
+      "published": "2026-11-11T07:00:17+00:00",
+      "image": null,
+      "source": "SecurityWeek",
+      "source_id": "securityweek",
+      "category": "News",
+      "tags": [
+        "vulnerability",
+        "cloud"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+      "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20",
+      "published": "2026-11-11T06:04:02+00:00",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4aXykaOroazGO_7IuXugse9ynGpt1PkKJDM8lKL4by93ixX28cs23KAZZRF2dCN2cogu1ti8q5kmqfqSBLmOXWkVi7ZGWmwYMkeCOUXsOXwLoF07FbzmVnlr9DoeqtCboI_9LKWgohgWi2jIB1TzGO6uEkp5lsMnq5fSVqrN-NZGJjAQE2kIUyHsdkw6J/s1600/cisa-cisco.jpg",
+      "source": "The Hacker News",
+      "source_id": "thehackernews",
+      "category": "News",
+      "tags": [
+        "vulnerability",
+        "cloud"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "OpenAI builds a kill switch for its research models",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006",
+      "summary": "How much damage can a rogue agent do in 35 seconds? Asking cos that’s how long it might take to shut one down",
+      "published": "2026-11-11T05:20:56+00:00",
+      "image": "https://image.theregister.com/?imageId=228453&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, November 11th, 2026 https://isc.sans.edu/podcastdetail/10174, (Wed, Nov 11th)",
+      "link": "https://isc.sans.edu/diary/rss/33510",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-11-11T02:00:03+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [],
+      "cves": [],
+      "cluster_id": 0,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
+      "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026",
+      "summary": "Microsoft has released its monthly security update for November 2026, which includes 1328 vulnerabilities affecting a range of products, including 60 that Microsoft marked as \"critical.\" Out of 60 \"critical\" vulnerabilities, 45 are remote code execution (RCE) vulnerabilities.",
+      "published": "2026-11-11T01:41:17+00:00",
+      "image": null,
+      "source": "Cisco Talos",
+      "source_id": "talos",
+      "category": "Research",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
     {
       "title": "Detecting sleeper agents hiding in AI model neurons",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons",
@@ -1061,7 +1152,7 @@
         "CVE-2026-111560",
         "CVE-2026-20320"
       ],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 50,
       "severity_bucket": "high",
       "kev": true,
@@ -1154,7 +1245,7 @@
         "nation-state"
       ],
       "cves": [],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 5,
       "severity_bucket": "low",
       "kev": false,
@@ -1176,7 +1267,7 @@
       "cves": [
         "CVE-2026-125350"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -1195,7 +1286,7 @@
         "malware"
       ],
       "cves": [],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 5,
       "severity_bucket": "low",
       "kev": false,
@@ -1218,26 +1309,6 @@
       "cluster_id": null,
       "severity_score": 0,
       "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
-      "link": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days",
-      "summary": "Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek .",
-      "published": "2026-11-10T09:56:28+00:00",
-      "image": null,
-      "source": "SecurityWeek",
-      "source_id": "securityweek",
-      "category": "News",
-      "tags": [
-        "vulnerability",
-        "cloud"
-      ],
-      "cves": [],
-      "cluster_id": 3,
-      "severity_score": 15,
-      "severity_bucket": "medium",
       "kev": false,
       "cvss": null
     },
@@ -1316,7 +1387,7 @@
     {
       "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
       "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-      "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bug",
+      "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: 8.8), has been described as a use-after-free bug in the XML component. \"Use-after-free in",
       "published": "2026-11-10T06:52:54+00:00",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjk5S9J891bQS8W6TgyoiEPQ7geGia8FqqWjckFlo9qMH2wXIXv-7gyod1XKUpI9BfgcliN2Re8A85rJ121jxqgfnw1LsjYBvAYtX7694GVgMF7B94G0n5MzqMaKqLAbr-No1nqrN0gyF8MFR_bYQIYlqiTh_FzobmWrq4NOCLbcW_78uEMMW5FE4eqJoo/s1600/chrome-0day.jpg",
       "source": "The Hacker News",
@@ -1328,7 +1399,7 @@
       "cves": [
         "CVE-2026-125350"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -1347,7 +1418,7 @@
         "vulnerability"
       ],
       "cves": [],
-      "cluster_id": 3,
+      "cluster_id": null,
       "severity_score": 15,
       "severity_bucket": "medium",
       "kev": false,
@@ -1393,6 +1464,25 @@
       "cvss": null
     },
     {
+      "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
+      "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026",
+      "summary": "",
+      "published": "2026-11-10T06:00:00+00:00",
+      "image": null,
+      "source": "CrowdStrike Blog",
+      "source_id": "crowdstrike",
+      "category": "Vendor",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
       "title": "ISC Stormcast For Tuesday, November 10th, 2026 https://isc.sans.edu/podcastdetail/10172, (Tue, Nov 10th)",
       "link": "https://isc.sans.edu/diary/rss/33504",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -1403,7 +1493,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 4,
+      "cluster_id": 0,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -1974,7 +2064,7 @@
         "CVE-2026-116779",
         "CVE-2026-123158"
       ],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 50,
       "severity_bucket": "high",
       "kev": true,
@@ -2175,7 +2265,7 @@
       "cves": [
         "CVE-2026-19868"
       ],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 50,
       "severity_bucket": "high",
       "kev": true,
@@ -2226,7 +2316,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 4,
+      "cluster_id": 0,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -2247,7 +2337,7 @@
       "cves": [
         "CVE-2026-123158"
       ],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 50,
       "severity_bucket": "high",
       "kev": true,
@@ -2442,7 +2532,7 @@
       "cves": [
         "CVE-2026-123158"
       ],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 50,
       "severity_bucket": "high",
       "kev": true,
@@ -2589,7 +2679,7 @@
       "cves": [
         "CVE-2026-19868"
       ],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 50,
       "severity_bucket": "high",
       "kev": true,
@@ -2755,7 +2845,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 5,
+      "cluster_id": 4,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -3110,25 +3200,6 @@
       "cvss": null
     },
     {
-      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-      "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
-      "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from pro",
-      "published": "2026-11-05T16:42:32+00:00",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrZkGDnavpYu1VmQZCorYSw9PnFNh3tGXQ7YWWrZ3g6sURYj4RiS7za99akV3poXhW7GLoJw3j-baYvwyor0f_8iI3t5zk3NeXj1V1eVDMFUklqlYz629h88oYzxk3aIQPPwQF3xaw10DZTE-lEKyaojqzlLHC_DGtF91AVhXkaFNfY6Mh-qVqn86LCfQz/s1600/chat.gif",
-      "source": "The Hacker News",
-      "source_id": "thehackernews",
-      "category": "News",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Tobacco company got smoked by leaving secret recipes on a file share",
       "link": "https://www.theregister.com/security/2026/11/05/tobacco-company-got-smoked-by-leaving-secret-recipes-on-a-file-share/5307704",
       "summary": "They denied the data was real...then removed it",
@@ -3284,7 +3355,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 5,
+      "cluster_id": 4,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -3441,7 +3512,7 @@
       "category": "Vendor",
       "tags": [],
       "cves": [],
-      "cluster_id": 6,
+      "cluster_id": null,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -3501,28 +3572,6 @@
       "cvss": null
     },
     {
-      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
-      "link": "https://isc.sans.edu/diary/rss/33488",
-      "summary": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the \"To\"",
-      "published": "2026-11-04T13:24:13+00:00",
-      "image": null,
-      "source": "SANS Internet Storm Center",
-      "source_id": "sans_isc",
-      "category": "Research",
-      "tags": [
-        "vulnerability",
-        "critical infrastructure"
-      ],
-      "cves": [
-        "CVE-2000-0411"
-      ],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Chrome 157 fixes 213 security issues, including 7 critical flaws",
       "link": "https://www.malwarebytes.com/blog/bugs/2026/11/chrome-157-fixes-213-security-issues-including-7-critical-flaws",
       "summary": "Your browser may not have updated itself yet. Here’s how to check your version and install the fix manually.",
@@ -3556,7 +3605,7 @@
       "cves": [
         "CVE-2024-27834"
       ],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 50,
       "severity_bucket": "high",
       "kev": true,
@@ -3597,8 +3646,8 @@
       "cvss": null
     },
     {
-      "title": "CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats",
+      "title": "CrowdStrike Brings Enterprise Browser Security to the Falcon Platform",
+      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform",
       "summary": "",
       "published": "2026-11-04T06:00:00+00:00",
       "image": null,
@@ -3614,8 +3663,8 @@
       "cvss": null
     },
     {
-      "title": "CrowdStrike Brings Enterprise Browser Security to the Falcon Platform",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform",
+      "title": "CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats",
+      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats",
       "summary": "",
       "published": "2026-11-04T06:00:00+00:00",
       "image": null,
@@ -3829,23 +3878,6 @@
       "cvss": null
     },
     {
-      "title": "Password manager mSecure tells users to change passwords, won't say why",
-      "link": "https://www.theregister.com/security/2026/11/03/password-manager-msecure-tells-users-to-change-passwords-wont-say-why/5307296",
-      "summary": "Customers left wondering what's been compromised after vendor advises resetting passwords, 2FA and passkeys",
-      "published": "2026-11-03T16:10:00+00:00",
-      "image": "https://image.theregister.com/?imageId=5269504&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": 6,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "9 Cyber Awareness Tips That Actually Match Today's Maze of Threats",
       "link": "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats",
       "summary": "Practical guidance on safer search, stronger login security, better executive protection, and other habits can reduce enterprise risk.",
@@ -3969,7 +4001,7 @@
       "cves": [
         "CVE-2026-119977"
       ],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 50,
       "severity_bucket": "high",
       "kev": true,
@@ -4069,23 +4101,6 @@
     {
       "title": "CrowdStrike to Acquire Dreadnode to Bring Automated AI Security Testing to the Falcon Platform",
       "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode",
-      "summary": "",
-      "published": "2026-11-03T08:00:00+00:00",
-      "image": null,
-      "source": "CrowdStrike Blog",
-      "source_id": "crowdstrike",
-      "category": "Vendor",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler",
       "summary": "",
       "published": "2026-11-03T08:00:00+00:00",
       "image": null,
@@ -4416,7 +4431,7 @@
         "CVE-2026-111357",
         "CVE-2026-118527"
       ],
-      "cluster_id": 7,
+      "cluster_id": 5,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -4438,7 +4453,7 @@
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
-      "cluster_id": 7,
+      "cluster_id": 5,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -4516,7 +4531,7 @@
         "CVE-2026-76418",
         "CVE-2026-97229"
       ],
-      "cluster_id": 7,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4634,7 +4649,7 @@
         "CVE-2026-41709",
         "CVE-2026-46300"
       ],
-      "cluster_id": 7,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4673,7 +4688,7 @@
         "CVE-2026-111497",
         "CVE-2026-48356"
       ],
-      "cluster_id": 7,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4793,7 +4808,7 @@
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
-      "cluster_id": 7,
+      "cluster_id": 5,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -4814,7 +4829,7 @@
       "cves": [
         "CVE-2026-110447"
       ],
-      "cluster_id": 7,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4835,7 +4850,7 @@
       "cves": [
         "CVE-2026-114625"
       ],
-      "cluster_id": 7,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4869,7 +4884,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 8,
+      "cluster_id": 6,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -5079,7 +5094,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 8,
+      "cluster_id": 6,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -5375,23 +5390,6 @@
       "cvss": null
     },
     {
-      "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
-      "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026",
-      "summary": "Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\"",
-      "published": "2026-10-13T20:37:58+00:00",
-      "image": null,
-      "source": "Cisco Talos",
-      "source_id": "talos",
-      "category": "Research",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 15,
-      "severity_bucket": "medium",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm",
       "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.",
@@ -5678,7 +5676,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:21.329685+00:00"
+      "fetched_at": "2026-11-11T07:47:34.814597+00:00"
     },
     {
       "id": "bleepingcomputer",
@@ -5686,7 +5684,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:21.613755+00:00"
+      "fetched_at": "2026-11-11T07:47:35.087345+00:00"
     },
     {
       "id": "krebsonsecurity",
@@ -5694,7 +5692,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:21.753972+00:00"
+      "fetched_at": "2026-11-11T07:47:35.183690+00:00"
     },
     {
       "id": "darkreading",
@@ -5702,7 +5700,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:22.043253+00:00"
+      "fetched_at": "2026-11-11T07:47:35.456215+00:00"
     },
     {
       "id": "securityweek",
@@ -5710,7 +5708,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:22.651152+00:00"
+      "fetched_at": "2026-11-11T07:47:36.096221+00:00"
     },
     {
       "id": "schneier",
@@ -5718,7 +5716,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:22.813187+00:00"
+      "fetched_at": "2026-11-11T07:47:36.183141+00:00"
     },
     {
       "id": "sophosnews",
@@ -5726,7 +5724,7 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:22.935402+00:00"
+      "fetched_at": "2026-11-11T07:47:36.301228+00:00"
     },
     {
       "id": "cisa",
@@ -5734,7 +5732,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:23.391547+00:00"
+      "fetched_at": "2026-11-11T07:47:36.417236+00:00"
     },
     {
       "id": "msrc",
@@ -5742,7 +5740,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:23.664789+00:00"
+      "fetched_at": "2026-11-11T07:47:36.600436+00:00"
     },
     {
       "id": "talos",
@@ -5750,7 +5748,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:23.844320+00:00"
+      "fetched_at": "2026-11-11T07:47:36.684605+00:00"
     },
     {
       "id": "unit42",
@@ -5758,7 +5756,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:24.048519+00:00"
+      "fetched_at": "2026-11-11T07:47:36.792271+00:00"
     },
     {
       "id": "crowdstrike",
@@ -5766,7 +5764,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:24.209853+00:00"
+      "fetched_at": "2026-11-11T07:47:36.935456+00:00"
     },
     {
       "id": "therecord",
@@ -5774,7 +5772,7 @@
       "ok": true,
       "count": 5,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:24.727751+00:00"
+      "fetched_at": "2026-11-11T07:47:37.303556+00:00"
     },
     {
       "id": "sans_isc",
@@ -5782,7 +5780,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:25.084502+00:00"
+      "fetched_at": "2026-11-11T07:47:37.528221+00:00"
     },
     {
       "id": "theregister",
@@ -5790,7 +5788,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:25.497447+00:00"
+      "fetched_at": "2026-11-11T07:47:37.804480+00:00"
     },
     {
       "id": "projectzero",
@@ -5798,7 +5796,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:26.068869+00:00"
+      "fetched_at": "2026-11-11T07:47:38.363947+00:00"
     },
     {
       "id": "malwarebytes",
@@ -5806,7 +5804,7 @@
       "ok": true,
       "count": 20,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:26.413565+00:00"
+      "fetched_at": "2026-11-11T07:47:38.646441+00:00"
     },
     {
       "id": "securityaffairs",
@@ -5814,12 +5812,21 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-11T01:19:26.571209+00:00"
+      "fetched_at": "2026-11-11T07:47:38.773020+00:00"
     }
   ],
   "clusters": [
     {
       "id": 0,
+      "item_links": [
+        "https://isc.sans.edu/diary/rss/33510",
+        "https://isc.sans.edu/diary/rss/33504",
+        "https://isc.sans.edu/diary/rss/33500"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": 1,
       "item_links": [
         "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
         "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
@@ -5833,7 +5840,7 @@
       "source_count": 3
     },
     {
-      "id": 1,
+      "id": 2,
       "item_links": [
         "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
         "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers"
@@ -5841,7 +5848,7 @@
       "source_count": 2
     },
     {
-      "id": 2,
+      "id": 3,
       "item_links": [
         "https://securityaffairs.com/202772/breaking-news/google-fixes-the-eighth-actively-exploited-chrome-zero-day-of-2026.html",
         "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
@@ -5849,23 +5856,7 @@
       "source_count": 2
     },
     {
-      "id": 3,
-      "item_links": [
-        "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days",
-        "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
-      ],
-      "source_count": 2
-    },
-    {
       "id": 4,
-      "item_links": [
-        "https://isc.sans.edu/diary/rss/33504",
-        "https://isc.sans.edu/diary/rss/33500"
-      ],
-      "source_count": 1
-    },
-    {
-      "id": 5,
       "item_links": [
         "https://isc.sans.edu/diary/rss/33494",
         "https://isc.sans.edu/diary/rss/33490"
@@ -5873,15 +5864,7 @@
       "source_count": 1
     },
     {
-      "id": 6,
-      "item_links": [
-        "https://www.malwarebytes.com/blog/data-breaches/2026/11/msecure-tells-users-to-change-passwords-but-wont-say-why",
-        "https://www.theregister.com/security/2026/11/03/password-manager-msecure-tells-users-to-change-passwords-wont-say-why/5307296"
-      ],
-      "source_count": 2
-    },
-    {
-      "id": 7,
+      "id": 5,
       "item_links": [
         "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
         "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619",
@@ -5895,7 +5878,7 @@
       "source_count": 2
     },
     {
-      "id": 8,
+      "id": 6,
       "item_links": [
         "https://unit42.paloaltonetworks.com/emudhra-certificate-compromise",
         "https://blog.talosintelligence.com/compromised-intermediate-certificates"
