@@ -1,6 +1,269 @@
 {
-  "generated_at": "2026-11-12T18:34:10.576198+00:00",
+  "generated_at": "2026-11-12T23:49:54.967717+00:00",
   "items": [
+    {
+      "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks",
+      "summary": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]",
+      "published": "2026-11-12T22:53:10+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "malware"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 5,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "The School Bomb Threats Came From Accounts Already in Stolen Data",
+      "link": "https://securityaffairs.com/202941/security/the-school-bomb-threats-came-from-accounts-already-in-stolen-data.html",
+      "summary": "Hudson Rock researchers found that two university addresses tied to Italy’s school bomb threats were in infostealer data. On 11 November, bomb-threat emails hit schools across Europe. ANSA, citing the Education Ministry, reported that about 6,000 Italian schools received them. Some evacuated, others kept teaching after",
+      "published": "2026-11-12T22:42:10+00:00",
+      "image": null,
+      "source": "Security Affairs",
+      "source_id": "securityaffairs",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials",
+      "summary": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+      "published": "2026-11-12T22:25:30+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "malware"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 5,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools",
+      "link": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
+      "summary": "The Department of Justice and FBI announced two separate actions in response to North Korea-linked cryptocurrency theft operations.",
+      "published": "2026-11-12T21:42:00+00:00",
+      "image": null,
+      "source": "The Record",
+      "source_id": "therecord",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Cyber Experts Weigh In: How to Fight Artex & AntiFox",
+      "link": "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+      "summary": "Cybercriminals using agentic pen-testing tools is a proverbial genie out of the bottle at this point, so enterprises need to get a defense plan in place right away.",
+      "published": "2026-11-12T21:18:52+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt131056a0513594b5/6af623f4a8a90fde9d0b34ee/Artex-ShaunWilkinson-Getty.jpg?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+      "link": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams",
+      "summary": "Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack. The post Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams appeared first on SecurityWeek .",
+      "published": "2026-11-12T20:55:30+00:00",
+      "image": null,
+      "source": "SecurityWeek",
+      "source_id": "securityweek",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": 0,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "OpenAI launches security products, tells orgs they’re doomed if they don’t use them",
+      "link": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
+      "summary": "Meanwhile, a group of nonprofits sue AI giants and cite AI-driven cyberattacks",
+      "published": "2026-11-12T20:48:45+00:00",
+      "image": "https://image.theregister.com/?imageId=241526&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Microsoft Cloud Outage Hits Outlook, Teams, Copilot and AI Services",
+      "link": "https://securityaffairs.com/202932/security/microsoft-cloud-outage-hits-outlook-teams-copilot-and-ai-services.html",
+      "summary": "A Microsoft outage disrupted Outlook, Teams and Copilot, also breaking OpenAI and Anthropic connectors to Microsoft 365 accounts. Microsoft 365, Outlook and Teams went down for thousands of US users on Thursday, November 12. Reuters reported that the disruption also hit the connectors OpenAI’s and Anthropic’s AI servic",
+      "published": "2026-11-12T20:41:47+00:00",
+      "image": null,
+      "source": "Security Affairs",
+      "source_id": "securityaffairs",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide",
+      "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
+      "published": "2026-11-12T20:15:16+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": 0,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
+      "link": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
+      "summary": "The cybercriminals are retargeting law firms that refused to pay its first ransom, with a social engineering con aimed at stealing Microsoft access tokens.",
+      "published": "2026-11-12T20:09:41+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd72cfa843f157710/6af61e08fa93fcee56324598/black_and_white_moth-powerofforever-GettyImages-1920014051.jpg?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Lego marketplace BrickLink in pieces after 'unusual activity' takes it offline for almost a week",
+      "link": "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+      "summary": "Lego fans demand answers as outage approaches a week with no confirmed cause",
+      "published": "2026-11-12T20:08:08+00:00",
+      "image": "https://image.theregister.com/?imageId=252955&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+      "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released",
+      "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update. [...]",
+      "published": "2026-11-12T19:51:16+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "United to block customers from using AI agents, citing cyber threats",
+      "link": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents",
+      "summary": "“Sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases\" and more, United Airlines said.",
+      "published": "2026-11-12T19:20:00+00:00",
+      "image": null,
+      "source": "The Record",
+      "source_id": "therecord",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw",
+      "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
+      "published": "2026-11-12T19:12:55+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Never be afraid to ask questions",
+      "link": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions",
+      "summary": "Amy reflects on a formative college anthropology course that taught her the power of asking questions to bridge cultural gaps.",
+      "published": "2026-11-12T19:00:00+00:00",
+      "image": null,
+      "source": "Cisco Talos",
+      "source_id": "talos",
+      "category": "Research",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
     {
       "title": "Shipping giant Maersk says recent cyber incident affected legacy system",
       "link": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
@@ -89,6 +352,23 @@
       "cluster_id": null,
       "severity_score": 15,
       "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents",
+      "summary": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities. The post Trained to betray: How post-training supply chain attacks hijack coding agents appeared first on Microsoft Security Blog .",
+      "published": "2026-11-12T17:00:00+00:00",
+      "image": null,
+      "source": "Microsoft Security Blog",
+      "source_id": "msrc",
+      "category": "Vendor",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
       "kev": false,
       "cvss": null
     },
@@ -205,7 +485,7 @@
       "cves": [
         "CVE-2026-119618"
       ],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 15,
       "severity_bucket": "medium",
       "kev": false,
@@ -322,23 +602,6 @@
       "cvss": null
     },
     {
-      "title": "Hijacked email accounts complicate investigations into European bomb hoaxes",
-      "link": "https://therecord.media/europe-hoax-email-threats",
-      "summary": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages sent from legitimate institutions.",
-      "published": "2026-11-12T14:45:00+00:00",
-      "image": null,
-      "source": "The Record",
-      "source_id": "therecord",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Apify rotates API tokens, prompts 2FA resets after breach",
       "link": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach",
       "summary": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
@@ -401,23 +664,6 @@
       "image": null,
       "source": "SecurityWeek",
       "source_id": "securityweek",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Romania says it stopped Russian cyberattack targeting government emails",
-      "link": "https://therecord.media/romania-russia-cyberattack-emails",
-      "summary": "Romania's intelligence agency said it stopped a cyber-espionage campaign by Russian state-linked hackers before the group exfiltrated sensitive data.",
-      "published": "2026-11-12T13:30:00+00:00",
-      "image": null,
-      "source": "The Record",
-      "source_id": "therecord",
       "category": "News",
       "tags": [],
       "cves": [],
@@ -572,7 +818,7 @@
       "cves": [
         "CVE-2026-111497"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -589,7 +835,7 @@
       "category": "Advisory",
       "tags": [],
       "cves": [],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -608,7 +854,7 @@
         "vulnerability"
       ],
       "cves": [],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -630,7 +876,7 @@
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -651,7 +897,7 @@
       "cves": [
         "CVE-2026-111497"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -672,7 +918,7 @@
       "cves": [
         "CVE-2026-102895"
       ],
-      "cluster_id": 3,
+      "cluster_id": 4,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -1060,7 +1306,7 @@
       "cves": [
         "CVE-2026-119618"
       ],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 15,
       "severity_bucket": "medium",
       "kev": false,
@@ -1113,7 +1359,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 4,
+      "cluster_id": 5,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -1214,6 +1460,23 @@
       "cvss": null
     },
     {
+      "title": "AIを活用したサイバー攻撃の増加を受け、日本がサイバーセキュリティへの緊急資金拠出を推進",
+      "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese",
+      "summary": "この対策パッケージには、官民合同のサイバー対応チーム、経済省が主導するAI専門チーム、および政府の新たな能動的サイバー防衛権限の行使に関する裁量の拡大が含まれている。",
+      "published": "2026-11-11T22:14:44+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc3d52fd595b74813/6af39e0cb6c48b43d1f3dedb/musashi-kojiro-attack-defense-statues-GARAGE38-shutterstock.jpg?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
       "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
       "link": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
       "summary": "Researchers dubbed an attack chain \"Greeter\" after discovering that attackers deliberately covered their trail by leaving \"hello\" messages in logs.",
@@ -1276,25 +1539,6 @@
       "source_id": "darkreading",
       "category": "News",
       "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-      "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts",
-      "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
-      "published": "2026-11-11T20:54:20+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "data breach"
-      ],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -1433,43 +1677,6 @@
       "cvss": null
     },
     {
-      "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
-      "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders",
-      "summary": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise. The post Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online appeared first on S",
-      "published": "2026-11-11T16:29:42+00:00",
-      "image": null,
-      "source": "SecurityWeek",
-      "source_id": "securityweek",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-      "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million",
-      "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
-      "published": "2026-11-11T16:24:18+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "ransomware",
-        "data breach"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 5,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
       "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
       "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could ",
@@ -1502,44 +1709,6 @@
       "category": "News",
       "tags": [
         "cloud"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks",
-      "summary": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
-      "published": "2026-11-11T15:12:59+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "cloud"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
-      "link": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice",
-      "summary": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]",
-      "published": "2026-11-11T15:01:11+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "vulnerability"
       ],
       "cves": [],
       "cluster_id": null,
@@ -1600,25 +1769,6 @@
       "cluster_id": null,
       "severity_score": 5,
       "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-      "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities",
-      "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
-      "published": "2026-11-11T12:32:27+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 15,
-      "severity_bucket": "medium",
       "kev": false,
       "cvss": null
     },
@@ -1886,7 +2036,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 4,
+      "cluster_id": 5,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -2082,25 +2232,6 @@
       "source_id": "darkreading",
       "category": "News",
       "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Russia-Linked APT Turla Turned Exchange Servers Into Their Own Control Room",
-      "link": "https://securityaffairs.com/202800/apt/russia-linked-apt-turla-turned-exchange-servers-into-their-own-control-room.html",
-      "summary": "ESET found Russia-Linked APT group Turla using a new toolset, dubbed Cereal, on government Exchange servers in Kazakhstan and Romania. ESET Research detailed a previously undocumented toolset it calls Cereal, built to run on Microsoft Exchange servers. The researchers found it on 28 November 2025 at a government body i",
-      "published": "2026-11-10T20:40:48+00:00",
-      "image": null,
-      "source": "Security Affairs",
-      "source_id": "securityaffairs",
-      "category": "News",
-      "tags": [
-        "nation-state"
-      ],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -2309,23 +2440,6 @@
       "cves": [],
       "cluster_id": null,
       "severity_score": 5,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "iOS Sandbox Escape Is Public, and Apple Hasn’t Confirmed a Fix",
-      "link": "https://securityaffairs.com/202788/hacking/ios-sandbox-escape-is-public-and-apple-hasnt-confirmed-a-fix.html",
-      "summary": "A public iOS sandbox escape could expose wallet keys, Binance warns. No attacks are reported and no fix is confirmed. On 10 November, Binance warned users about a public iOS sandbox escape that lets one app read the files of other apps. Seed phrases, private keys and login credentials could be exposed to a malicious […",
-      "published": "2026-11-10T15:46:20+00:00",
-      "image": null,
-      "source": "Security Affairs",
-      "source_id": "securityaffairs",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
       "cvss": null
@@ -2547,7 +2661,7 @@
         "CVE-2026-111560",
         "CVE-2026-20320"
       ],
-      "cluster_id": 3,
+      "cluster_id": 4,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -2710,7 +2824,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 4,
+      "cluster_id": 5,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -3145,7 +3259,7 @@
         "CVE-2026-116779",
         "CVE-2026-123158"
       ],
-      "cluster_id": 3,
+      "cluster_id": 4,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -3215,7 +3329,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 4,
+      "cluster_id": 5,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -3236,7 +3350,7 @@
       "cves": [
         "CVE-2026-123158"
       ],
-      "cluster_id": 3,
+      "cluster_id": 4,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -3463,7 +3577,7 @@
       "cves": [
         "CVE-2026-19868"
       ],
-      "cluster_id": 3,
+      "cluster_id": 4,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -3890,23 +4004,6 @@
       "cvss": null
     },
     {
-      "title": "Tobacco company got smoked by leaving secret recipes on a file share",
-      "link": "https://www.theregister.com/security/2026/11/05/tobacco-company-got-smoked-by-leaving-secret-recipes-on-a-file-share/5307704",
-      "summary": "They denied the data was real...then removed it",
-      "published": "2026-11-05T16:02:00+00:00",
-      "image": "https://image.theregister.com/?imageId=5307708&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Email threat landscape: Q3 2026 trends and insights",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
       "summary": "Microsoft Threat Intelligence observed a sharp rise in email-based phishing activity at the end of Q3 2026 (July – September), even as QR code phishing declined, CAPTCHA-gated phishing recovered, and malicious messages spoofing familiar business-service sender domains exposed risks associated with security overrides. T",
@@ -3919,23 +4016,6 @@
         "phishing",
         "nation-state"
       ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Anthropic won't fix a Claude Dispatch flaw that could let attackers execute remote commands across corporate boundaries",
-      "link": "https://www.theregister.com/research/2026/11/05/anthropic-wont-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remote-commands-across-corporate-boundaries/5307684",
-      "summary": "From EOP to RCE in six simple steps",
-      "published": "2026-11-05T13:00:00+00:00",
-      "image": "https://image.theregister.com/?imageId=5307922&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -4168,7 +4248,7 @@
       "cves": [
         "CVE-2024-27834"
       ],
-      "cluster_id": 3,
+      "cluster_id": 4,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4317,25 +4397,6 @@
       "cvss": null
     },
     {
-      "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
-      "summary": "Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session. The post Fake-download campaign uses trojanized installers to deliver monetization payloads ",
-      "published": "2026-11-03T17:32:47+00:00",
-      "image": null,
-      "source": "Microsoft Security Blog",
-      "source_id": "msrc",
-      "category": "Vendor",
-      "tags": [
-        "malware"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 5,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "9 Cyber Awareness Tips That Actually Match Today's Maze of Threats",
       "link": "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats",
       "summary": "Practical guidance on safer search, stronger login security, better executive protection, and other habits can reduce enterprise risk.",
@@ -4348,43 +4409,6 @@
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "LLMjacking Emerges as Thriving Cybercriminal Enterprise",
-      "link": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise",
-      "summary": "Cybercriminals have turned reselling cloud access to LLMs into a lucrative business model, with some victims paying as much as $1 million in resource consumption before access was revoked.",
-      "published": "2026-11-03T15:35:50+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbc06310368e21110/6a4bdbe6a6d4757864059ce1/llm-Boy_Wirat-Getty-2149059417.jpg?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
-      "link": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
-      "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation.",
-      "published": "2026-11-03T14:00:00+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta280e1d9bd26c729/6ae8fcfdb20def7a8ae983ea/school_front-YinYang-GettyImages-157476686.jpg?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
-      "tags": [
-        "ransomware",
-        "data breach"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 5,
       "severity_bucket": "low",
       "kev": false,
       "cvss": null
@@ -4423,7 +4447,7 @@
       "cves": [
         "CVE-2026-119977"
       ],
-      "cluster_id": 3,
+      "cluster_id": 4,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4536,26 +4560,6 @@
       "cvss": null
     },
     {
-      "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-      "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
-      "published": "2026-11-02T22:27:24+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5a6c898e92d21e63/6ae8ffda91cb5739c41bd1e1/binance_creativetan_shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
-      "tags": [
-        "data breach",
-        "nation-state"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "AI Vulnerability Finding",
       "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
       "summary": "A comment : 3% of ‘critical’ software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is? Yes. It is a new world out there.",
@@ -4641,7 +4645,7 @@
         "CVE-2026-111357",
         "CVE-2026-118527"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -4663,7 +4667,7 @@
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -4741,7 +4745,7 @@
         "CVE-2026-76418",
         "CVE-2026-97229"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4859,7 +4863,7 @@
         "CVE-2026-41709",
         "CVE-2026-46300"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4906,7 +4910,7 @@
         "CVE-2026-111497",
         "CVE-2026-48356"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4984,7 +4988,7 @@
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -5005,7 +5009,7 @@
       "cves": [
         "CVE-2026-110447"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -5026,7 +5030,7 @@
       "cves": [
         "CVE-2026-114625"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -5060,7 +5064,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 5,
+      "cluster_id": 6,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -5181,7 +5185,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 5,
+      "cluster_id": 6,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -5419,23 +5423,6 @@
       "cves": [],
       "cluster_id": null,
       "severity_score": 5,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
-      "link": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations",
-      "summary": "Talos and Recorded Future identified UAT-6275 activity targeting government organizations across the Commonwealth of Independent States. Recovered artifacts show additional interest in water resources and energy.",
-      "published": "2026-10-14T14:00:00+00:00",
-      "image": null,
-      "source": "Cisco Talos",
-      "source_id": "talos",
-      "category": "Research",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
       "cvss": null
@@ -5685,7 +5672,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-12T18:33:58.620109+00:00"
+      "fetched_at": "2026-11-12T23:49:50.149030+00:00"
     },
     {
       "id": "bleepingcomputer",
@@ -5693,7 +5680,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-12T18:33:59.057247+00:00"
+      "fetched_at": "2026-11-12T23:49:50.483600+00:00"
     },
     {
       "id": "krebsonsecurity",
@@ -5701,7 +5688,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T18:33:59.100110+00:00"
+      "fetched_at": "2026-11-12T23:49:50.526186+00:00"
     },
     {
       "id": "darkreading",
@@ -5709,7 +5696,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-12T18:33:59.217425+00:00"
+      "fetched_at": "2026-11-12T23:49:50.617277+00:00"
     },
     {
       "id": "securityweek",
@@ -5717,7 +5704,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T18:33:59.576379+00:00"
+      "fetched_at": "2026-11-12T23:49:50.957586+00:00"
     },
     {
       "id": "schneier",
@@ -5725,7 +5712,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T18:33:59.644780+00:00"
+      "fetched_at": "2026-11-12T23:49:51.048038+00:00"
     },
     {
       "id": "sophosnews",
@@ -5733,7 +5720,7 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "fetched_at": "2026-11-12T18:33:59.781321+00:00"
+      "fetched_at": "2026-11-12T23:49:51.116443+00:00"
     },
     {
       "id": "cisa",
@@ -5741,7 +5728,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "fetched_at": "2026-11-12T18:33:59.920783+00:00"
+      "fetched_at": "2026-11-12T23:49:51.177153+00:00"
     },
     {
       "id": "msrc",
@@ -5749,7 +5736,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T18:34:00.439327+00:00"
+      "fetched_at": "2026-11-12T23:49:51.506163+00:00"
     },
     {
       "id": "talos",
@@ -5757,7 +5744,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-12T18:34:00.727796+00:00"
+      "fetched_at": "2026-11-12T23:49:51.549729+00:00"
     },
     {
       "id": "unit42",
@@ -5765,7 +5752,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-12T18:34:00.844684+00:00"
+      "fetched_at": "2026-11-12T23:49:51.663953+00:00"
     },
     {
       "id": "crowdstrike",
@@ -5773,7 +5760,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T18:34:01.066831+00:00"
+      "fetched_at": "2026-11-12T23:49:51.714787+00:00"
     },
     {
       "id": "therecord",
@@ -5781,7 +5768,7 @@
       "ok": true,
       "count": 5,
       "error": null,
-      "fetched_at": "2026-11-12T18:34:01.530117+00:00"
+      "fetched_at": "2026-11-12T23:49:51.861756+00:00"
     },
     {
       "id": "sans_isc",
@@ -5789,7 +5776,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T18:34:01.785793+00:00"
+      "fetched_at": "2026-11-12T23:49:51.963576+00:00"
     },
     {
       "id": "theregister",
@@ -5797,7 +5784,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-12T18:34:02.181149+00:00"
+      "fetched_at": "2026-11-12T23:49:53.853632+00:00"
     },
     {
       "id": "projectzero",
@@ -5805,7 +5792,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T18:34:03.235175+00:00"
+      "fetched_at": "2026-11-12T23:49:54.246350+00:00"
     },
     {
       "id": "malwarebytes",
@@ -5813,7 +5800,7 @@
       "ok": true,
       "count": 20,
       "error": null,
-      "fetched_at": "2026-11-12T18:34:03.474766+00:00"
+      "fetched_at": "2026-11-12T23:49:54.332984+00:00"
     },
     {
       "id": "securityaffairs",
@@ -5821,12 +5808,20 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T18:34:03.542774+00:00"
+      "fetched_at": "2026-11-12T23:49:54.354052+00:00"
     }
   ],
   "clusters": [
     {
       "id": 0,
+      "item_links": [
+        "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams",
+        "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide"
+      ],
+      "source_count": 2
+    },
+    {
+      "id": 1,
       "item_links": [
         "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google",
         "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
@@ -5834,7 +5829,7 @@
       "source_count": 2
     },
     {
-      "id": 1,
+      "id": 2,
       "item_links": [
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
@@ -5851,7 +5846,7 @@
       "source_count": 2
     },
     {
-      "id": 2,
+      "id": 3,
       "item_links": [
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04"
@@ -5859,7 +5854,7 @@
       "source_count": 1
     },
     {
-      "id": 3,
+      "id": 4,
       "item_links": [
         "https://isc.sans.edu/diary/rss/33514",
         "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
@@ -5872,7 +5867,7 @@
       "source_count": 2
     },
     {
-      "id": 4,
+      "id": 5,
       "item_links": [
         "https://isc.sans.edu/diary/rss/33512",
         "https://isc.sans.edu/diary/rss/33510",
@@ -5882,7 +5877,7 @@
       "source_count": 1
     },
     {
-      "id": 5,
+      "id": 6,
       "item_links": [
         "https://unit42.paloaltonetworks.com/emudhra-certificate-compromise",
         "https://blog.talosintelligence.com/compromised-intermediate-certificates"
