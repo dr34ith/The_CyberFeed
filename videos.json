@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:50:46.957811+00:00",
+  "generated_at": "2026-11-13T03:42:00.282712+00:00",
   "items": [
     {
       "id": "-vcQubzOxzg",
@@ -46,7 +46,7 @@
       "title": "AI Agents Are Here Now. Can Your Cyber Defenses Keep Up?",
       "published": "2026-11-12T15:00:21+00:00",
       "thumb": "https://i3.ytimg.com/vi/zsIIIga8KbU/hqdefault.jpg",
-      "views": 3028,
+      "views": 3674,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -496,7 +496,7 @@
       "title": "This Doom Game Deletes Real Kubernetes Pods",
       "published": "2026-11-06T16:00:11+00:00",
       "thumb": "https://i2.ytimg.com/vi/AdeIrffwzCY/hqdefault.jpg",
-      "views": 7614,
+      "views": 7658,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1526,7 +1526,7 @@
       "title": "How to pass the CCNA exam (advice from two Cisco instructors)",
       "published": "2026-07-24T14:00:16+00:00",
       "thumb": "https://i4.ytimg.com/vi/7w_SDn0IEjA/hqdefault.jpg",
-      "views": 134639,
+      "views": 134679,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1546,7 +1546,7 @@
       "title": "Inside the Cisco Live 2026 NOC (exclusive tour)",
       "published": "2026-07-10T14:00:37+00:00",
       "thumb": "https://i2.ytimg.com/vi/YyeEXwIF78Y/hqdefault.jpg",
-      "views": 54639,
+      "views": 54642,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1556,7 +1556,7 @@
       "title": "CCNA 2.0 performance labs: How to pass the new hands-on questions",
       "published": "2026-06-28T16:00:35+00:00",
       "thumb": "https://i1.ytimg.com/vi/Xw02nLyW-q4/hqdefault.jpg",
-      "views": 141398,
+      "views": 141418,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1566,7 +1566,7 @@
       "title": "How to run an AI agent INSIDE your network CLI for 2026",
       "published": "2026-06-26T16:00:28+00:00",
       "thumb": "https://i4.ytimg.com/vi/shGjxZKKa6o/hqdefault.jpg",
-      "views": 49201,
+      "views": 49211,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1606,7 +1606,7 @@
       "title": "Raspberry Pi 5 Kali Linux install in 10 minutes (with WiFi hacking)",
       "published": "2026-05-29T15:00:09+00:00",
       "thumb": "https://i1.ytimg.com/vi/8Slbc9r53d8/hqdefault.jpg",
-      "views": 175118,
+      "views": 175132,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1696,7 +1696,7 @@
       "title": "How Secure Is Your Linux Server? Test It with This Free Audit Tool",
       "published": "2026-03-27T15:00:23+00:00",
       "thumb": "https://i1.ytimg.com/vi/XeCK4CWyGZk/hqdefault.jpg",
-      "views": 370492,
+      "views": 370494,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1706,7 +1706,7 @@
       "title": "Claude AI for CCNA: How to Automate Your Studies",
       "published": "2026-03-23T14:30:04+00:00",
       "thumb": "https://i1.ytimg.com/vi/4S_pKcKQfWc/hqdefault.jpg",
-      "views": 428901,
+      "views": 428942,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1716,7 +1716,7 @@
       "title": "Raspberry Pi Website Monitor",
       "published": "2026-03-22T15:30:02+00:00",
       "thumb": "https://i2.ytimg.com/vi/16wLv9YpdN4/hqdefault.jpg",
-      "views": 348665,
+      "views": 348668,
       "channel": "David Bombal",
       "channel_id": "UCZTIRrENWr_rjVoA7BcUE_A",
       "topic": "Networking"
@@ -1927,13 +1927,14 @@
       "channel": "The Hacker News",
       "ok": false,
       "count": 0,
-      "error": "ValueError: feed has no videos"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "channel": "BleepingComputer",
-      "ok": true,
-      "count": 15,
-      "feed_title": "BleepingComputer"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Cisco Talos",
@@ -1943,81 +1944,93 @@
     },
     {
       "channel": "CrowdStrike",
-      "ok": true,
-      "count": 15,
-      "feed_title": "CrowdStrike"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Mandiant (Google Cloud)",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Mandiant & Google Cloud Security"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Malwarebytes",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Malwarebytes"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "ESET",
       "ok": false,
       "count": 0,
-      "error": "ValueError: feed belongs to 'kulishnik22', not 'ESET' (rejected)"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "channel": "Kaspersky",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Kaspersky"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "CISA",
-      "ok": true,
-      "count": 15,
-      "feed_title": "CISA"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "SANS Institute",
-      "ok": true,
-      "count": 15,
-      "feed_title": "SANS Institute"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Security Weekly",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Security Weekly - A CRA Resource"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Black Hat",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Black Hat"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "stale": true
     },
     {
       "channel": "DEFCONConference",
-      "ok": true,
-      "count": 15,
-      "feed_title": "DEFCONConference"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "13Cubed",
-      "ok": true,
-      "count": 15,
-      "feed_title": "13Cubed"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "John Hammond",
-      "ok": true,
-      "count": 15,
-      "feed_title": "John Hammond"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "NetworkChuck",
-      "ok": true,
-      "count": 15,
-      "feed_title": "NetworkChuck"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "David Bombal",
@@ -2027,9 +2040,10 @@
     },
     {
       "channel": "Seytonic",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Seytonic"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "The PC Security Channel",
@@ -2039,9 +2053,10 @@
     },
     {
       "channel": "Computerphile",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Computerphile"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     }
   ]
 }

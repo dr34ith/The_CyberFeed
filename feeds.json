@@ -1,6 +1,40 @@
 {
-  "generated_at": "2026-11-12T23:49:54.967717+00:00",
+  "generated_at": "2026-11-13T03:39:11.396843+00:00",
   "items": [
+    {
+      "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
+      "link": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance",
+      "summary": "Also Thursday, the FBI blamed North Korea for a separate social engineering scheme that officials say resulted in the theft of $400 million worth of cryptocurrency. The post FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance appeared first on SecurityWeek .",
+      "published": "2026-11-13T02:28:21+00:00",
+      "image": null,
+      "source": "SecurityWeek",
+      "source_id": "securityweek",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "ISC Stormcast For Friday, November 13th, 2026 https://isc.sans.edu/podcastdetail/10178, (Fri, Nov 13th)",
+      "link": "https://isc.sans.edu/diary/rss/33516",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-11-13T02:00:03+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [],
+      "cves": [],
+      "cluster_id": 0,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
     {
       "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
       "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks",
@@ -16,6 +50,23 @@
       "cves": [],
       "cluster_id": null,
       "severity_score": 5,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Getting Past the Post-Quantum Cryptography Discovery Phase",
+      "link": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
+      "summary": "Most organizations haven't sorted out their cryptographic estate enough to even know where they'd start with post-quantum cryptography (PQC).",
+      "published": "2026-11-12T22:46:05+00:00",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3f96ce16a435deca/6a3d55be62f12d27e415ed3c/quantum_computer-Peter_Hansen-getty-2214879776.jpg?width=720&quality=80&disable=upscale",
+      "source": "Dark Reading",
+      "source_id": "darkreading",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
       "cvss": null
@@ -101,7 +152,7 @@
       "category": "News",
       "tags": [],
       "cves": [],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -152,7 +203,7 @@
       "category": "News",
       "tags": [],
       "cves": [],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -485,7 +536,7 @@
       "cves": [
         "CVE-2026-119618"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 15,
       "severity_bucket": "medium",
       "kev": false,
@@ -818,7 +869,7 @@
       "cves": [
         "CVE-2026-111497"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -835,7 +886,7 @@
       "category": "Advisory",
       "tags": [],
       "cves": [],
-      "cluster_id": 3,
+      "cluster_id": 4,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -854,7 +905,7 @@
         "vulnerability"
       ],
       "cves": [],
-      "cluster_id": 3,
+      "cluster_id": 4,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -876,7 +927,7 @@
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -897,7 +948,7 @@
       "cves": [
         "CVE-2026-111497"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -918,7 +969,7 @@
       "cves": [
         "CVE-2026-102895"
       ],
-      "cluster_id": 4,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -1203,25 +1254,6 @@
       "cvss": null
     },
     {
-      "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
-      "link": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt",
-      "summary": "The WhiteArmor ransomware group claims it stole 100GB of data from the shipping giant’s systems. The post Maersk Confirms Data Theft Amid $5 Million Extortion Attempt appeared first on SecurityWeek .",
-      "published": "2026-11-12T08:38:47+00:00",
-      "image": null,
-      "source": "SecurityWeek",
-      "source_id": "securityweek",
-      "category": "News",
-      "tags": [
-        "ransomware"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 5,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
       "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
       "summary": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed versions were released ",
@@ -1306,7 +1338,7 @@
       "cves": [
         "CVE-2026-119618"
       ],
-      "cluster_id": 1,
+      "cluster_id": 2,
       "severity_score": 15,
       "severity_bucket": "medium",
       "kev": false,
@@ -1359,7 +1391,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 5,
+      "cluster_id": 0,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -2036,7 +2068,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 5,
+      "cluster_id": 0,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -2661,7 +2693,7 @@
         "CVE-2026-111560",
         "CVE-2026-20320"
       ],
-      "cluster_id": 4,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -2824,7 +2856,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 5,
+      "cluster_id": 0,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -3259,7 +3291,7 @@
         "CVE-2026-116779",
         "CVE-2026-123158"
       ],
-      "cluster_id": 4,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -3329,7 +3361,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 5,
+      "cluster_id": 0,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -3350,7 +3382,7 @@
       "cves": [
         "CVE-2026-123158"
       ],
-      "cluster_id": 4,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -3577,7 +3609,7 @@
       "cves": [
         "CVE-2026-19868"
       ],
-      "cluster_id": 4,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -3648,23 +3680,6 @@
       "tags": [
         "vulnerability"
       ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
-      "link": "https://isc.sans.edu/diary/rss/33494",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "published": "2026-11-06T02:00:02+00:00",
-      "image": null,
-      "source": "SANS Internet Storm Center",
-      "source_id": "sans_isc",
-      "category": "Research",
-      "tags": [],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -4248,7 +4263,7 @@
       "cves": [
         "CVE-2024-27834"
       ],
-      "cluster_id": 4,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4397,23 +4412,6 @@
       "cvss": null
     },
     {
-      "title": "9 Cyber Awareness Tips That Actually Match Today's Maze of Threats",
-      "link": "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats",
-      "summary": "Practical guidance on safer search, stronger login security, better executive protection, and other habits can reduce enterprise risk.",
-      "published": "2026-11-03T15:38:20+00:00",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt73242ae0d40b68c0/6aea0c8226a0725a0631618d/maze-mikkelwilliam-GettyImages-1420679447.jpg?width=720&quality=80&disable=upscale",
-      "source": "Dark Reading",
-      "source_id": "darkreading",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "AIs Hacking the Law",
       "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
       "summary": "In both a 2021 essay and my 2022 book, A Hacker’s Mind , I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vul",
@@ -4447,7 +4445,7 @@
       "cves": [
         "CVE-2026-119977"
       ],
-      "cluster_id": 4,
+      "cluster_id": 5,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4645,7 +4643,7 @@
         "CVE-2026-111357",
         "CVE-2026-118527"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -4667,7 +4665,7 @@
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -4745,7 +4743,7 @@
         "CVE-2026-76418",
         "CVE-2026-97229"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4863,7 +4861,7 @@
         "CVE-2026-41709",
         "CVE-2026-46300"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4910,7 +4908,7 @@
         "CVE-2026-111497",
         "CVE-2026-48356"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -4988,7 +4986,7 @@
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 55,
       "severity_bucket": "high",
       "kev": true,
@@ -5009,7 +5007,7 @@
       "cves": [
         "CVE-2026-110447"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -5030,7 +5028,7 @@
       "cves": [
         "CVE-2026-114625"
       ],
-      "cluster_id": 2,
+      "cluster_id": 3,
       "severity_score": 40,
       "severity_bucket": "high",
       "kev": true,
@@ -5672,7 +5670,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:50.149030+00:00"
+      "fetched_at": "2026-11-13T03:39:07.529262+00:00"
     },
     {
       "id": "bleepingcomputer",
@@ -5680,7 +5678,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:50.483600+00:00"
+      "fetched_at": "2026-11-13T03:39:07.840964+00:00"
     },
     {
       "id": "krebsonsecurity",
@@ -5688,7 +5686,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:50.526186+00:00"
+      "fetched_at": "2026-11-13T03:39:07.897643+00:00"
     },
     {
       "id": "darkreading",
@@ -5696,7 +5694,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:50.617277+00:00"
+      "fetched_at": "2026-11-13T03:39:08.022253+00:00"
     },
     {
       "id": "securityweek",
@@ -5704,7 +5702,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:50.957586+00:00"
+      "fetched_at": "2026-11-13T03:39:08.255458+00:00"
     },
     {
       "id": "schneier",
@@ -5712,7 +5710,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:51.048038+00:00"
+      "fetched_at": "2026-11-13T03:39:08.344198+00:00"
     },
     {
       "id": "sophosnews",
@@ -5720,7 +5718,7 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:51.116443+00:00"
+      "fetched_at": "2026-11-13T03:39:08.433862+00:00"
     },
     {
       "id": "cisa",
@@ -5728,7 +5726,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:51.177153+00:00"
+      "fetched_at": "2026-11-13T03:39:08.592493+00:00"
     },
     {
       "id": "msrc",
@@ -5736,7 +5734,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:51.506163+00:00"
+      "fetched_at": "2026-11-13T03:39:08.977100+00:00"
     },
     {
       "id": "talos",
@@ -5744,7 +5742,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:51.549729+00:00"
+      "fetched_at": "2026-11-13T03:39:09.087247+00:00"
     },
     {
       "id": "unit42",
@@ -5752,7 +5750,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:51.663953+00:00"
+      "fetched_at": "2026-11-13T03:39:09.219024+00:00"
     },
     {
       "id": "crowdstrike",
@@ -5760,7 +5758,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:51.714787+00:00"
+      "fetched_at": "2026-11-13T03:39:09.383116+00:00"
     },
     {
       "id": "therecord",
@@ -5768,7 +5766,7 @@
       "ok": true,
       "count": 5,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:51.861756+00:00"
+      "fetched_at": "2026-11-13T03:39:09.601452+00:00"
     },
     {
       "id": "sans_isc",
@@ -5776,7 +5774,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:51.963576+00:00"
+      "fetched_at": "2026-11-13T03:39:09.743901+00:00"
     },
     {
       "id": "theregister",
@@ -5784,7 +5782,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:53.853632+00:00"
+      "fetched_at": "2026-11-13T03:39:10.116959+00:00"
     },
     {
       "id": "projectzero",
@@ -5792,7 +5790,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:54.246350+00:00"
+      "fetched_at": "2026-11-13T03:39:10.583291+00:00"
     },
     {
       "id": "malwarebytes",
@@ -5800,7 +5798,7 @@
       "ok": true,
       "count": 20,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:54.332984+00:00"
+      "fetched_at": "2026-11-13T03:39:10.666567+00:00"
     },
     {
       "id": "securityaffairs",
@@ -5808,12 +5806,23 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-12T23:49:54.354052+00:00"
+      "fetched_at": "2026-11-13T03:39:10.736796+00:00"
     }
   ],
   "clusters": [
     {
       "id": 0,
+      "item_links": [
+        "https://isc.sans.edu/diary/rss/33516",
+        "https://isc.sans.edu/diary/rss/33512",
+        "https://isc.sans.edu/diary/rss/33510",
+        "https://isc.sans.edu/diary/rss/33504",
+        "https://isc.sans.edu/diary/rss/33500"
+      ],
+      "source_count": 1
+    },
+    {
+      "id": 1,
       "item_links": [
         "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams",
         "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide"
@@ -5821,7 +5830,7 @@
       "source_count": 2
     },
     {
-      "id": 1,
+      "id": 2,
       "item_links": [
         "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google",
         "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
@@ -5829,7 +5838,7 @@
       "source_count": 2
     },
     {
-      "id": 2,
+      "id": 3,
       "item_links": [
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
@@ -5846,7 +5855,7 @@
       "source_count": 2
     },
     {
-      "id": 3,
+      "id": 4,
       "item_links": [
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
         "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04"
@@ -5854,7 +5863,7 @@
       "source_count": 1
     },
     {
-      "id": 4,
+      "id": 5,
       "item_links": [
         "https://isc.sans.edu/diary/rss/33514",
         "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
@@ -5865,16 +5874,6 @@
         "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog"
       ],
       "source_count": 2
-    },
-    {
-      "id": 5,
-      "item_links": [
-        "https://isc.sans.edu/diary/rss/33512",
-        "https://isc.sans.edu/diary/rss/33510",
-        "https://isc.sans.edu/diary/rss/33504",
-        "https://isc.sans.edu/diary/rss/33500"
-      ],
-      "source_count": 1
     },
     {
       "id": 6,
