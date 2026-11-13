@@ -1,6 +1,317 @@
 {
-  "generated_at": "2026-11-13T03:39:11.396843+00:00",
+  "generated_at": "2026-11-13T11:29:48.223125+00:00",
   "items": [
+    {
+      "title": "Crackdown on UK medical record snooping after staff reported sneaking 300+ times this year",
+      "link": "https://www.theregister.com/security/2026/11/13/crackdown-on-uk-medical-record-snooping-after-staff-reported-sneaking-300-times-this-year/5309421",
+      "summary": "Watchdog wants assurances from 200 execs that employees aren't poking around patient files they have no business viewing",
+      "published": "2026-11-13T11:02:00+00:00",
+      "image": "https://image.theregister.com/?imageId=5276624&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
+      "link": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure",
+      "summary": "Investigators seized 235 servers and 257 domains, along with 6.4 million victim credentials as part of Operation Endgame. The post Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure appeared first on SecurityWeek .",
+      "published": "2026-11-13T10:48:40+00:00",
+      "image": null,
+      "source": "SecurityWeek",
+      "source_id": "securityweek",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Check Point warns of zero-day flaw exploited for root access",
+      "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access",
+      "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+      "published": "2026-11-13T10:44:22+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Brit police watchdog says cops' use of facial recog risks wrongful arrests",
+      "link": "https://www.theregister.com/security/2026/11/13/brit-police-watchdog-says-cops-use-of-facial-recog-risks-wrongful-arrests/5309379",
+      "summary": "New report calls for change, highlights hodgepodge governance and misunderstanding about tech’s limitations among officers",
+      "published": "2026-11-13T10:15:00+00:00",
+      "image": "https://image.theregister.com/?imageId=5247722&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+      "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities",
+      "summary": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions. The post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek .",
+      "published": "2026-11-13T09:36:56+00:00",
+      "image": null,
+      "source": "SecurityWeek",
+      "source_id": "securityweek",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Microsoft confirms Windows activation failures after November updates",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates",
+      "summary": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
+      "published": "2026-11-13T09:36:18+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
+      "link": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools",
+      "summary": "Daybreak Red Team pentests web applications with AI agents, while Defense Factory investigates security findings and prepares patches. The post OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools appeared first on SecurityWeek .",
+      "published": "2026-11-13T09:21:01+00:00",
+      "image": null,
+      "source": "SecurityWeek",
+      "source_id": "securityweek",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "New SignDrop Exploit Can Abuse Windows Defender to Bypass Security Protections",
+      "link": "https://securityaffairs.com/202968/hacking/new-signdrop-exploit-can-abuse-windows-defender-to-bypass-security-protections.html",
+      "summary": "SignDrop is a Windows zero-day that abuses CLFS security protections to let local attackers gain SYSTEM privileges and bypass defenses. The researcher Chaotic Eclipse, also known as INFINITE NIGHTMARE, MSNightmare, Nightmare-Eclipse, and MSNightmare, published a proof-of-concept for a new Windows local privilege escala",
+      "published": "2026-11-13T09:02:00+00:00",
+      "image": null,
+      "source": "Security Affairs",
+      "source_id": "securityaffairs",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+      "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop",
+      "summary": "It abuses CLFS and Windows Defender to trigger arbitrary file creation in the context of the antimalware process. The post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’ appeared first on SecurityWeek .",
+      "published": "2026-11-13T08:50:36+00:00",
+      "image": null,
+      "source": "SecurityWeek",
+      "source_id": "securityweek",
+      "category": "News",
+      "tags": [
+        "malware",
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 20,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Worldwide Microsoft 365 outage disrupts Outlook, SharePoint, Teams, and more",
+      "link": "https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more",
+      "summary": "A worldwide Microsoft 365 outage is having a severe impact on companies that rely on services like Outlook, Sharepoint, and Teams.",
+      "published": "2026-11-13T08:35:18+00:00",
+      "image": null,
+      "source": "Malwarebytes Labs",
+      "source_id": "malwarebytes",
+      "category": "Vendor",
+      "tags": [],
+      "cves": [],
+      "cluster_id": 0,
+      "severity_score": 10,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown",
+      "summary": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
+      "published": "2026-11-13T08:34:20+00:00",
+      "image": null,
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+      "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity, detailed by Check Point, began on October 30,",
+      "published": "2026-11-13T08:05:49+00:00",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP3B9ZQG1BXlSPUWzwVJ5qgwh899Ngm9u2GAbWiX5HDqhhT6q6gsmva9-TR2upR0fepas2i0k53VUxh1CH21LeUUv1Ipczl9huExytcqNdlqIoHP64CRYJuGyHe-OgLoov-JR6GziUT4JDJ92Ne83CshfWn9pr9Bt2HPKkv4phQJ2esJHcV6eZqzRretVu/s1600/php.jpg",
+      "source": "The Hacker News",
+      "source_id": "thehackernews",
+      "category": "News",
+      "tags": [
+        "malware",
+        "vulnerability",
+        "cloud"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 5,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+      "link": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks",
+      "summary": "PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root. The post PHP2Shell Exploited in Destructive Check Point Gateway Attacks appeared first on SecurityWeek .",
+      "published": "2026-11-13T07:39:04+00:00",
+      "image": null,
+      "source": "SecurityWeek",
+      "source_id": "securityweek",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [
+        "CVE-2026-123039"
+      ],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "C++26 stumbles at finish line over Contracts dispute",
+      "link": "https://www.theregister.com/devops/2026/11/13/c26-stumbles-at-finish-line-over-contracts-dispute/5309526",
+      "summary": "ISO working group faces a fight over runtime checks, complexity, and the language's release timetable",
+      "published": "2026-11-13T07:31:00+00:00",
+      "image": "https://image.theregister.com/?imageId=5309559&width=800",
+      "source": "The Register Security",
+      "source_id": "theregister",
+      "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+      "link": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication",
+      "summary": "Dubbed 4EverAble2Shell, the flaw could allow remote, unauthenticated attackers to execute code with root privileges. The post Hackers Exploit New N-central Zero-Day Hours After PoC Publication appeared first on SecurityWeek .",
+      "published": "2026-11-13T07:20:50+00:00",
+      "image": null,
+      "source": "SecurityWeek",
+      "source_id": "securityweek",
+      "category": "News",
+      "tags": [
+        "vulnerability"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 15,
+      "severity_bucket": "medium",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some functionality, but we bel",
+      "published": "2026-11-13T05:43:28+00:00",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA4jxlXpPBPhD5o3IHy80Fn7fSHUtcqH3iXQlU-jDUL5C3zJcf1_Zb-GAYxuW6P6q647p9JAT_opImlj-v-USDNhZ_z83mYC3ISKtN72pe_3XLwf5EyMRuK4OdXCFnYxGMhOAvN_i4UFqk5vJLriRnkbRRwILuT5JUpExx9Tm74sXSCQ0g7jjsOzWV1cqk/s1600/nable-hacks.jpg",
+      "source": "The Hacker News",
+      "source_id": "thehackernews",
+      "category": "News",
+      "tags": [
+        "vulnerability",
+        "cloud"
+      ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "link": "https://isc.sans.edu/diary/rss/33518",
+      "summary": "Introduction",
+      "published": "2026-11-13T03:41:41+00:00",
+      "image": null,
+      "source": "SANS Internet Storm Center",
+      "source_id": "sans_isc",
+      "category": "Research",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
     {
       "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
       "link": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance",
@@ -29,7 +340,26 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 0,
+      "cluster_id": 1,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "NATO issues and then withdraws Russian taxi app travel advice for defense industry conference",
+      "link": "https://therecord.media/nato-issues-and-withdraws-guidance-over-russian-taxi-app",
+      "summary": "Despite longstanding concerns about the Kremlin’s access to the app’s data, NATO on Thursday issued guidance suggesting attendees of its flagship defense industry conference use the Russian-owned Yandex Go to reach the venue.",
+      "published": "2026-11-13T00:00:00+00:00",
+      "image": null,
+      "source": "The Record",
+      "source_id": "therecord",
+      "category": "News",
+      "tags": [
+        "cloud"
+      ],
+      "cves": [],
+      "cluster_id": null,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -152,8 +482,8 @@
       "category": "News",
       "tags": [],
       "cves": [],
-      "cluster_id": 1,
-      "severity_score": 0,
+      "cluster_id": 0,
+      "severity_score": 10,
       "severity_bucket": "low",
       "kev": false,
       "cvss": null
@@ -203,8 +533,8 @@
       "category": "News",
       "tags": [],
       "cves": [],
-      "cluster_id": 1,
-      "severity_score": 0,
+      "cluster_id": 0,
+      "severity_score": 10,
       "severity_bucket": "low",
       "kev": false,
       "cvss": null
@@ -462,25 +792,6 @@
       "cvss": null
     },
     {
-      "title": "ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations",
-      "link": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
-      "summary": "Abuse of an independent third-party tool led to breaches at ScreenConnect customers, confirmed the software's maker, ConnectWise. Cybersecurity researchers had spotted intrusions at nearly 50.",
-      "published": "2026-11-12T16:16:00+00:00",
-      "image": null,
-      "source": "The Record",
-      "source_id": "therecord",
-      "category": "News",
-      "tags": [
-        "data breach"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
       "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges",
       "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
@@ -700,40 +1011,6 @@
       "tags": [
         "cloud"
       ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
-      "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign",
-      "summary": "Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories. The post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign appeared first on SecurityWeek .",
-      "published": "2026-11-12T13:39:03+00:00",
-      "image": null,
-      "source": "SecurityWeek",
-      "source_id": "securityweek",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
-      "link": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations",
-      "summary": "The company plans to accelerate product development, hire new talent, expand its US presence, and enter new markets. The post Daylight Lands $80 Million for AI-Powered Security Operations appeared first on SecurityWeek .",
-      "published": "2026-11-12T13:12:11+00:00",
-      "image": null,
-      "source": "SecurityWeek",
-      "source_id": "securityweek",
-      "category": "News",
-      "tags": [],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -1052,23 +1329,6 @@
       "cvss": null
     },
     {
-      "title": "Notion Customer Data Compromised in Fireworks AI Hack",
-      "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack",
-      "summary": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable. The post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek .",
-      "published": "2026-11-12T11:08:52+00:00",
-      "image": null,
-      "source": "SecurityWeek",
-      "source_id": "securityweek",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Inside an AI Attack Against a US Retailer",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
       "summary": "When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes.",
@@ -1105,26 +1365,6 @@
       "cvss": null
     },
     {
-      "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
-      "link": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign",
-      "summary": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication. The post Hackers Deploy Malware in Fresh ScreenConnect Campaign appeared first on SecurityWeek .",
-      "published": "2026-11-12T10:39:34+00:00",
-      "image": null,
-      "source": "SecurityWeek",
-      "source_id": "securityweek",
-      "category": "News",
-      "tags": [
-        "malware",
-        "vulnerability"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 5,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Microsoft confirms Windows security updates installation issues",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors",
       "summary": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
@@ -1138,25 +1378,6 @@
       "cluster_id": null,
       "severity_score": 0,
       "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
-      "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches",
-      "summary": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones. The post Hackers Target N-central Zero-Days as N-able Rushes Patches appeared first on SecurityWeek .",
-      "published": "2026-11-12T09:39:55+00:00",
-      "image": null,
-      "source": "SecurityWeek",
-      "source_id": "securityweek",
-      "category": "News",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 15,
-      "severity_bucket": "medium",
       "kev": false,
       "cvss": null
     },
@@ -1211,25 +1432,6 @@
       "cves": [
         "CVE-2026-118383"
       ],
-      "cluster_id": null,
-      "severity_score": 15,
-      "severity_bucket": "medium",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
-      "link": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images",
-      "summary": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access. The post Critical Red Hat Quay Vulnerability Could Expose Private Container Images appeared first on SecurityWeek .",
-      "published": "2026-11-12T09:23:21+00:00",
-      "image": null,
-      "source": "SecurityWeek",
-      "source_id": "securityweek",
-      "category": "News",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [],
       "cluster_id": null,
       "severity_score": 15,
       "severity_bucket": "medium",
@@ -1391,7 +1593,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -1436,25 +1638,6 @@
       "cvss": null
     },
     {
-      "title": "Baker Tilly notifies clients of data breach at third-party provider",
-      "link": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider",
-      "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
-      "published": "2026-11-11T23:01:31+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "data breach"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know",
       "link": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools",
       "summary": "Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks. The post ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know appeared first on Unit 42 .",
@@ -1467,26 +1650,6 @@
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-      "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations",
-      "summary": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
-      "published": "2026-11-11T22:56:21+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [
-        "malware",
-        "data breach"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 5,
       "severity_bucket": "low",
       "kev": false,
       "cvss": null
@@ -1537,23 +1700,6 @@
       "tags": [
         "cloud"
       ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-      "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap",
-      "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. [...]",
-      "published": "2026-11-11T21:27:40+00:00",
-      "image": null,
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
-      "category": "News",
-      "tags": [],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -2068,7 +2214,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -2208,26 +2354,6 @@
       "source_id": "theregister",
       "category": "News",
       "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "U.S. CISA adds IBM, SignalWire FreeSwitch, OpenSSH, and GPUStack flaws to its Known Exploited Vulnerabilities catalog",
-      "link": "https://securityaffairs.com/202813/hacking/u-s-cisa-adds-ibm-signalwire-freeswitch-openssh-and-gpustack-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds IBM, SignalWire FreeSwitch, OpenSSH, and GPUStack flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added IBM, SignalWire FreeSwitch, OpenSSH, and GPUStack vulnerabilities to its Known ",
-      "published": "2026-11-10T21:31:24+00:00",
-      "image": null,
-      "source": "Security Affairs",
-      "source_id": "securityaffairs",
-      "category": "News",
-      "tags": [
-        "vulnerability",
-        "cloud"
-      ],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -2793,40 +2919,6 @@
       "cvss": null
     },
     {
-      "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-      "link": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-      "summary": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temper",
-      "published": "2026-11-10T09:08:20+00:00",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQkt0P-pw4g1CSZvboG35E5WMLU_vea9rR2DLZ4X0lK5NyipbooRyXkRXcRb7X-ddRbVCygF1OkhW6a3j_8sCsBA_GhHAtOF8dISlx4Q2H74fnLJTm5ZOoEBlsbES0hPZutw60wjcAcMZEZcmx4NCLAM-pqVJCfw9yLhoQV2U_QFRX5h1k0zKPzgioICw/s1600/iran-france.jpg",
-      "source": "The Hacker News",
-      "source_id": "thehackernews",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-      "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-      "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic device",
-      "published": "2026-11-10T08:16:14+00:00",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgogipF_6VgFSzsnZ_UFUM5FfzGyk1MOv5SRi3PSivRHjxs6IsO0fmOdDjQsDJHiKcnxJ8T89NMMYiqo_NEEtv0EoQsafjOFuZ-Te6famJBJKegqDnf1b63Hdzkls7IO1JOtSNjb5Hatb4Ny8Zu46mggCXYKvHf3Ne9Qc4ZRfLBmLnZ7omPEHAjDfJRQEKu/s1600/fable.jpg",
-      "source": "The Hacker News",
-      "source_id": "thehackernews",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
       "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026",
       "summary": "",
@@ -2856,7 +2948,7 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
@@ -3361,31 +3453,10 @@
       "category": "Research",
       "tags": [],
       "cves": [],
-      "cluster_id": 0,
+      "cluster_id": 1,
       "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
-      "link": "https://isc.sans.edu/diary/rss/33498",
-      "summary": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly",
-      "published": "2026-11-08T15:44:33+00:00",
-      "image": null,
-      "source": "SANS Internet Storm Center",
-      "source_id": "sans_isc",
-      "category": "Research",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [
-        "CVE-2026-123158"
-      ],
-      "cluster_id": 5,
-      "severity_score": 40,
-      "severity_bucket": "high",
-      "kev": true,
       "cvss": null
     },
     {
@@ -3913,42 +3984,6 @@
       "cvss": null
     },
     {
-      "title": "Get root on a musl Linux system by slamming it with an overly long password",
-      "link": "https://www.theregister.com/security/2026/11/05/get-root-on-a-musl-linux-system-by-slamming-it-with-an-overly-long-password/5307910",
-      "summary": "Decade-old vulnerability in OpenSSH is now fixed, so get a-patchin'",
-      "published": "2026-11-05T18:29:00+00:00",
-      "image": "https://image.theregister.com/?imageId=258580&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [
-        "vulnerability"
-      ],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "October crypto-tracker hack: Access cracked, law enforcement tokens packed",
-      "link": "https://www.theregister.com/cyber-crime/2026/11/05/october-crypto-tracker-hack-access-cracked-law-enforcement-tokens-packed/5307852",
-      "summary": "Agentic 'on-path attack' went after Chainalysis's tools, which are routinely called upon to assist police investigations",
-      "published": "2026-11-05T18:03:00+00:00",
-      "image": "https://image.theregister.com/?imageId=227153&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "New investments to reduce on-premises security risk",
       "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
       "summary": "We’re announcing a new on-premises security initiative, bringing together guidance, migration, and product investments. The post New investments to reduce on-premises security risk appeared first on Microsoft Security Blog .",
@@ -3975,25 +4010,6 @@
       "source_id": "msrc",
       "category": "Vendor",
       "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "OpenAI releases GPT-6 Cyber, and promises this one stays within 'rules of engagement'",
-      "link": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855",
-      "summary": "The latest bug hunting model 'avoided exploiting out-of-scope services over 99 percent of the time', claims House of Altman",
-      "published": "2026-11-05T17:00:00+00:00",
-      "image": "https://image.theregister.com/?imageId=262189&width=800",
-      "source": "The Register Security",
-      "source_id": "theregister",
-      "category": "News",
-      "tags": [
-        "vulnerability"
-      ],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -4183,23 +4199,6 @@
       "link": "https://www.malwarebytes.com/blog/scams/2026/11/the-fake-750-apple-cash-reward-that-pays-out-nothing",
       "summary": "A fake $750 Apple Cash offer uses scripted checks and fake countdowns. Affiliate marketers earn a commission; you get no reward.",
       "published": "2026-11-04T18:49:13+00:00",
-      "image": null,
-      "source": "Malwarebytes Labs",
-      "source_id": "malwarebytes",
-      "category": "Vendor",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "mSecure tells users to change passwords but won’t say why [updated]",
-      "link": "https://www.malwarebytes.com/blog/data-breaches/2026/11/msecure-tells-users-to-change-passwords-but-wont-say-why",
-      "summary": "mSecure has urged users to protect information stored in its app, but hasn’t explained what happened or whether anyone’s data was exposed.",
-      "published": "2026-11-04T17:02:25+00:00",
       "image": null,
       "source": "Malwarebytes Labs",
       "source_id": "malwarebytes",
@@ -5670,7 +5669,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:07.529262+00:00"
+      "fetched_at": "2026-11-13T11:29:43.526116+00:00"
     },
     {
       "id": "bleepingcomputer",
@@ -5678,7 +5677,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:07.840964+00:00"
+      "fetched_at": "2026-11-13T11:29:43.874748+00:00"
     },
     {
       "id": "krebsonsecurity",
@@ -5686,7 +5685,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:07.897643+00:00"
+      "fetched_at": "2026-11-13T11:29:43.952083+00:00"
     },
     {
       "id": "darkreading",
@@ -5694,7 +5693,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:08.022253+00:00"
+      "fetched_at": "2026-11-13T11:29:44.011027+00:00"
     },
     {
       "id": "securityweek",
@@ -5702,7 +5701,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:08.255458+00:00"
+      "fetched_at": "2026-11-13T11:29:44.415138+00:00"
     },
     {
       "id": "schneier",
@@ -5710,7 +5709,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:08.344198+00:00"
+      "fetched_at": "2026-11-13T11:29:44.469562+00:00"
     },
     {
       "id": "sophosnews",
@@ -5718,7 +5717,7 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:08.433862+00:00"
+      "fetched_at": "2026-11-13T11:29:44.634963+00:00"
     },
     {
       "id": "cisa",
@@ -5726,7 +5725,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:08.592493+00:00"
+      "fetched_at": "2026-11-13T11:29:44.818258+00:00"
     },
     {
       "id": "msrc",
@@ -5734,7 +5733,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:08.977100+00:00"
+      "fetched_at": "2026-11-13T11:29:45.183220+00:00"
     },
     {
       "id": "talos",
@@ -5742,7 +5741,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:09.087247+00:00"
+      "fetched_at": "2026-11-13T11:29:45.315687+00:00"
     },
     {
       "id": "unit42",
@@ -5750,7 +5749,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:09.219024+00:00"
+      "fetched_at": "2026-11-13T11:29:45.420891+00:00"
     },
     {
       "id": "crowdstrike",
@@ -5758,7 +5757,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:09.383116+00:00"
+      "fetched_at": "2026-11-13T11:29:45.506738+00:00"
     },
     {
       "id": "therecord",
@@ -5766,7 +5765,7 @@
       "ok": true,
       "count": 5,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:09.601452+00:00"
+      "fetched_at": "2026-11-13T11:29:45.947022+00:00"
     },
     {
       "id": "sans_isc",
@@ -5774,7 +5773,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:09.743901+00:00"
+      "fetched_at": "2026-11-13T11:29:46.235944+00:00"
     },
     {
       "id": "theregister",
@@ -5782,7 +5781,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:10.116959+00:00"
+      "fetched_at": "2026-11-13T11:29:46.759668+00:00"
     },
     {
       "id": "projectzero",
@@ -5790,7 +5789,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:10.583291+00:00"
+      "fetched_at": "2026-11-13T11:29:47.331065+00:00"
     },
     {
       "id": "malwarebytes",
@@ -5798,7 +5797,7 @@
       "ok": true,
       "count": 20,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:10.666567+00:00"
+      "fetched_at": "2026-11-13T11:29:47.500132+00:00"
     },
     {
       "id": "securityaffairs",
@@ -5806,12 +5805,21 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T03:39:10.736796+00:00"
+      "fetched_at": "2026-11-13T11:29:47.590797+00:00"
     }
   ],
   "clusters": [
     {
       "id": 0,
+      "item_links": [
+        "https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more",
+        "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams",
+        "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide"
+      ],
+      "source_count": 3
+    },
+    {
+      "id": 1,
       "item_links": [
         "https://isc.sans.edu/diary/rss/33516",
         "https://isc.sans.edu/diary/rss/33512",
@@ -5820,14 +5828,6 @@
         "https://isc.sans.edu/diary/rss/33500"
       ],
       "source_count": 1
-    },
-    {
-      "id": 1,
-      "item_links": [
-        "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams",
-        "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide"
-      ],
-      "source_count": 2
     },
     {
       "id": 2,
@@ -5868,7 +5868,6 @@
         "https://isc.sans.edu/diary/rss/33514",
         "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
         "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-        "https://isc.sans.edu/diary/rss/33498",
         "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
         "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
         "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog"
