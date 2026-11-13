@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:41:06.766158+00:00",
+  "generated_at": "2026-11-13T23:54:09.841745+00:00",
   "items": [
     {
       "id": "z8YnKkIKWTs",
@@ -1806,7 +1806,7 @@
       "title": "Fake Instagram hacking tool leading to scams and malware",
       "published": "2020-08-10T14:31:10+00:00",
       "thumb": "https://i2.ytimg.com/vi/m32gQlmeZIo/hqdefault.jpg",
-      "views": 2915,
+      "views": 2917,
       "channel": "BleepingComputer",
       "channel_id": "UCTU0ZJQ8Lqslww0R9Xk0sJg",
       "topic": "News"
@@ -1846,7 +1846,7 @@
       "title": "Exploiting a Remote Desktop Connection path traversal issue in the shared RDP clipboard",
       "published": "2019-02-05T14:15:43+00:00",
       "thumb": "https://i4.ytimg.com/vi/Cgg1Yag_m14/hqdefault.jpg",
-      "views": 2359,
+      "views": 2360,
       "channel": "BleepingComputer",
       "channel_id": "UCTU0ZJQ8Lqslww0R9Xk0sJg",
       "topic": "News"
@@ -1856,7 +1856,7 @@
       "title": "FreeRDP remote code execution attack via RDP connection",
       "published": "2019-02-05T14:14:00+00:00",
       "thumb": "https://i3.ytimg.com/vi/Z4Z3BP9gCeI/hqdefault.jpg",
-      "views": 12415,
+      "views": 12417,
       "channel": "BleepingComputer",
       "channel_id": "UCTU0ZJQ8Lqslww0R9Xk0sJg",
       "topic": "News"
@@ -1866,7 +1866,7 @@
       "title": "MiTM attack in APT Linux Package Manager Demo",
       "published": "2019-01-22T16:41:10+00:00",
       "thumb": "https://i3.ytimg.com/vi/n_X6ajYuARY/hqdefault.jpg",
-      "views": 1319,
+      "views": 1320,
       "channel": "BleepingComputer",
       "channel_id": "UCTU0ZJQ8Lqslww0R9Xk0sJg",
       "topic": "News"
@@ -1943,93 +1943,107 @@
     },
     {
       "channel": "CrowdStrike",
-      "ok": true,
-      "count": 15,
-      "feed_title": "CrowdStrike"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Mandiant (Google Cloud)",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Mandiant & Google Cloud Security"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Malwarebytes",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Malwarebytes"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "ESET",
       "ok": false,
       "count": 0,
-      "error": "ValueError: feed belongs to 'kulishnik22', not 'ESET' (rejected)"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "channel": "Kaspersky",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Kaspersky"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "CISA",
-      "ok": true,
-      "count": 15,
-      "feed_title": "CISA"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "SANS Institute",
-      "ok": true,
-      "count": 15,
-      "feed_title": "SANS Institute"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Security Weekly",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Security Weekly - A CRA Resource"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Black Hat",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Black Hat"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "stale": true
     },
     {
       "channel": "DEFCONConference",
-      "ok": true,
-      "count": 15,
-      "feed_title": "DEFCONConference"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "13Cubed",
-      "ok": true,
-      "count": 15,
-      "feed_title": "13Cubed"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "John Hammond",
-      "ok": true,
-      "count": 15,
-      "feed_title": "John Hammond"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "stale": true
     },
     {
       "channel": "NetworkChuck",
-      "ok": true,
-      "count": 15,
-      "feed_title": "NetworkChuck"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "David Bombal",
-      "ok": true,
-      "count": 15,
-      "feed_title": "David Bombal Tech"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Seytonic",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Seytonic"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "The PC Security Channel",
@@ -2039,9 +2053,10 @@
     },
     {
       "channel": "Computerphile",
-      "ok": true,
-      "count": 15,
-      "feed_title": "Computerphile"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     }
   ]
 }
