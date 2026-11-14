@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T23:54:09.841745+00:00",
+  "generated_at": "2026-11-14T03:41:23.155216+00:00",
   "items": [
     {
       "id": "z8YnKkIKWTs",
@@ -1066,7 +1066,7 @@
       "title": "Apple Had No Idea This Was Inside 174 Million iPhones",
       "published": "2026-10-24T11:39:36+00:00",
       "thumb": "https://i1.ytimg.com/vi/PBLB1nZ2SZI/hqdefault.jpg",
-      "views": 471625,
+      "views": 471840,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1646,7 +1646,7 @@
       "title": "$600 Million Warship VS $5 Tracker",
       "published": "2026-04-27T18:09:47+00:00",
       "thumb": "https://i4.ytimg.com/vi/WHbfbfI6F_M/hqdefault.jpg",
-      "views": 190459,
+      "views": 190458,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1666,7 +1666,7 @@
       "title": "The Dirty Trick Feds Use To Read Deleted Messages",
       "published": "2026-04-18T10:17:34+00:00",
       "thumb": "https://i3.ytimg.com/vi/fa9HLNUgZdM/hqdefault.jpg",
-      "views": 69338,
+      "views": 69341,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1676,7 +1676,7 @@
       "title": "iPhone Hacking Just Got Scary Easy",
       "published": "2026-04-01T16:04:56+00:00",
       "thumb": "https://i3.ytimg.com/vi/R0GB59nBKHs/hqdefault.jpg",
-      "views": 175193,
+      "views": 175223,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1686,7 +1686,7 @@
       "title": "Iran Just Hacked The FBI Director: Everything We Know",
       "published": "2026-03-28T00:25:17+00:00",
       "thumb": "https://i2.ytimg.com/vi/AlM0vylK_r8/hqdefault.jpg",
-      "views": 76787,
+      "views": 76788,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1726,7 +1726,7 @@
       "title": "Every Insane Hack in the 2026 Iran War (So Far)",
       "published": "2026-03-22T12:20:31+00:00",
       "thumb": "https://i2.ytimg.com/vi/uNw6XzFhQ8w/hqdefault.jpg",
-      "views": 109015,
+      "views": 109027,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1766,7 +1766,7 @@
       "title": "NEW Bluetooth Headphone Hack is Real and Bad",
       "published": "2026-01-16T22:08:01+00:00",
       "thumb": "https://i2.ytimg.com/vi/Ux07J-wS2VA/hqdefault.jpg",
-      "views": 356759,
+      "views": 356778,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1776,7 +1776,7 @@
       "title": "SUED For Screenshotting Your TV (Every Second)",
       "published": "2025-12-23T09:35:02+00:00",
       "thumb": "https://i2.ytimg.com/vi/yPkRPVPMtWE/hqdefault.jpg",
-      "views": 100679,
+      "views": 100681,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1786,7 +1786,7 @@
       "title": "200 Million User Records... Breached",
       "published": "2025-12-16T19:15:52+00:00",
       "thumb": "https://i1.ytimg.com/vi/TX_FqZ2ZlC8/hqdefault.jpg",
-      "views": 372637,
+      "views": 372639,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1796,7 +1796,7 @@
       "title": "Prisoner Hacks ENTIRE Prison System, Immediately Watches P...",
       "published": "2025-12-08T20:39:30+00:00",
       "thumb": "https://i2.ytimg.com/vi/-xCp7nag3GM/hqdefault.jpg",
-      "views": 118087,
+      "views": 118114,
       "channel": "Seytonic",
       "channel_id": "UCW6xlqxSY3gGur4PkGPEUeA",
       "topic": "News"
@@ -1927,13 +1927,14 @@
       "channel": "The Hacker News",
       "ok": false,
       "count": 0,
-      "error": "ValueError: feed has no videos"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "channel": "BleepingComputer",
-      "ok": true,
-      "count": 15,
-      "feed_title": "BleepingComputer"
+      "ok": false,
+      "count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "stale": true
     },
     {
       "channel": "Cisco Talos",
@@ -2000,7 +2001,7 @@
       "channel": "Black Hat",
       "ok": false,
       "count": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "error": "HTTPError: HTTP Error 404: Not Found",
       "stale": true
     },
     {
@@ -2021,7 +2022,7 @@
       "channel": "John Hammond",
       "ok": false,
       "count": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "error": "HTTPError: HTTP Error 404: Not Found",
       "stale": true
     },
     {
@@ -2040,10 +2041,9 @@
     },
     {
       "channel": "Seytonic",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "stale": true
+      "ok": true,
+      "count": 15,
+      "feed_title": "Seytonic"
     },
     {
       "channel": "The PC Security Channel",

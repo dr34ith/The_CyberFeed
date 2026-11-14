@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T23:51:21.926720+00:00",
+  "generated_at": "2026-11-14T03:38:34.667411+00:00",
   "items": [
     {
       "title": "Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters",
@@ -918,6 +918,23 @@
       "source": "The Register Security",
       "source_id": "theregister",
       "category": "News",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "Inside Falcon AI Gateway: One Control Point for AI Traffic",
+      "link": "https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic",
+      "summary": "",
+      "published": "2026-11-13T06:00:00+00:00",
+      "image": null,
+      "source": "CrowdStrike Blog",
+      "source_id": "crowdstrike",
+      "category": "Vendor",
       "tags": [],
       "cves": [],
       "cluster_id": null,
@@ -3196,23 +3213,6 @@
       "cvss": null
     },
     {
-      "title": "ARTEX: Attackers apply agentic AI",
-      "link": "https://www.sophos.com/en-us/blog/artex-attackers-apply-agentic-ai",
-      "summary": "An agentic AI pentesting framework is being used in the wild by threat actors",
-      "published": "2026-11-10T00:00:00+00:00",
-      "image": null,
-      "source": "Sophos News",
-      "source_id": "sophosnews",
-      "category": "Vendor",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "Enforcing intent-based access control at the endpoint",
       "link": "https://www.sophos.com/en-us/blog/enforcing-intent-based-access-control-at-the-endpoint",
       "summary": "This article was first published on LinkedIn.",
@@ -3244,6 +3244,23 @@
       "cves": [],
       "cluster_id": null,
       "severity_score": 5,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "ARTEX: Attackers apply agentic AI",
+      "link": "https://www.sophos.com/en-us/blog/artex-attackers-apply-agentic-ai",
+      "summary": "An agentic AI pentesting framework is being used in the wild by threat actors",
+      "published": "2026-11-10T00:00:00+00:00",
+      "image": null,
+      "source": "Sophos News",
+      "source_id": "sophosnews",
+      "category": "Vendor",
+      "tags": [],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
       "severity_bucket": "low",
       "kev": false,
       "cvss": null
@@ -4405,23 +4422,6 @@
       "cvss": null
     },
     {
-      "title": "CrowdStrike Brings Enterprise Browser Security to the Falcon Platform",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform",
-      "summary": "",
-      "published": "2026-11-04T06:00:00+00:00",
-      "image": null,
-      "source": "CrowdStrike Blog",
-      "source_id": "crowdstrike",
-      "category": "Vendor",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
       "title": "CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats",
       "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats",
       "summary": "",
@@ -4467,6 +4467,23 @@
       "tags": [
         "cloud"
       ],
+      "cves": [],
+      "cluster_id": null,
+      "severity_score": 0,
+      "severity_bucket": "low",
+      "kev": false,
+      "cvss": null
+    },
+    {
+      "title": "CrowdStrike Brings Enterprise Browser Security to the Falcon Platform",
+      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform",
+      "summary": "",
+      "published": "2026-11-04T06:00:00+00:00",
+      "image": null,
+      "source": "CrowdStrike Blog",
+      "source_id": "crowdstrike",
+      "category": "Vendor",
+      "tags": [],
       "cves": [],
       "cluster_id": null,
       "severity_score": 0,
@@ -4574,23 +4591,6 @@
     {
       "title": "CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability",
       "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler",
-      "summary": "",
-      "published": "2026-11-03T08:00:00+00:00",
-      "image": null,
-      "source": "CrowdStrike Blog",
-      "source_id": "crowdstrike",
-      "category": "Vendor",
-      "tags": [],
-      "cves": [],
-      "cluster_id": null,
-      "severity_score": 0,
-      "severity_bucket": "low",
-      "kev": false,
-      "cvss": null
-    },
-    {
-      "title": "Introducing AI Kill Switch: Taking Control When AI Agents Go Rogue",
-      "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch",
       "summary": "",
       "published": "2026-11-03T08:00:00+00:00",
       "image": null,
@@ -5665,7 +5665,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:15.693568+00:00"
+      "fetched_at": "2026-11-14T03:38:30.935874+00:00"
     },
     {
       "id": "bleepingcomputer",
@@ -5673,7 +5673,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:15.854874+00:00"
+      "fetched_at": "2026-11-14T03:38:31.222830+00:00"
     },
     {
       "id": "krebsonsecurity",
@@ -5681,7 +5681,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:16.025837+00:00"
+      "fetched_at": "2026-11-14T03:38:31.276424+00:00"
     },
     {
       "id": "darkreading",
@@ -5689,7 +5689,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:16.103323+00:00"
+      "fetched_at": "2026-11-14T03:38:31.337979+00:00"
     },
     {
       "id": "securityweek",
@@ -5697,7 +5697,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:16.854209+00:00"
+      "fetched_at": "2026-11-14T03:38:31.430277+00:00"
     },
     {
       "id": "schneier",
@@ -5705,7 +5705,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:17.006227+00:00"
+      "fetched_at": "2026-11-14T03:38:31.531944+00:00"
     },
     {
       "id": "sophosnews",
@@ -5713,7 +5713,7 @@
       "ok": true,
       "count": 9,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:17.140573+00:00"
+      "fetched_at": "2026-11-14T03:38:31.596746+00:00"
     },
     {
       "id": "cisa",
@@ -5721,7 +5721,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:17.329109+00:00"
+      "fetched_at": "2026-11-14T03:38:31.742226+00:00"
     },
     {
       "id": "msrc",
@@ -5729,7 +5729,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:17.618237+00:00"
+      "fetched_at": "2026-11-14T03:38:32.037411+00:00"
     },
     {
       "id": "talos",
@@ -5737,7 +5737,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:17.972584+00:00"
+      "fetched_at": "2026-11-14T03:38:32.093018+00:00"
     },
     {
       "id": "unit42",
@@ -5745,7 +5745,7 @@
       "ok": true,
       "count": 15,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:18.154879+00:00"
+      "fetched_at": "2026-11-14T03:38:32.171815+00:00"
     },
     {
       "id": "crowdstrike",
@@ -5753,7 +5753,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:18.242654+00:00"
+      "fetched_at": "2026-11-14T03:38:32.261490+00:00"
     },
     {
       "id": "therecord",
@@ -5761,7 +5761,7 @@
       "ok": true,
       "count": 5,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:18.455728+00:00"
+      "fetched_at": "2026-11-14T03:38:32.510093+00:00"
     },
     {
       "id": "sans_isc",
@@ -5769,7 +5769,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:18.749251+00:00"
+      "fetched_at": "2026-11-14T03:38:32.604454+00:00"
     },
     {
       "id": "theregister",
@@ -5777,7 +5777,7 @@
       "ok": true,
       "count": 40,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:19.150841+00:00"
+      "fetched_at": "2026-11-14T03:38:32.993673+00:00"
     },
     {
       "id": "projectzero",
@@ -5785,7 +5785,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:20.638140+00:00"
+      "fetched_at": "2026-11-14T03:38:33.545017+00:00"
     },
     {
       "id": "malwarebytes",
@@ -5793,7 +5793,7 @@
       "ok": true,
       "count": 20,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:20.786527+00:00"
+      "fetched_at": "2026-11-14T03:38:33.718539+00:00"
     },
     {
       "id": "securityaffairs",
@@ -5801,7 +5801,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "fetched_at": "2026-11-13T23:51:20.883257+00:00"
+      "fetched_at": "2026-11-14T03:38:33.778269+00:00"
     }
   ],
   "clusters": [
